@@ -22,7 +22,7 @@ export const works1 = [
     title: `Adaptable but Identifiable Product for Kandinsky.`,
     categories: ["web"],
     thumbnail: imgT1,
-  link : "/portfolio-details"
+  link : "/portfolio-123"
 },
   {
     brand: `Travel App`,

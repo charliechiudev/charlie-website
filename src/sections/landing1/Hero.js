@@ -31,7 +31,7 @@ const Hero = () => {
                   ILLUSTRATOR, GRAPHIC DESIGNER, TRAVELER
                 </Text>
                 <Title variant="hero">
-                  I design digital crafts for clients.
+                  My name is Charlie Chiu.
                 </Title>
 
                 <Box mt="52px">
