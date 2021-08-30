@@ -6,10 +6,11 @@ const Logo = ({ color = "front", height, className = "", ...rest }) => {
   return (
     <Link to="/" className={`${className}`} {...rest}>
       <Title color={color} variant="cardLg" className="mb-0">
-        folio.
+        charlie c.
       </Title>
     </Link>
   );
 };
+
 
 export default Logo;

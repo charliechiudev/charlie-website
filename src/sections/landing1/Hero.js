@@ -28,10 +28,10 @@ const Hero = () => {
                   color="heading"
                   mb="40px"
                 >
-                  ILLUSTRATOR, GRAPHIC DESIGNER, TRAVELER
+                  UX/UI DESIGNER, FRONT-END DEVELOPER, PROBLEM-SOLVER
                 </Text>
                 <Title variant="hero">
-                  My name is Charlie Chiu.
+                  Sometimes a designer, sometimes a developer.
                 </Title>
 
                 <Box mt="52px">
