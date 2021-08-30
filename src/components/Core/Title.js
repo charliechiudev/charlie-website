@@ -16,8 +16,8 @@ const SectionTitle = styled.h2`
   }
 
   @media ${device.lg} {
-    font-size: 60px;
-    line-height: 70px;
+    font-size: 50px;
+    line-height: 50px;
   }
 
   ${color};

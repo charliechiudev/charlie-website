@@ -35,13 +35,15 @@ const Hero = () => {
               css={`
                 border-radius: 50rem !important;
               `}
+              height="120px"
             />
           </Box>
           <Row className="align-items-lg-end">
             <Col lg="8" sm="12" className="mb-5 mb-lg-0">
               <Box>
                 <Title variant="hero">
-                  Complete Solution for SaaS Business.
+                  Sometimes a designer, sometimes a developer.
+                  Melbourne based.
                 </Title>
               </Box>
             </Col>
