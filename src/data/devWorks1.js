@@ -17,128 +17,120 @@ import imgT16 from "../assets/image/jpg/dev/masonry/16-oatmeal-mockup.png";
 
 export const devWorks1 = [
   {
-    brand: `Perfumed App`,
-    slug: `perfumed-app`,
-    title: `Adaptable but Identifiable Product for Kandinsky.`,
+    brand: `Verde Branding`,
+    slug: `verde`,
+    title: `What is this?`,
     categories: [`web`],
     thumbnail: imgT1,
   link : "/portfolio-details"
 },
   {
-    brand: `Travel App`,
-    slug: `travel-app`,
+    brand: `Habitat Branding`,
+    slug: `habitat`,
     title: `Adaptable but Identifiable Product for Kandinsky.`,
     categories: [`app`, `web`],
     thumbnail: imgT2,
   link : "/portfolio-details"
 },
   {
-    brand: `Shopper`,
-    slug: `shopper`,
+    brand: `Parkie App`,
+    slug: `parkie`,
     title: `Adaptable but Identifiable Product for Kandinsky.`,
-    categories: [`web`, `ui-design`],
+    categories: [`app`, `ui-design`],
     thumbnail: imgT3,
   link : "/portfolio-details"
 },
   {
-    brand: `Candy Store`,
-    slug: `candy-store`,
+    brand: `Parkie App`,
+    slug: `parkie`,
     title: `Adaptable but Identifiable Product for Kandinsky.`,
     categories: [`app`, `ui-design`, `web`],
     thumbnail: imgT4,
   link : "/portfolio-details"
 },
   {
-    brand: `Travel App`,
-    slug: `travel-app`,
+    brand: `Veganom App`,
+    slug: `veganom`,
     title: `Adaptable but Identifiable Product for Kandinsky.`,
     categories: [`app`, `ui-design`],
     thumbnail: imgT5,
   link : "/portfolio-details"
 },
   {
-    brand: `App Ice Cream`,
-    slug: `app-ice-cream`,
+    brand: `Veganom App`,
+    slug: `veganom`,
     title: `Adaptable but Identifiable Product for Kandinsky.`,
     categories: [`ui-design`, `web`],
     thumbnail: imgT6,
   link : "/portfolio-details"
 },
   {
-    brand: `Camera`,
-    slug: `Camera`,
+    brand: `Verde Ecommerce Website`,
+    slug: `verde`,
     title: `Adaptable but Identifiable Product for Kandinsky.`,
     categories: [`app`, `ui-design`],
     thumbnail: imgT7,
   link : "/portfolio-details"
 },
   {
-    brand: `Smart Watch`,
-    slug: `smart-watch`,
+    brand: `Verde Ecommerce Website`,
+    slug: `verde`,
     title: `Adaptable but Identifiable Product for Kandinsky.`,
     categories: [`web`, `ui-design`],
     thumbnail: imgT8,
   link : "/portfolio-details"
 },
 {
-  brand: `Smart Watch`,
-  slug: `smart-watch`,
+  brand: `Kalma Branding`,
+  slug: `kalma`,
   title: `Adaptable but Identifiable Product for Kandinsky.`,
   categories: [`web`, `ui-design`],
   thumbnail: imgT9,
 link : "/portfolio-details"
 },
 {
-  brand: `Smart Watch`,
-  slug: `smart-watch`,
+  brand: `Kalma Packaging`,
+  slug: `kalma`,
   title: `Adaptable but Identifiable Product for Kandinsky.`,
   categories: [`web`, `ui-design`],
   thumbnail: imgT10,
 link : "/portfolio-details"
 },
 {
-  brand: `Smart Watch`,
-  slug: `smart-watch`,
+  brand: `WhatToDo App`,
+  slug: `whattodo`,
   title: `Adaptable but Identifiable Product for Kandinsky.`,
   categories: [`web`, `ui-design`],
   thumbnail: imgT11,
 link : "/portfolio-details"
 },
 {
-  brand: `Smart Watch`,
-  slug: `smart-watch`,
-  title: `Adaptable but Identifiable Product for Kandinsky.`,
-  categories: [`web`, `ui-design`],
-  thumbnail: imgT12,
-link : "/portfolio-details"
-},
-{
-  brand: `Smart Watch`,
-  slug: `smart-watch`,
+  brand: `Weather Dresser App`,
+  slug: `weather-dresser`,
   title: `Adaptable but Identifiable Product for Kandinsky.`,
   categories: [`web`, `ui-design`],
   thumbnail: imgT13,
 link : "/portfolio-details"
 },
 {
-  brand: `Smart Watch`,
-  slug: `smart-watch`,
+  brand: `Moodboard App`,
+  slug: `moodboard`,
   title: `Adaptable but Identifiable Product for Kandinsky.`,
   categories: [`web`, `ui-design`],
   thumbnail: imgT14,
 link : "/portfolio-details"
 },
 {
-  brand: `Smart Watch`,
-  slug: `smart-watch`,
+  brand: `Moodboard App`,
+  slug: `moodboard`,
   title: `Adaptable but Identifiable Product for Kandinsky.`,
   categories: [`web`, `ui-design`],
   thumbnail: imgT15,
 link : "/portfolio-details"
 },
 {
-  brand: `Smart Watch`,
-  slug: `smart-watch`,
+  brand: `Nature Oats Packaging`,
+  slug: `nature-oats`,
   title: `Adaptable but Identifiable Product for Kandinsky.`,
   categories: [`web`, `ui-design`],
   thumbnail: imgT16,
