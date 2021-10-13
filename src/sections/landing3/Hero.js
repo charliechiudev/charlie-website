@@ -43,7 +43,6 @@ const Hero = () => {
               <Box>
                 <Title variant="hero">
                   Sometimes a designer, sometimes a developer.
-                  Melbourne based.
                 </Title>
               </Box>
             </Col>
