@@ -3,7 +3,7 @@ import styled from "styled-components";
 import { Container, Row, Col } from "react-bootstrap";
 
 import { Section, Title, Text, Span } from "../../components/Core";
-import imgPhoto from "../../assets/image/jpg/portfolio-about.jpg";
+import imgPhoto from "../../assets/image/jpg/charlie-creative-1.jpg";
 import imgSignLight from "../../assets/image/png/signature.png";
 
 const LinkSocial = styled.a`
@@ -33,7 +33,7 @@ const About = ({ hero = true, bg = "dark", ...rest }) => {
             <Col lg="6">
               <div className="pl-lg-4 pt-5 pt-lg-0">
                 <Title color="light" variant="secSm">
-                  Bruce Ryan
+                  Charlie Chiu
                 </Title>
                 <Text
                   color="light"
