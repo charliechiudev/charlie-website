@@ -61,7 +61,7 @@ const Works = () => {
                     filterBy("ui-design");
                   }}
                 >
-                  UI Design
+                  UX/UI Design
                 </a>
               </li>
               <li className="nav-item">
@@ -74,7 +74,7 @@ const Works = () => {
                     filterBy("app");
                   }}
                 >
-                  App Developement
+                  Developement
                 </a>
               </li>
               <li className="nav-item">
@@ -87,7 +87,7 @@ const Works = () => {
                     filterBy("web");
                   }}
                 >
-                  Web Developement
+                  Graphic Design
                 </a>
               </li>
             </ListNav>
