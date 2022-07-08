@@ -2,7 +2,8 @@ import React from "react";
 import { Box, Button } from "../Core";
 
 const ButtonIcon = ({
-  variant = "success",
+  variant = "black",
+  //variant = "success",
   color = "#fff",
   children,
   ...rest

@@ -28,33 +28,45 @@ const Hero = () => {
       {/* <!-- Hero Area --> */}
       <SectionStyled hero className="position-relative">
         <Container>
-          <Box pb="40px">
-            <img
+          <Box>
+            {/* <img
               src={imgL}
               alt=""
               css={`
                 border-radius: 50rem !important;
               `}
               height="120px"
-            />
+            /> */}
           </Box>
           <Row className="align-items-lg-end">
-            <Col lg="8" sm="12" className="mb-5 mb-lg-0">
-              <Box>
-                <Title variant="hero">
-                  Sometimes a designer, sometimes a developer.
-                </Title>
+            <Col lg="12" sm="12" className="mb-5 mb-lg-0">
+              <Box className="d-flex flex-column align-items-center text-center">
+              <Title
+                color="black"
+                variant="card"
+                mb="2.5rem"
+                css={`
+                  font-size: 1.3125rem;
+                  line-height: 1.5;
+                  font-weight: 400;
+                `}
+              >
+                Multi-disciplined UX/UI designer, Melbourne based. <em>&#91;She, Her&#93;</em>
+              </Title>
+                <h1 variant="hero">
+                The human mind processes visual information 60,000 times faster than text. So why don't you just scroll down and check out my work?
+                </h1>
               </Box>
             </Col>
             <Col lg="4" sm="12">
-              <Box pl="1.25rem">
-                <ButtonIcon
+              <Box pl="1.25rem" className="text-center">
+                <ButtonIcon 
                   onClick={(e) => {
                     e.preventDefault();
                     gContext.toggleContact();
                   }}
                 >
-                  Let's Talk Now
+                  Say hi to me
                 </ButtonIcon>
               </Box>
             </Col>

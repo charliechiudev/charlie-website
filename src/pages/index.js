@@ -2,9 +2,9 @@ import React from "react";
 import { Element } from "react-scroll";
 
 import PageWrapper from "../components/PageWrapper";
-import Hero from "../sections/landing1/Hero";
-import Works from "../sections/landing1/Works";
-import Contact from "../sections/landing1/Contact";
+import Hero from "../sections/landing3/Hero";
+import Works from "../sections/landing3/Works";
+import Contact from "../sections/landing3/Contact";
 
 const IndexPage = () => {
   return (

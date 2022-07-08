@@ -43,9 +43,12 @@ const Hero = () => {
                 Best digital design agency in New York ⚡
               </Title>
 
-              <Title color="light" variant="hero" mb="3.75rem">
+              {/* <Title color="light" variant="hero" mb="3.75rem">
                 We create solutions <br /> for your brands
-              </Title>
+              </Title> */}
+             <Title color="light" variant="hero" mb="3.75rem">
+             The human mind processes visual information 60,000 times faster than text. So why don't you just scroll down?
+              </Title> 
               <Link
                 to="works"
                 spy={true}

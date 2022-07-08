@@ -25,7 +25,7 @@ const Contact = ({ hero = true, bg = "dark", ...rest }) => {
             <Col lg="6">
               <Box className="pr-lg-5">
                 <Title color="light" variant="secSm" mb="2rem">
-                  Contact now
+                  Just to say hi
                 </Title>
                 <Text color="light" mb="2.75rem">
                   Have a project or question? Send me a message. I will reply

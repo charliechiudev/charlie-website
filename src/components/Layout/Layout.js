@@ -46,7 +46,7 @@ const Loader = styled.div`
   left: 0;
   width: 100vw;
   height: 100vh;
-  background: #fff;
+  background: #f9fafa;
   z-index: 9999999999;
   opacity: 1;
   visibility: visible;

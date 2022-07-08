@@ -17,7 +17,7 @@ const Hero = () => {
                 <Title>Do you have illustration project? Let's talk.</Title>
               </div>
               <div className="text-center">
-                <ButtonIcon>Let's Talk Now</ButtonIcon>
+                <ButtonIcon>Say hi to me</ButtonIcon>
               </div>
             </Col>
           </Row>
