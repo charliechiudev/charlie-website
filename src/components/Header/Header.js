@@ -469,12 +469,12 @@ const Header = ({ isDark }) => {
           </nav>
         </Container>
       </SiteHeader>
-      <Offcanvas
+      {/* <Offcanvas
         show={gContext.visibleOffCanvas}
         onHideOffcanvas={gContext.toggleOffCanvas}
       >
         <NestedMenu menuItems={menuItems} />
-      </Offcanvas>
+      </Offcanvas> */}
     </>
   );
 };
