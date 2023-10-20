@@ -142,3 +142,71 @@ font-style: italic;
 font-weight: 900;
 src: local('Inter Black Italic'), url('Inter-BlackItalic.woff') format('woff');
 }
+
+
+@font-face {
+    font-family: 'PP';
+    src: url('ppmori-extralight-webfont.woff2') format('woff2'),
+         url('ppmori-extralight-webfont.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'PP';
+    src: url('ppmori-extralightitalic-webfont.woff2') format('woff2'),
+         url('ppmori-extralightitalic-webfont.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'PP';
+    src: url('ppmori-regular-webfont.woff2') format('woff2'),
+         url('ppmori-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'PP';
+    src: url('ppmori-regularitalic-webfont.woff2') format('woff2'),
+         url('ppmori-regularitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'PP';
+    src: url('ppmori-semibold-webfont.woff2') format('woff2'),
+         url('ppmori-semibold-webfont.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'PP';
+    src: url('ppmori-semibolditalic-webfont.woff2') format('woff2'),
+         url('ppmori-semibolditalic-webfont.woff') format('woff');
+    font-weight: 700;
+    font-style: italic;
+
+}

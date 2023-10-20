@@ -6,7 +6,6 @@ const Paragraph = styled.p`
   margin-bottom: 0;
   font-weight: 400;
   font-size: 1.0625rem;
-  letter-spacing: -0.2px;
   line-height: 1.71;
 
   ${color};
@@ -18,7 +17,6 @@ const Paragraph = styled.p`
 const ParagraphLg = styled(Paragraph)`
   font-size: 21px;
   font-weight: 400;
-  letter-spacing: -0.66px;
   line-height: 38px;
   ${color};
   ${space};
@@ -28,7 +26,6 @@ const ParagraphLg = styled(Paragraph)`
 
 const ParagraphSmall = styled(Paragraph)`
   font-size: 16px;
-  letter-spacing: -0.5px;
   line-height: 28px;
   ${color};
   ${space};
@@ -39,7 +36,6 @@ const ParagraphSmall = styled(Paragraph)`
 const ParagraphTag = styled(Paragraph)`
   font-size: 0.8125rem;
   line-height: 1.63;
-  letter-spacing: 1.63px;
   font-weight: 700;
   text-transform: uppercase;
   ${color};

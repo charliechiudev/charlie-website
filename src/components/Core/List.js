@@ -5,7 +5,6 @@ const List = styled.ul`
     color: ${({ theme }) => theme.colors.text};
     font-size: 16px;
     font-weight: 500;
-    letter-spacing: -0.5px;
     line-height: 28px;
     margin-left: 20px;
     margin-bottom: 17px;

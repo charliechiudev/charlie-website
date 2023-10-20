@@ -11,7 +11,7 @@ const globalStyle = createGlobalStyle`
     color: ${({ theme }) => theme.colors.text};
     font-size: 18px;
     font-weight: 300;
-    letter-spacing: -0.56px;
+    
     line-height: 30px;
     margin-bottom: 0;
   }

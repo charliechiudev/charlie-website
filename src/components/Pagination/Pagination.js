@@ -11,7 +11,7 @@ const PaginationStyled = styled(BSPagination)`
     height: 38px;
     border-radius: 5px;
     border: 1px solid #eae9f2;
-    background-color: #ffffff;
+    background-color: #efefef;
     color: ${({ theme }) => theme.colors.dark} !important;
     display: flex;
     justify-content: center;

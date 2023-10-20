@@ -50,7 +50,7 @@ const Hero = () => {
               fontSize="1rem"
               className="text-uppercase"
               css={`
-                letter-spacing: 1.63px;
+                
               `}
             >
               HI, I AM BRUCE RYAN

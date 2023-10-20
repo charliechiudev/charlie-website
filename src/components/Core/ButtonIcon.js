@@ -10,16 +10,16 @@ const ButtonIcon = ({
 }) => {
   return (
     <Button variant={variant} color={color} {...rest}>
+      {children}
       <Box
         css={`
-          font-size: 1.1875rem;
-          padding-right: 1.25rem;
+          font-size: 1rem;
+          padding-left: 1rem;
           display: flex;
         `}
       >
         <i className="icon icon-chat-round-2" />
       </Box>
-      {children}
     </Button>
   );
 };

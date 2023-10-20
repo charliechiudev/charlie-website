@@ -5,7 +5,7 @@ import { device } from "../../utils";
 
 const SectionTitle = styled.h2`
   font-weight: 700;
-  letter-spacing: -2.5px;
+  
   font-size: 40px;
   line-height: 54px;
   margin-bottom: 0;
@@ -27,14 +27,14 @@ const SectionTitle = styled.h2`
 `;
 
 const SectionSm = styled(SectionTitle)`
-  letter-spacing: -1.15px;
+  
   font-size: 2.125rem;
   line-height: 1.115;
 
   @media ${device.sm} {
     font-size: 2.5rem;
     line-height: 1.225;
-    letter-spacing: -1.8px;
+    
   }
 
   @media ${device.lg} {
@@ -50,30 +50,28 @@ const SectionSm = styled(SectionTitle)`
 `;
 
 const HeroTitle = styled(SectionTitle)`
-  letter-spacing: -2.81px;
-  font-size: 50px;
-  line-height: 56px;
+  
+  font-size: 5rem;
+  font-weight: normal;
+  line-height: .9;
 
   @media ${device.sm} {
-    font-size: 66px;
-    line-height: 70px;
+    font-size: 2rem;
   }
 
   @media ${device.lg} {
-    font-size: 76px;
-    line-height: 84px;
+    font-size: 3rem;
   }
 
   @media ${device.xl} {
-    font-size: 60px;
-    line-height: 60px;
+    font-size: 14rem;
   }
 `;
 
 const CardTitle = styled.h4`
   font-size: 1.3125rem;
-  font-weight: 700;
-  letter-spacing: -0.5px;
+  font-weight: normal;
+  
   line-height: 1;
   ${color};
   ${space};
@@ -83,7 +81,7 @@ const CardTitle = styled.h4`
 
 const CardTitleSm = styled(CardTitle)`
   font-size: 1.0625rem;
-  letter-spacing: -0.2px;
+  
   line-height: 1;
   ${color};
   ${space};

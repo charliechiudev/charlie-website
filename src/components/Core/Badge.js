@@ -14,7 +14,6 @@ import {
 const BadgeSolid = styled.span`
   font-size: 13px;
   font-weight: 700;
-  letter-spacing: -0.41px;
   border-radius: 5px;
   padding: 4px 12px;
   display: inline-flex;

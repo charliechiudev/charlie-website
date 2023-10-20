@@ -14,7 +14,6 @@ import {
 const ButtonStyled = styled.button`
   font-size: 13px;
   font-weight: 700;
-  letter-spacing: 1.63px;
   text-transform: uppercase;
   padding: 23px 30px;
   border-radius: 50rem;
@@ -87,11 +86,11 @@ const Button = ({
                 <path
                   d="M1,5.5h16"
                   fillOpacity="0"
-                  fill="#ffffff"
+                  fill="#efefef"
                   strokeLinejoin="round"
                   strokeLinecap="round"
                   strokeOpacity="1"
-                  stroke="#ffffff"
+                  stroke="#efefef"
                   strokeMiterlimit="20"
                   strokeWidth="2"
                 ></path>
@@ -101,11 +100,11 @@ const Button = ({
                 <path
                   d="M12,1v0l5,5v0l-5,5v0"
                   fillOpacity="0"
-                  fill="#ffffff"
+                  fill="#efefef"
                   strokeLinejoin="round"
                   strokeLinecap="round"
                   strokeOpacity="1"
-                  stroke="#ffffff"
+                  stroke="#efefef"
                   strokeMiterlimit="20"
                   strokeWidth="2"
                 ></path>

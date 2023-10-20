@@ -13,7 +13,7 @@ const IconCircle = ({ bg = "success", color = "#fff", children, ...rest }) => (
       .icon {
         font-weight: bolder;
         font-size: 2rem !important;
-        letter-spacing: -1.2px;
+        
         line-height: 1.375 !important;
       }
     `}

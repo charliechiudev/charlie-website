@@ -22,7 +22,7 @@ const BoxInput = styled(Box)`
     color: rgba(255, 255, 255, 0.7) !important;
     font-size: 16px;
     font-weight: 300;
-    letter-spacing: -0.5px;
+    
     line-height: 26px;
     border: 0;
     background: transparent;

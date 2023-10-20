@@ -3,7 +3,16 @@ import { Link } from "gatsby";
 import styled from "styled-components";
 import { Box, Title, Text } from "../Core";
 
-const WorkBox = styled(Box)``;
+const WorkBox = styled(Box)`
+  & img {
+    transition: 0.3s;
+    filter: grayscale(100%) brightness(90%) contrast(80%);
+    
+  }
+  &:hover img {
+    filter: none;
+  }
+`;
 const TextBox = styled(Box)`
   position: absolute;
   overflow: hidden;

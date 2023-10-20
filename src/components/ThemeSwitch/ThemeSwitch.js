@@ -29,10 +29,10 @@ const Panel = styled(Box)`
 `;
 
 const TextBox = styled(Box)`
-  color: #ffffff;
+  color: #efefef;
   font-size: 13px;
   font-weight: 700;
-  letter-spacing: -0.09px;
+  
   line-height: 26px;
   padding-bottom: 8px;
 `;
@@ -40,7 +40,7 @@ const TextBox = styled(Box)`
 const ButtonGroup = styled(Box)`
   box-shadow: 0 12px 34px rgba(22, 28, 45, 0.2);
   border-radius: 33px;
-  background-color: #ffffff;
+  background-color: #efefef;
   overflow: hidden;
   display: flex;
   max-width: 153px;
@@ -55,7 +55,7 @@ const Button = styled.button`
   height: 42px;
   padding-left: 15px;
   padding-right: 15px;
-  letter-spacing: 1.38px;
+  
   text-transform: uppercase;
   outline: none !important;
   &.active {

@@ -12,11 +12,9 @@ import {
 } from "styled-system";
 
 const ButtonStyled = styled.button`
-  font-size: 13px;
-  font-weight: 700;
-  letter-spacing: 1.63px;
-  text-transform: uppercase;
-  padding: 23px 30px;
+  font-size: 18px;
+  letter-spacing: 1px;
+  padding: 12px 24px;
   box-shadow: 0 32px 54px rgba(3, 3, 3, 0.12);
   border-radius: 50rem;
   display: inline-flex;
@@ -42,7 +40,7 @@ const ButtonStyled = styled.button`
   &:hover,
   &:focus,
   &:active {
-    transform: translateY(-10px);
+    transform: translatex(10px);
     box-shadow: 0 32px 54px rgba(3, 3, 3, 0.14);
   }
 `;
@@ -79,11 +77,11 @@ const Button = ({
                 <path
                   d="M1,5.5h16"
                   fillOpacity="0"
-                  fill="#ffffff"
+                  fill="#efefef"
                   strokeLinejoin="round"
                   strokeLinecap="round"
                   strokeOpacity="1"
-                  stroke="#ffffff"
+                  stroke="#efefef"
                   strokeMiterlimit="20"
                   strokeWidth="2"
                 ></path>
@@ -93,11 +91,11 @@ const Button = ({
                 <path
                   d="M12,1v0l5,5v0l-5,5v0"
                   fillOpacity="0"
-                  fill="#ffffff"
+                  fill="#efefef"
                   strokeLinejoin="round"
                   strokeLinecap="round"
                   strokeOpacity="1"
-                  stroke="#ffffff"
+                  stroke="#efefef"
                   strokeMiterlimit="20"
                   strokeWidth="2"
                 ></path>

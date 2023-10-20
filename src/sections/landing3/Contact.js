@@ -3,7 +3,7 @@ import React, { useContext } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 
 import GlobalContext from "../../context/GlobalContext";
-import { Section, Title, ButtonIcon } from "../../components/Core";
+import { Section, Box, Title, ButtonIcon } from "../../components/Core";
 
 const Hero = () => {
   const gContext = useContext(GlobalContext);
@@ -11,13 +11,22 @@ const Hero = () => {
   return (
     <>
       <Section className="pt-4">
-        <Container>
-          <Row className="text-center justify-content-center">
-            <Col lg="10" xl="7">
-              <div className="text-center mb-5">
-                <Title variant="hero">Got a project in mind?</Title>
-              </div>
-              <div className="text-center">
+        <Container fluid>
+          <Row className="align-items-lg-end">
+            <Col xl="8" lg="8" sm="12" className="">
+              <Box className="d-flex flex-column">
+                <Title
+                  css={`
+                  font-size: 5rem;
+                  line-height: 1;
+                  font-weight: bold;
+                `}
+                >
+                  Melbourne-based full-stack designer with Marketing and IT background.
+                </Title>
+              </Box>
+            </Col>
+            <Col lg="4" xl="4" className="text-right">
                 <ButtonIcon
                   onClick={(e) => {
                     e.preventDefault();
@@ -26,7 +35,6 @@ const Hero = () => {
                 >
                   Say hi to me
                 </ButtonIcon>
-              </div>
             </Col>
           </Row>
         </Container>

@@ -7,7 +7,6 @@ const LinkStyled = styled.a`
   padding: 0.75rem 0;
   font-size: 0.8125rem;
   line-height: 1.63;
-  letter-spacing: 1.63px;
   transition: 0.4s;
   &:hover {
     transform: translateY(-10px);

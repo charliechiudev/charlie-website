@@ -27,7 +27,6 @@ const SiteHeader = styled.header`
     }
     &.reveal-header {
       transform: translateY(0%);
-      box-shadow: 0 12px 34px -11px rgba(65, 62, 101, 0.1);
       z-index: 9999;
       background: ${({ dark, theme }) => theme.colors.bg};
     }
@@ -130,7 +129,7 @@ const MenuDropdown = styled.ul`
     color: ${({ theme }) => theme.colors.dark};
     font-size: 15px;
     font-weight: 300;
-    letter-spacing: -0.5px;
+    
     padding-left: 30px;
     padding-right: 30px;
     padding-top: 10px;
@@ -210,6 +209,16 @@ const Header = ({ isDark }) => {
   const gContext = useContext(GlobalContext);
   const [showScrolling, setShowScrolling] = useState(false);
   const [showReveal, setShowReveal] = useState(false);
+  const [lightOn, setLightOn] = useState(true);
+
+  const toggleLight = (() => {
+    setLightOn(!lightOn);
+    gContext.changeTheme({
+      bodyDark: lightOn,
+      headerDark: lightOn,
+      footerDark: lightOn,
+    });
+  });
 
   useScrollPosition(({ prevPos, currPos }) => {
     if (currPos.y < 0) {
@@ -244,7 +253,7 @@ const Header = ({ isDark }) => {
                   className="navbar-nav d-none d-lg-flex"
                   dark={isDark ? 1 : 0}
                 >
-                  {menuItems.map(
+                  {/* {menuItems.map(
                     (
                       { label, isExternal = false, name, items, ...rest },
                       index
@@ -431,9 +440,26 @@ const Header = ({ isDark }) => {
                         </React.Fragment>
                       );
                     }
-                  )}
+                  )} */}
 
-                  {/* Open about modal */}
+                  <li className="nav-item">
+                    <Link className="nav-link" to={`/ux-ui`}>
+                      UX/UI.
+                    </Link>
+                  </li>
+
+                  <li className="nav-item">
+                    <Link className="nav-link" to={`/graphics`}>
+                      graphics.
+                    </Link>
+                  </li>
+
+                  <li className="nav-item">
+                    <Link className="nav-link" to={`/marketing`}>
+                      marketing.
+                    </Link>
+                  </li>
+
                   <li className="nav-item">
                     <a
                       className="nav-link"
@@ -444,6 +470,19 @@ const Header = ({ isDark }) => {
                       }}
                     >
                       about me.
+                    </a>
+                  </li>
+
+                  <li className="nav-item">
+                    <a
+                      className="nav-link"
+                      href="/#"
+                      onClick={(e) => {
+                        e.preventDefault();
+                        toggleLight();
+                      }}
+                    >
+                      Turn light {lightOn ? "off" : "on"}.
                     </a>
                   </li>
                 </Menu>

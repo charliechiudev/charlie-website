@@ -4,8 +4,6 @@ import { Container, Row, Col } from "react-bootstrap";
 
 import GlobalContext from "../../context/GlobalContext";
 import { Title, ButtonIcon, Section, Box } from "../../components/Core";
-import bgHeroPattern from "../../assets/image/webp/hero-pattern.webp";
-import imgL from "../../assets/image/jpg/portfolio-about-3.jpg";
 
 const SectionStyled = styled(Section)`
   &::before {
@@ -14,8 +12,6 @@ const SectionStyled = styled(Section)`
     content: "";
     width: 100%;
     height: 120%;
-    background: url(${bgHeroPattern}) top center no-repeat;
-    background-size: cover;
     z-index: -1;
   }
 `;
@@ -27,40 +23,52 @@ const Hero = () => {
     <>
       {/* <!-- Hero Area --> */}
       <SectionStyled hero className="position-relative">
-        <Container>
-          <Box>
-            {/* <img
-              src={imgL}
-              alt=""
-              css={`
-                border-radius: 50rem !important;
-              `}
-              height="120px"
-            /> */}
-          </Box>
+        <Container fluid>
           <Row className="align-items-lg-end">
-            <Col lg="12" sm="12" className="mb-5 mb-lg-0">
-              <Box className="d-flex flex-column align-items-center text-center">
-              <Title
-                color="black"
-                variant="card"
-                mb="2.5rem"
+            <Col xl="9" lg="9" sm="12" className="">
+              <Box className="">
+                <Title 
+                variant="hero"
                 css={`
-                  font-size: 1.3125rem;
-                  line-height: 1.5;
-                  font-weight: 400;
-                `}
-              >
-                Multi-disciplined UX/UI designer, Melbourne based. <em>&#91;She, Her&#93;</em>
-              </Title>
-                <h1 variant="hero">
-                The human mind processes visual information 60,000 times faster than text. So why don't you just scroll down and check out my work?
-                </h1>
+                margin-top: 4rem;
+              `}>Experience<br />Designer</Title>
               </Box>
             </Col>
-            <Col lg="4" sm="12">
-              <Box pl="1.25rem" className="text-center">
-                <ButtonIcon 
+            <Col xl="3" lg="3" sm="12">
+            <Box className="">
+                <Title
+                  css={`
+                  font-size: 1.2rem;
+                  line-height: 1.2;
+                  font-family: times, serif;
+                  font-weight: normal;
+                  padding: 1.5rem 0;
+                  margin-left: -3rem;
+                `}
+                >
+                  <span style={{fontStyle:'italic', fontWeight:'bold'}}>noun:</span> &#91;ɪkˈspɪə.ri.əns dɪˈzaɪ.nər&#93;<br />1. A person that make a product or service usable, enjoyable, and accessible. While many companies design user experiences.<br /><span style={{fontStyle:'italic', fontWeight:'bold'}}>see also:</span> <span style={{fontStyle:'italic'}}>wizard, magician, me.</span>
+                </Title>
+              </Box>
+            </Col>
+          </Row>
+          <Row className="align-items-lg-end">
+            <Col xl="8" lg="8" sm="12" className="">
+              <Box className="">
+                <Title
+                  css={`
+                  font-size: 1.4rem;
+                  line-height: 1.3;
+                  font-weight: normal;
+                  padding: 6rem 15px 1.6rem;
+                `}
+                >
+                  Melbourne-based full-stack designer with Marketing and IT background, skilled in UX/UI design with 9+ years of experience in the Business and Public sectors. Enjoys problem solving with creative and analytical thinking, believes functionality and aesthetics can always be friends.
+                </Title>
+              </Box>
+              <Box pl="" className="" css={`
+                  margin: 0 0 -100px 10px;
+                `}>
+                <ButtonIcon
                   onClick={(e) => {
                     e.preventDefault();
                     gContext.toggleContact();

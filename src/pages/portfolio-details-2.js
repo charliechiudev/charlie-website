@@ -111,7 +111,7 @@ const WorkSingle = () => {
                   css={`
                     font-weight: 700
                     font-size: 1.5rem;
-                    letter-spacing: -1.2px;
+                    
                     line-height: 1.375;
                     @media ${device.md} {
                       font-size: 2rem;

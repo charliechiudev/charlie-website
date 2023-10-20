@@ -6,7 +6,7 @@ const defaultColors = {
   //primary: "#ff7d1a",
   // primary: "#495fef",
   secondary: "#f5f5f7",
-  white: "#ffffff",
+  white: "#efefef",
   //dark: "#161c2d",
   dark: "#000000",
   ash: "#413e65",

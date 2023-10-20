@@ -35,9 +35,9 @@ const Works = () => {
     <>
       {/* <!-- Works Area --> */}
       <Section className="position-relative">
-        <Container>
+        <Container fluid>
           <Box mb="2.5rem" ml="-1.75rem">
-            <ListNav className="nav">
+            <ListNav className="nav justify-content-center">
               <li className="nav-item">
                 <a
                   className={`nav-link font-weight-bold text-uppercase ${

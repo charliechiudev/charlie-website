@@ -4,6 +4,7 @@ avasta Web Font
 Generated using nucleoapp.com
 
 -------------------------------- */
+
 @font-face {
   font-family: 'avasta';
   src: url("../fonts/avasta.eot");
@@ -11,6 +12,7 @@ Generated using nucleoapp.com
   font-weight: normal;
   font-style: normal;
 }
+
 
 /*------------------------
 	base class definition

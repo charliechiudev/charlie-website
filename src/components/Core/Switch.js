@@ -32,7 +32,7 @@ const SwitchStyled = styled.div`
 const Round = styled.span`
   width: 21px;
   height: 21px;
-  background-color: #ffffff;
+  background-color: #efefef;
   position: absolute;
   transition: all 0.3s ease-out;
   left: ${({ active }) => (active ? `calc(100% - 33px)` : `0`)};
