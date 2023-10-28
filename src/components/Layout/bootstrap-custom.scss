@@ -18,6 +18,11 @@ $headings-font-weight: 700;
 // Import Bootstrap and its default variables
 @import "~bootstrap/scss/bootstrap.scss";
 
+::selection {
+  background: #111;
+  color: $bg;
+}
+
 .has-offcanvas {
   width: 100%;
   height: 100%;

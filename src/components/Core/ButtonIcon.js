@@ -13,12 +13,13 @@ const ButtonIcon = ({
       {children}
       <Box
         css={`
-          font-size: 1rem;
+          font-size: 1.4rem;
+          font-weight: bold;
           padding-left: 1rem;
           display: flex;
         `}
       >
-        <i className="icon icon-chat-round-2" />
+        <i className="icon icon-tail-right" />
       </Box>
     </Button>
   );

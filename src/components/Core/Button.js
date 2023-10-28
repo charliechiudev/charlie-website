@@ -12,24 +12,22 @@ import {
 } from "styled-system";
 
 const ButtonStyled = styled.button`
-  font-size: 18px;
-  letter-spacing: 1px;
-  padding: 12px 24px;
-  box-shadow: 0 32px 54px rgba(3, 3, 3, 0.12);
-  border-radius: 50rem;
+  font-size: 1rem;
+  font-family: Courier;
+  font-weight: bold;
+  padding: 8px 24px;
+  box-shadow: none;
+  border-radius: 0rem;
   display: inline-flex;
   align-items: center;
   justify-content: space-between;
   user-select: none;
-  transform: perspective(1px) translateZ(0);
   position: relative;
   overflow: hidden;
-  border: none;
   outline: none !important;
   white-space: nowrap;
-  ${color};
-  ${background};
-  ${border};
+  background-color: transparent;
+  border: 2px solid #000;
   ${space};
   ${typography};
   ${shadow};
@@ -40,8 +38,8 @@ const ButtonStyled = styled.button`
   &:hover,
   &:focus,
   &:active {
-    transform: translatex(10px);
-    box-shadow: 0 32px 54px rgba(3, 3, 3, 0.14);
+    ${color};
+    ${background};
   }
 `;
 

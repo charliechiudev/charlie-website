@@ -3,16 +3,14 @@ import { createGlobalStyle } from "styled-components";
 const globalStyle = createGlobalStyle`
   body {
     background-color: ${({ theme }) => theme.colors.bg} !important;
-
     color: ${({ theme }) => theme.colors.text} !important;
   }
 
   p, .p{
     color: ${({ theme }) => theme.colors.text};
-    font-size: 18px;
-    font-weight: 300;
-    
-    line-height: 30px;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.1;
     margin-bottom: 0;
   }
 

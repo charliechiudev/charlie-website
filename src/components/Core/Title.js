@@ -52,19 +52,23 @@ const SectionSm = styled(SectionTitle)`
 const HeroTitle = styled(SectionTitle)`
   
   font-size: 5rem;
+  letter-spacing: -3px;
   font-weight: normal;
-  line-height: .9;
+  line-height: .8;
 
   @media ${device.sm} {
-    font-size: 2rem;
+    font-size: 8rem;
+    letter-spacing: -4px;
   }
 
   @media ${device.lg} {
-    font-size: 3rem;
+    font-size: 10rem;
+    letter-spacing: -6px;
   }
 
   @media ${device.xl} {
     font-size: 14rem;
+    letter-spacing: -8px;
   }
 `;
 

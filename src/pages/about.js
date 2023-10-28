@@ -1,19 +1,20 @@
 import React from "react";
+import { Element } from "react-scroll";
 
 import PageWrapper from "../components/PageWrapper";
-import { Box } from "../components/Core";
-import About from "../sections/others/About";
+import Hero from "../sections/charlie-about/Hero";
+import Zero1 from "../sections/charlie-about/Zero1";
+import Contact from "../sections/charlie-about/Contact";
 
-const AboutPage = () => {
+const IndexPage = () => {
   return (
     <>
-      <PageWrapper darkTheme>
-        <Box pt={4}>
-          <About />
-        </Box>
+      <PageWrapper>
+        <Hero />
+        <Zero1 />
+        <Contact />
       </PageWrapper>
     </>
   );
 };
-
-export default AboutPage;
+export default IndexPage;

@@ -10,6 +10,10 @@ import NestedMenu from "../NestedMenu";
 import { device } from "../../utils";
 import Logo from "../Logo";
 import { menuItems } from "./menuItems";
+import {
+  FaSun,
+  FaMoon,
+} from "react-icons/fa";
 
 const SiteHeader = styled.header`
   padding: 0;
@@ -461,16 +465,9 @@ const Header = ({ isDark }) => {
                   </li>
 
                   <li className="nav-item">
-                    <a
-                      className="nav-link"
-                      href="/#"
-                      onClick={(e) => {
-                        e.preventDefault();
-                        gContext.toggleAbout();
-                      }}
-                    >
+                    <Link className="nav-link" to={`/about`}>
                       about me.
-                    </a>
+                    </Link>
                   </li>
 
                   <li className="nav-item">
@@ -482,7 +479,7 @@ const Header = ({ isDark }) => {
                         toggleLight();
                       }}
                     >
-                      Turn light {lightOn ? "off" : "on"}.
+                      {lightOn ? <><FaSun />&nbsp;day</> : <><FaMoon />&nbsp;night</>}
                     </a>
                   </li>
                 </Menu>

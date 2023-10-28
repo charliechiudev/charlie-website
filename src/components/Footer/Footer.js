@@ -1,6 +1,10 @@
 import React from "react";
-import { Container } from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
 import { Box, Title } from "../Core";
+import {
+  FaLinkedinIn,
+  FaGithub,
+} from "react-icons/fa";
 
 const Footer = ({ isDark = true }) => {
   return (
@@ -15,18 +19,31 @@ const Footer = ({ isDark = true }) => {
         `}
         className="position-relative"
       >
-        <Container>
-          <div className="text-center">
+        <Container fluid>
+        <Row className="align-items-sm-center border-top pt-4">
+          <Col xl="10" lg="10" sm="10" className="">
             <Title
               variant="card"
               css={`
                 font-size: 0.8125rem;
               `}
-              className="text-uppercase"
+              className=""
             >
-              © 2020 All right reseved
+              Charlie C. Design&nbsp;&nbsp;|&nbsp;&nbsp;© 2023 All Rights Reserved&nbsp;&nbsp;|&nbsp;&nbsp;Designed and prototyped in Figma, built in React.
             </Title>
-          </div>
+          </Col>
+          <Col xl="2" lg="2" sm="2" className="">
+            <Title
+              variant="card"
+              css={`
+                font-size: 1rem;
+              `}
+              className="text-right"
+            >
+              <a href="https://www.linkedin.com/in/charliechiu/" target="_blank" rel="noreferrer nofollow"><FaLinkedinIn /></a>&nbsp;&nbsp;<a href="https://www.github.com/charliechiudev" target="_blank" rel="noreferrer nofollow"><FaGithub /></a>
+            </Title>
+          </Col>
+        </Row>
         </Container>
       </Box>
     </>
