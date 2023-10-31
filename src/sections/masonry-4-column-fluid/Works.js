@@ -4,7 +4,7 @@ import Masonry from "react-masonry-component";
 
 import { Section, Box, ListNav, ButtonOutline } from "../../components/Core";
 import WorkCard from "../../components/WorkCard";
-import { masonryWorks1 } from "../../data";
+import { masonryWorks1 } from "../../data-dev";
 
 const Works = () => {
   const [items, setItems] = useState([]);

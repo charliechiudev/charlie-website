@@ -13,7 +13,7 @@ import {
   ListNav,
 } from "../../components/Core";
 import RotateImg from "../../components/RotateImg";
-import { gridWorks2 } from "../../data";
+import { gridWorks2 } from "../../data-dev";
 import { useWindowSize } from "../../hooks";
 import { breakpoints } from "../../utils";
 

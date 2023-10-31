@@ -1,9 +1,8 @@
-import React, { useContext, useState, useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import styled from "styled-components";
 import { Container, Row, Col } from "react-bootstrap";
 import Typist from 'react-typist';
 
-import GlobalContext from "../../context/GlobalContext";
 import { Title, ButtonIcon, Section, Box } from "../../components/Core";
 
 import Diagram from "../../assets/about-diagram.svg";
@@ -27,7 +26,6 @@ const AboutDiagram = styled(Box)`
 `;
 
 const Hero = () => {
-  const gContext = useContext(GlobalContext);
   const [typing, setTyping] = useState(true);
 
   const typeCursor = {
@@ -45,7 +43,7 @@ const Hero = () => {
       {/* <!-- Hero Area --> */}
       <SectionStyled hero className="position-relative">
         <Container fluid>
-          <Row className="align-items-lg-center">
+          <Row className="align-items-lg-center pmb-5">
             <Col xl="12" lg="12" sm="12" className="">
               <Box className="">
                 <Title 
@@ -113,7 +111,6 @@ const Hero = () => {
                 <ButtonIcon
                   onClick={(e) => {
                     e.preventDefault();
-                    gContext.toggleContact();
                   }}
                 >
                   Keep reading

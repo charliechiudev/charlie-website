@@ -3,23 +3,24 @@ import { Container, Col } from "react-bootstrap";
 import Masonry from "react-masonry-component";
 
 import { Section, Box, ListNav } from "../../components/Core";
-import WorkCard from "../../components/WorkCard";
-import { devWorks1 } from "../../data";
+import WorkCardGql from "../../components/WorkCardGql";
+
+const PortfolioItems = require('../../data/PortfolioItems.json')
 
 const Works = () => {
   const [items, setItems] = useState([]);
   const [activeLink, setActiveLink] = useState("*");
 
   useEffect(() => {
-    setItems(devWorks1);
+    setItems(PortfolioItems);
   }, []);
 
   const filterBy = (cat) => {
     if (cat === "*") {
       setActiveLink("*");
-      setItems(devWorks1);
+      setItems(PortfolioItems);
     } else {
-      const filteredItems = devWorks1.filter((item) => {
+      const filteredItems = PortfolioItems.filter((item) => {
         return item.categories.indexOf(cat) !== -1;
       });
       setActiveLink(cat);
@@ -58,7 +59,7 @@ const Works = () => {
                   }`}
                   onClick={(e) => {
                     e.preventDefault();
-                    filterBy("ui-design");
+                    filterBy("ux-ui");
                   }}
                 >
                   UX/UI Design
@@ -71,7 +72,7 @@ const Works = () => {
                   }`}
                   onClick={(e) => {
                     e.preventDefault();
-                    filterBy("app");
+                    filterBy("dev");
                   }}
                 >
                   Developement
@@ -84,7 +85,7 @@ const Works = () => {
                   }`}
                   onClick={(e) => {
                     e.preventDefault();
-                    filterBy("web");
+                    filterBy("graphics");
                   }}
                 >
                   Graphic Design
@@ -101,7 +102,7 @@ const Works = () => {
           >
             {items.map((item, index) => (
               <Col lg="4" md="6" sm="6" key={index} className="filtr-item">
-                <WorkCard workItem={item} mb="30px" link={item.link}/>
+                <WorkCardGql workItem={item} mb="30px" />
               </Col>
             ))}
           </Masonry>

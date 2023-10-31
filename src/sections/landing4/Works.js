@@ -12,7 +12,7 @@ import {
   ButtonOutline,
 } from "../../components/Core";
 import RotateImg from "../../components/RotateImg";
-import { devWorks2 } from "../../data";
+import { devWorks2 } from "../../data-dev";
 import { useWindowSize } from "../../hooks";
 import { breakpoints } from "../../utils";
 
