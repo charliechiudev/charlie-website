@@ -1,338 +1,560 @@
 [
-    {
-        "title": "Verde Branding",
-        "slug": "portfolio/verde-mockup-bizcard",
-        "subtitle": "What is this?",
-        "categories": [
-            "graphics"
-        ],
-        "gallery": ["verde-mockup-bizcard-01.png", "verde-mockup-bizcard-02.png"],
-        "content": "",
-        "thumbnail": "thumbnail-01-verde-mockup-bizcard.png",
-        "template": "portfolio-details"
-    },
-    {
-        "title": "Habitat Branding",
-        "slug": "portfolio/habitat-mockup-door",
-        "subtitle": "Adaptable but Identifiable Product for Kandinsky.",
-        "categories": [
-            "graphics"
-        ],
-        "gallery": [],
-        "content": "",
-        "thumbnail": "thumbnail-02-habitat-mockup-door.png",
-        "template": "portfolio-details"
-    },
-    {
-        "title": "Parkie App",
-        "slug": "portfolio/parkie-iphone",
-        "subtitle": "Adaptable but Identifiable Product for Kandinsky.",
-        "categories": [
-            "ux-ui",
-            "dev"
-        ],
-        "gallery": [],
-        "content": "",
-        "thumbnail": "thumbnail-03-parkie-iphone.png",
-        "template": "portfolio-details"
-    },
-    {
-        "title": "Parkie App",
-        "slug": "portfolio/parkie-screens",
-        "subtitle": "Adaptable but Identifiable Product for Kandinsky.",
-        "categories": [
-            "ux-ui",
-            "dev"
-        ],
-        "gallery": [],
-        "content": "",
-        "thumbnail": "thumbnail-04-parkie-screens.png",
-        "template": "portfolio-details"
-    },
-    {
-        "title": "Veganom App",
-        "slug": "portfolio/veganom-screens",
-        "subtitle": "Adaptable but Identifiable Product for Kandinsky.",
-        "categories": [
-            "ux-ui"
-        ],
-        "gallery": [],
-        "content": "",
-        "thumbnail": "thumbnail-05-veganom-screens.png",
-        "template": "portfolio-details"
-    },
-    {
-        "title": "Veganom App",
-        "slug": "portfolio/veganom-mockup-closeup",
-        "subtitle": "Adaptable but Identifiable Product for Kandinsky.",
-        "categories": [
-            "ux-ui"
-        ],
-        "gallery": [],
-        "content": "",
-        "thumbnail": "thumbnail-06-veganom-mockup-closeup.png",
-        "template": "portfolio-details"
-    },
-    {
-        "title": "Verde Ecommerce Website",
-        "slug": "portfolio/verde-imac",
-        "subtitle": "Adaptable but Identifiable Product for Kandinsky.",
-        "categories": [
-            "ux-ui",
-            "dev"
-        ],
-        "gallery": [],
-        "content": "",
-        "thumbnail": "thumbnail-07-verde-imac.png",
-        "template": "portfolio-details"
-    },
-    {
-        "title": "Verde eCommerce Website",
-        "slug": "portfolio/verde-screens",
-        "subtitle": "Adaptable but Identifiable Product for Kandinsky.",
-        "categories": [
-            "ux-ui",
-            "dev"
-        ],
-        "gallery": [],
-        "content": "",
-        "thumbnail": "thumbnail-08-verde-screens.png",
-        "template": "portfolio-details"
-    },
-    {
-        "title": "SisterWorks eCommerce Website",
-        "slug": "portfolio/sisterworks",
-        "subtitle": "Adaptable but Identifiable Product for Kandinsky.",
-        "categories": [
-            "ux-ui",
-            "dev"
-        ],
-        "gallery": [],
-        "content": "sisterworks-home",
-        "thumbnail": "thumbnail-09-sisterworks-home.png",
-        "template": "portfolio-details"
-    },
-    {
-        "title": "AI Smart Pet Door",
-        "slug": "portfolio/smart-pet-door-cover",
-        "subtitle": "Adaptable but Identifiable Product for Kandinsky.",
-        "categories": [
-            "ux-ui",
-            "dev"
-        ],
-        "gallery": [],
-        "content": "",
-        "thumbnail": "thumbnail-10-smart-pet-door-cover.png",
-        "template": "portfolio-details"
-    },
-    {
-        "title": "WISP Platform",
-        "slug": "portfolio/wisp-mockup1",
-        "subtitle": "Adaptable but Identifiable Product for Kandinsky.",
-        "categories": [
-            "ux-ui",
-            "dev"
-        ],
-        "gallery": [],
-        "content": "",
-        "thumbnail": "thumbnail-11-wisp-mockup1.jpg",
-        "template": "portfolio-details"
-    },
-    {
-        "title": "WISP Platform",
-        "slug": "portfolio/wisp-mockup2",
-        "subtitle": "Adaptable but Identifiable Product for Kandinsky.",
-        "categories": [
-            "ux-ui",
-            "dev"
-        ],
-        "gallery": [],
-        "content": "",
-        "thumbnail": "thumbnail-12-wisp-mockup2.jpg",
-        "template": "portfolio-details"
-    },
-    {
-        "title": "Weather Dresser App",
-        "slug": "portfolio/weather-dress-cover",
-        "subtitle": "Adaptable but Identifiable Product for Kandinsky.",
-        "categories": [
-            "ux-ui",
-            "dev"
-        ],
-        "gallery": [],
-        "content": "",
-        "thumbnail": "thumbnail-13-weather-dress-cover.png",
-        "template": "portfolio-details"
-    },
-    {
-        "title": "WhatToDo App",
-        "slug": "portfolio/whattodo-screen1",
-        "subtitle": "Adaptable but Identifiable Product for Kandinsky.",
-        "categories": [
-            "ux-ui",
-            "dev"
-        ],
-        "gallery": [],
-        "content": "",
-        "thumbnail": "thumbnail-14-whattodo-screen1.pn",
-        "template": "portfolio-details"
-    },
-    {
-        "title": "Moodboard App",
-        "slug": "portfolio/moodboard-mockup-1",
-        "subtitle": "Adaptable but Identifiable Product for Kandinsky.",
-        "categories": [
-            "ux-ui",
-            "dev"
-        ],
-        "gallery": [],
-        "content": "",
-        "thumbnail": "thumbnail-15-moodboard-mockup-1.png",
-        "template": "portfolio-details"
-    },
-    {
-        "title": "Moodboard Interior App",
-        "slug": "portfolio/moodboard-mockup-2",
-        "subtitle": "Adaptable but Identifiable Product for Kandinsky.",
-        "categories": [
-            "ux-ui",
-            "dev"
-        ],
-        "gallery": [],
-        "content": "",
-        "thumbnail": "thumbnail-16-moodboard-mockup-2.png",
-        "template": "portfolio-details"
-    },
-    {
-        "title": "Kalma Branding",
-        "slug": "portfolio/alma-soap",
-        "subtitle": "Adaptable but Identifiable Product for Kandinsky.",
-        "categories": [
-            "graphics"
-        ],
-        "gallery": [],
-        "content": "",
-        "thumbnail": "thumbnail-17-kalma-soap.png",
-        "template": "portfolio-details"
-    },
-    {
-        "title": "Kalma Branding",
-        "slug": "portfolio/kalma-mood",
-        "subtitle": "Adaptable but Identifiable Product for Kandinsky.",
-        "categories": [
-            "graphics"
-        ],
-        "gallery": [],
-        "content": "",
-        "thumbnail": "thumbnail-18-kalma-mood.png",
-        "template": "portfolio-details"
-    },
-    {
-        "title": "Migrant Workers Centre Event KV",
-        "slug": "portfolio/MWC-mockup-01",
-        "subtitle": "Adaptable but Identifiable Product for Kandinsky.",
-        "categories": [
-            "graphics"
-        ],
-        "gallery": [],
-        "content": "",
-        "thumbnail": "thumbnail-19-MWC-mockup-01.png",
-        "template": "portfolio-details"
-    },
-    {
-        "title": "WitCare Branding",
-        "slug": "portfolio/WitCare",
-        "subtitle": "Adaptable but Identifiable Product for Kandinsky.",
-        "categories": [
-            "graphics"
-        ],
-        "gallery": [],
-        "content": "",
-        "thumbnail": "thumbnail-20-WitCare.png",
-        "template": "portfolio-details"
-    },
-    {
-        "title": "Nature Oats Packaging",
-        "slug": "portfolio/oatmeal-mockup",
-        "subtitle": "Adaptable but Identifiable Product for Kandinsky.",
-        "categories": [
-            "graphics"
-        ],
-        "gallery": [],
-        "content": "",
-        "thumbnail": "thumbnail-21-oatmeal-mockup.png",
-        "template": "portfolio-details"
-    },
-    {
-        "title": "Coffee House Branding",
-        "slug": "portfolio/coffee-wallmenu",
-        "subtitle": "Adaptable but Identifiable Product for Kandinsky.",
-        "categories": [
-            "graphics"
-        ],
-        "gallery": [],
-        "content": "",
-        "thumbnail": "thumbnail-22-coffee-wallmenu.png",
-        "template": "portfolio-details"
-    },
-    {
-        "title": "Board Game Design",
-        "slug": "portfolio/jungle-mockup-3d",
-        "subtitle": "Adaptable but Identifiable Product for Kandinsky.",
-        "categories": [
-            "graphics"
-        ],
-        "gallery": [],
-        "content": "",
-        "thumbnail": "thumbnail-23-jungle-mockup-3d.png",
-        "template": "portfolio-details"
-    },
-    {
-        "title": "Illustration",
-        "slug": "portfolio/omg-illustration",
-        "subtitle": "Adaptable but Identifiable Product for Kandinsky.",
-        "categories": [
-            "graphics"
-        ],
-        "gallery": [],
-        "content": "",
-        "thumbnail": "thumbnail-24-omg-illustration.png",
-        "template": "portfolio-details"
-    },
-    {
-        "title": "Cubic Packaging Design",
-        "slug": "portfolio/cubic-cube-3d",
-        "subtitle": "Adaptable but Identifiable Product for Kandinsky.",
-        "categories": [
-            "graphics"
-        ],
-        "gallery": [],
-        "content": "",
-        "thumbnail": "thumbnail-25-cubic-cube-3d.png",
-        "template": "portfolio-details"
-    },
-    {
-        "title": "Branding Redesign",
-        "slug": "portfolio/kegking-wheat",
-        "subtitle": "Adaptable but Identifiable Product for Kandinsky.",
-        "categories": [
-            "graphics"
-        ],
-        "gallery": [],
-        "content": "",
-        "thumbnail": "thumbnail-26-kegking-wheat.png",
-        "template": "portfolio-details"
-    },
-    {
-        "title": "Branding Redesign",
-        "slug": "portfolio/kegking-biz-card",
-        "subtitle": "Adaptable but Identifiable Product for Kandinsky.",
-        "categories": [
-            "graphics"
-        ],
-        "gallery": [],
-        "content": "",
-        "thumbnail": "thumbnail-27-kegking-biz-card.png",
-        "template": "portfolio-details"
-    }
+  {
+    "title": "Verde Branding",
+    "slug": "/portfolio/verde-mockup-bizcard",
+    "subtitle": "What is this?",
+    "categories": [
+      "graphics"
+    ],
+    "gallery": [
+      "verde-01-mockup-imac.png",
+      "verde-02-mockup-bizcard.png",
+      "verde-03-mockup-screens-2.png",
+      "verde-04-mockup-devices.png",
+      "verde-05-mockup-screens-1.png",
+      "verde-06-web-prototype.png",
+      "verde-07-hifi-wireframe-1.png",
+      "verde-08-hifi-wireframe-2.png"
+    ],
+    "description": "To satisfy our goal of creating a brand that could adapt across many use cases, we took the base form of their new logo and used it as an artboard. As long as the structural outline of the mark stayed consistent <a href=\"https://www.google.com\"><strong>their</strong></a> brand was allowed to flex and adapt to specific uses. And by introducing these illustrative elements to the logomark, Strictly found it's voice.",
+    "client": "Client",
+    "year": "2022",
+    "thumbnail": "thumbnail-01-verde-mockup-bizcard.png",
+    "template": "portfolio-gallery-full"
+  },
+  {
+    "title": "Habitat Branding",
+    "slug": "/portfolio/habitat-mockup-door",
+    "subtitle": "Adaptable but Identifiable Product for Kandinsky.",
+    "categories": [
+      "graphics"
+    ],
+    "gallery": [],
+    "description": "To satisfy our goal of creating a brand that could adapt across many use cases, we took the base form of their new logo and used it as an artboard. As long as the structural outline of the mark stayed consistent <a href=\"https://www.google.com\"><strong>their</strong></a> brand was allowed to flex and adapt to specific uses. And by introducing these illustrative elements to the logomark, Strictly found it's voice.",
+    "client": "Client",
+    "year": "2022",
+    "thumbnail": "thumbnail-02-habitat-mockup-door.png",
+    "template": "portfolio-gallery-full"
+  },
+  {
+    "title": "Parkie App",
+    "slug": "/portfolio/parkie-iphone",
+    "subtitle": "Adaptable but Identifiable Product for Kandinsky.",
+    "categories": [
+      "ux-ui",
+      "dev",
+      "case study"
+    ],
+    "gallery": [
+      "parkie-01-mockup-screens.png",
+      "parkie-02-mockup-iphone.png",
+      "parkie-03-mockup-2.png",
+      "parkie-04-hifi-wireframe.png",
+      "parkie-05-prototype.png"
+    ],
+    "description": "To satisfy our goal of creating a brand that could adapt across many use cases, we took the base form of their new logo and used it as an artboard. As long as the structural outline of the mark stayed consistent <a href=\"https://www.google.com\"><strong>their</strong></a> brand was allowed to flex and adapt to specific uses. And by introducing these illustrative elements to the logomark, Strictly found it's voice.",
+    "client": "Client",
+    "year": "2022",
+    "thumbnail": "thumbnail-03-parkie-iphone.png",
+    "template": "portfolio-gallery-full"
+  },
+  {
+    "title": "Parkie App",
+    "slug": "/portfolio/parkie-screens",
+    "subtitle": "Adaptable but Identifiable Product for Kandinsky.",
+    "categories": [
+      "ux-ui",
+      "dev"
+    ],
+    "gallery": [
+      "parkie-01-mockup-screens.png",
+      "parkie-02-mockup-iphone.png",
+      "parkie-03-mockup-2.png",
+      "parkie-04-hifi-wireframe.png",
+      "parkie-05-prototype.png"
+    ],
+    "description": "To satisfy our goal of creating a brand that could adapt across many use cases, we took the base form of their new logo and used it as an artboard. As long as the structural outline of the mark stayed consistent <a href=\"https://www.google.com\"><strong>their</strong></a> brand was allowed to flex and adapt to specific uses. And by introducing these illustrative elements to the logomark, Strictly found it's voice.",
+    "client": "Client",
+    "year": "2022",
+    "thumbnail": "thumbnail-04-parkie-screens.png",
+    "template": "portfolio-gallery-full"
+  },
+  {
+    "title": "Veganom App",
+    "slug": "/portfolio/veganom-screens",
+    "subtitle": "Adaptable but Identifiable Product for Kandinsky.",
+    "categories": [
+      "ux-ui",
+      "case study"
+    ],
+    "gallery": [
+      "veganom-01-cover-iphone.jpg",
+      "veganom-02-mockup-app-closeup.png",
+      "veganom-03-mockup-app.png",
+      "veganom-04-mockup-app.jpg",
+      "veganom-05-paper-prototype.png",
+      "veganom-06-hifi-wireframe.png",
+      "veganom-07-persona-1.png",
+      "veganom-08-persona-2.png",
+      "veganom-09-user-journey-2.png",
+      "veganom-10-empathy-map.png",
+      "veganom-11-prototype-screens-1.png",
+      "veganom-12-userflow.png"
+    ],
+    "description": "To satisfy our goal of creating a brand that could adapt across many use cases, we took the base form of their new logo and used it as an artboard. As long as the structural outline of the mark stayed consistent <a href=\"https://www.google.com\"><strong>their</strong></a> brand was allowed to flex and adapt to specific uses. And by introducing these illustrative elements to the logomark, Strictly found it's voice.",
+    "client": "Client",
+    "year": "2022",
+    "thumbnail": "thumbnail-05-veganom-screens.png",
+    "template": "portfolio-gallery-full"
+  },
+  {
+    "title": "Veganom App",
+    "slug": "/portfolio/veganom-mockup-closeup",
+    "subtitle": "Adaptable but Identifiable Product for Kandinsky.",
+    "categories": [
+      "ux-ui"
+    ],
+    "gallery": [
+      "veganom-01-cover-iphone.jpg",
+      "veganom-02-mockup-app-closeup.png",
+      "veganom-03-mockup-app.png",
+      "veganom-04-mockup-app.jpg",
+      "veganom-05-paper-prototype.png",
+      "veganom-06-hifi-wireframe.png",
+      "veganom-07-persona-1.png",
+      "veganom-08-persona-2.png",
+      "veganom-09-user-journey-2.png",
+      "veganom-10-empathy-map.png",
+      "veganom-11-prototype-screens-1.png",
+      "veganom-12-userflow.png"
+    ],
+    "description": "To satisfy our goal of creating a brand that could adapt across many use cases, we took the base form of their new logo and used it as an artboard. As long as the structural outline of the mark stayed consistent <a href=\"https://www.google.com\"><strong>their</strong></a> brand was allowed to flex and adapt to specific uses. And by introducing these illustrative elements to the logomark, Strictly found it's voice.",
+    "client": "Client",
+    "year": "2022",
+    "thumbnail": "thumbnail-06-veganom-mockup-closeup.png",
+    "template": "portfolio-gallery-full"
+  },
+  {
+    "title": "Verde Ecommerce Website",
+    "slug": "/portfolio/verde-imac",
+    "subtitle": "Adaptable but Identifiable Product for Kandinsky.",
+    "categories": [
+      "ux-ui",
+      "dev"
+    ],
+    "gallery": [
+      "verde-01-mockup-imac.png",
+      "verde-02-mockup-bizcard.png",
+      "verde-03-mockup-screens-2.png",
+      "verde-04-mockup-devices.png",
+      "verde-05-mockup-screens-1.png",
+      "verde-06-web-prototype.png",
+      "verde-07-hifi-wireframe-1.png",
+      "verde-08-hifi-wireframe-2.png"
+    ],
+    "description": "To satisfy our goal of creating a brand that could adapt across many use cases, we took the base form of their new logo and used it as an artboard. As long as the structural outline of the mark stayed consistent <a href=\"https://www.google.com\"><strong>their</strong></a> brand was allowed to flex and adapt to specific uses. And by introducing these illustrative elements to the logomark, Strictly found it's voice.",
+    "client": "Client",
+    "year": "2022",
+    "thumbnail": "thumbnail-07-verde-imac.png",
+    "template": "portfolio-gallery-full"
+  },
+  {
+    "title": "Verde eCommerce Website 2",
+    "slug": "/portfolio/verde-screens",
+    "subtitle": "Adaptable but Identifiable Product for Kandinsky.",
+    "categories": [
+      "ux-ui",
+      "dev"
+    ],
+    "gallery": [
+      "verde-01-mockup-imac.png",
+      "verde-02-mockup-bizcard.png",
+      "verde-03-mockup-screens-2.png",
+      "verde-04-mockup-devices.png",
+      "verde-05-mockup-screens-1.png",
+      "verde-06-web-prototype.png",
+      "verde-07-hifi-wireframe-1.png",
+      "verde-08-hifi-wireframe-2.png",
+      [
+        "verde-07-hifi-wireframe-1.png",
+        "verde-08-hifi-wireframe-2.png"
+      ]
+    ],
+    "description": "To satisfy our goal of creating a brand that could adapt across many use cases, we took the base form of their new logo and used it as an artboard. As long as the structural outline of the mark stayed consistent <a href=\"https://www.google.com\"><strong>their</strong></a> brand was allowed to flex and adapt to specific uses. And by introducing these illustrative elements to the logomark, Strictly found it's voice.",
+    "client": "Client",
+    "year": "2022",
+    "thumbnail": "thumbnail-08-verde-screens.png",
+    "template": "portfolio-gallery-masonry"
+  },
+  {
+    "title": "SisterWorks eCommerce Website",
+    "slug": "/portfolio/sisterworks",
+    "subtitle": "Adaptable but Identifiable Product for Kandinsky.",
+    "categories": [
+      "ux-ui",
+      "dev"
+    ],
+    "gallery": [
+      "sisterworks-01-home.png",
+      "sisterworks-02-sitemap.png"
+    ],
+    "description": "To satisfy our goal of creating a brand that could adapt across many use cases, we took the base form of their new logo and used it as an artboard. As long as the structural outline of the mark stayed consistent <a href=\"https://www.google.com\"><strong>their</strong></a> brand was allowed to flex and adapt to specific uses. And by introducing these illustrative elements to the logomark, Strictly found it's voice.",
+    "client": "Ciao",
+    "year": "2022",
+    "thumbnail": "thumbnail-09-sisterworks-home.png",
+    "template": "portfolio-gallery-full"
+  },
+  {
+    "title": "AI Smart Pet Door",
+    "slug": "/portfolio/smart-pet-door-cover",
+    "subtitle": "Adaptable but Identifiable Product for Kandinsky.",
+    "categories": [
+      "ux-ui",
+      "dev",
+      "case study"
+    ],
+    "gallery": [
+      "smart-pet-door-01-demo.mp4",
+      [
+        "adv2-smart-pet-door-final_Page_01.png",
+        "adv2-smart-pet-door-final_Page_02.png",
+        "adv2-smart-pet-door-final_Page_03.png",
+        "adv2-smart-pet-door-final_Page_04.png",
+        "adv2-smart-pet-door-final_Page_05.png",
+        "adv2-smart-pet-door-final_Page_06.png",
+        "adv2-smart-pet-door-final_Page_07.png",
+        "adv2-smart-pet-door-final_Page_08.png",
+        "adv2-smart-pet-door-final_Page_09.png",
+        "adv2-smart-pet-door-final_Page_10.png",
+        "adv2-smart-pet-door-final_Page_11.png",
+        "adv2-smart-pet-door-final_Page_12.png",
+        "adv2-smart-pet-door-final_Page_13.png",
+        "adv2-smart-pet-door-final_Page_14.png",
+        "adv2-smart-pet-door-final_Page_15.png",
+        "adv2-smart-pet-door-final_Page_16.png",
+        "adv2-smart-pet-door-final_Page_17.png",
+        "adv2-smart-pet-door-final_Page_18.png",
+        "adv2-smart-pet-door-final_Page_19.png",
+        "adv2-smart-pet-door-final_Page_20.png",
+        "adv2-smart-pet-door-final_Page_21.png",
+        "adv2-smart-pet-door-final_Page_22.png",
+        "adv2-smart-pet-door-final_Page_23.png",
+        "adv2-smart-pet-door-final_Page_24.png",
+        "adv2-smart-pet-door-final_Page_25.png"
+      ]
+    ],
+    "description": "To satisfy our goal of creating a brand that could adapt across many use cases, we took the base form of their new logo and used it as an artboard. As long as the structural outline of the mark stayed consistent <a href=\"https://www.google.com\"><strong>their</strong></a> brand was allowed to flex and adapt to specific uses. And by introducing these illustrative elements to the logomark, Strictly found it's voice.",
+    "client": "Client",
+    "year": "2022",
+    "thumbnail": "thumbnail-10-smart-pet-door-cover.png",
+    "template": "portfolio-gallery-full"
+  },
+  {
+    "title": "WISP Platform",
+    "slug": "/portfolio/wisp-mockup1",
+    "subtitle": "Adaptable but Identifiable Product for Kandinsky.",
+    "categories": [
+      "ux-ui",
+      "dev",
+      "case study"
+    ],
+    "gallery": [
+      "wisp-01-demo-video.mp4",
+      "wisp-01-mockup2.jpg",
+      "wisp-02-mockup1.jpg"
+    ],
+    "description": "To satisfy our goal of creating a brand that could adapt across many use cases, we took the base form of their new logo and used it as an artboard. As long as the structural outline of the mark stayed consistent <a href=\"https://www.google.com\"><strong>their</strong></a> brand was allowed to flex and adapt to specific uses. And by introducing these illustrative elements to the logomark, Strictly found it's voice.",
+    "client": "Client",
+    "year": "2022",
+    "thumbnail": "thumbnail-11-wisp-mockup1.jpg",
+    "template": "portfolio-gallery-full"
+  },
+  {
+    "title": "WISP Platform",
+    "slug": "/portfolio/wisp-mockup2",
+    "subtitle": "Adaptable but Identifiable Product for Kandinsky.",
+    "categories": [
+      "ux-ui",
+      "dev"
+    ],
+    "gallery": [
+      "wisp-01-demo-video.mp4",
+      "wisp-01-mockup2.jpg",
+      "wisp-02-mockup1.jpg"
+    ],
+    "description": "To satisfy our goal of creating a brand that could adapt across many use cases, we took the base form of their new logo and used it as an artboard. As long as the structural outline of the mark stayed consistent <a href=\"https://www.google.com\"><strong>their</strong></a> brand was allowed to flex and adapt to specific uses. And by introducing these illustrative elements to the logomark, Strictly found it's voice.",
+    "client": "Client",
+    "year": "2022",
+    "thumbnail": "thumbnail-12-wisp-mockup2.jpg",
+    "template": "portfolio-gallery-full"
+  },
+  {
+    "title": "Weather Dresser App",
+    "slug": "/portfolio/weather-dress-cover",
+    "subtitle": "Adaptable but Identifiable Product for Kandinsky.",
+    "categories": [
+      "ux-ui",
+      "dev",
+      "case study"
+    ],
+    "gallery": [
+      "weatherdresser-01-cover.png",
+      "weatherdresser-02-screens-1.png",
+      "weatherdresser-03-screens-2.png",
+      "weatherdresser-04-demo.gif"
+    ],
+    "description": "To satisfy our goal of creating a brand that could adapt across many use cases, we took the base form of their new logo and used it as an artboard. As long as the structural outline of the mark stayed consistent <a href=\"https://www.google.com\"><strong>their</strong></a> brand was allowed to flex and adapt to specific uses. And by introducing these illustrative elements to the logomark, Strictly found it's voice.",
+    "client": "Client",
+    "year": "2022",
+    "thumbnail": "thumbnail-13-weather-dress-cover.png",
+    "template": "portfolio-gallery-full"
+  },
+  {
+    "title": "WhatToDo App",
+    "slug": "/portfolio/whattodo-screen1",
+    "subtitle": "Adaptable but Identifiable Product for Kandinsky.",
+    "categories": [
+      "ux-ui",
+      "dev"
+    ],
+    "gallery": [
+      "whattodo-01-demo.mov",
+      "whattodo-02-screen1-closeup.jpg",
+      "whattodo-03-demo.gif"
+    ],
+    "description": "To satisfy our goal of creating a brand that could adapt across many use cases, we took the base form of their new logo and used it as an artboard. As long as the structural outline of the mark stayed consistent <a href=\"https://www.google.com\"><strong>their</strong></a> brand was allowed to flex and adapt to specific uses. And by introducing these illustrative elements to the logomark, Strictly found it's voice.",
+    "client": "Client",
+    "year": "2022",
+    "thumbnail": "thumbnail-14-whattodo-screen1.pn",
+    "template": "portfolio-gallery-full"
+  },
+  {
+    "title": "Moodboard App",
+    "slug": "/portfolio/moodboard-mockup",
+    "subtitle": "Adaptable but Identifiable Product for Kandinsky.",
+    "categories": [
+      "ux-ui",
+      "dev",
+      "case study"
+    ],
+    "gallery": [
+      "moodboard-01-showcase-cover.png",
+      "moodboard-01-showcase-video.mp4",
+      "moodboard-02-mockup.png",
+      "moodboard-03-mockup-screens.png",
+      "moodboard-04-objectivec.png"
+    ],
+    "description": "To satisfy our goal of creating a brand that could adapt across many use cases, we took the base form of their new logo and used it as an artboard. As long as the structural outline of the mark stayed consistent <a href=\"https://www.google.com\"><strong>their</strong></a> brand was allowed to flex and adapt to specific uses. And by introducing these illustrative elements to the logomark, Strictly found it's voice.",
+    "client": "Client",
+    "year": "2022",
+    "thumbnail": "thumbnail-15-moodboard-mockup-1.png",
+    "template": "portfolio-gallery-full"
+  },
+  {
+    "title": "Moodboard App",
+    "slug": "/portfolio/moodboard-mockup-2",
+    "subtitle": "Adaptable but Identifiable Product for Kandinsky.",
+    "categories": [
+      "ux-ui",
+      "dev"
+    ],
+    "gallery": [
+      "moodboard-01-showcase-cover.png",
+      "moodboard-01-showcase-video.mp4",
+      "moodboard-02-mockup.png",
+      "moodboard-03-mockup-screens.png",
+      "moodboard-04-objectivec.png"
+    ],
+    "description": "To satisfy our goal of creating a brand that could adapt across many use cases, we took the base form of their new logo and used it as an artboard. As long as the structural outline of the mark stayed consistent <a href=\"https://www.google.com\"><strong>their</strong></a> brand was allowed to flex and adapt to specific uses. And by introducing these illustrative elements to the logomark, Strictly found it's voice.",
+    "client": "Client",
+    "year": "2022",
+    "thumbnail": "thumbnail-16-moodboard-mockup-2.png",
+    "template": "portfolio-gallery-full"
+  },
+  {
+    "title": "Kalma Branding",
+    "slug": "/portfolio/alma-soap",
+    "subtitle": "Adaptable but Identifiable Product for Kandinsky.",
+    "categories": [
+      "graphics"
+    ],
+    "gallery": [],
+    "description": "To satisfy our goal of creating a brand that could adapt across many use cases, we took the base form of their new logo and used it as an artboard. As long as the structural outline of the mark stayed consistent <a href=\"https://www.google.com\"><strong>their</strong></a> brand was allowed to flex and adapt to specific uses. And by introducing these illustrative elements to the logomark, Strictly found it's voice.",
+    "client": "Client",
+    "year": "2022",
+    "thumbnail": "thumbnail-17-kalma-soap.png",
+    "template": "portfolio-gallery-full"
+  },
+  {
+    "title": "Kalma Branding",
+    "slug": "/portfolio/kalma-mood",
+    "subtitle": "Adaptable but Identifiable Product for Kandinsky.",
+    "categories": [
+      "graphics"
+    ],
+    "gallery": [],
+    "description": "To satisfy our goal of creating a brand that could adapt across many use cases, we took the base form of their new logo and used it as an artboard. As long as the structural outline of the mark stayed consistent <a href=\"https://www.google.com\"><strong>their</strong></a> brand was allowed to flex and adapt to specific uses. And by introducing these illustrative elements to the logomark, Strictly found it's voice.",
+    "client": "Client",
+    "year": "2022",
+    "thumbnail": "thumbnail-18-kalma-mood.png",
+    "template": "portfolio-gallery-full"
+  },
+  {
+    "title": "Migrant Workers Centre Event KV",
+    "slug": "/portfolio/MWC-mockup-01",
+    "subtitle": "Adaptable but Identifiable Product for Kandinsky.",
+    "categories": [
+      "graphics"
+    ],
+    "gallery": [],
+    "description": "To satisfy our goal of creating a brand that could adapt across many use cases, we took the base form of their new logo and used it as an artboard. As long as the structural outline of the mark stayed consistent <a href=\"https://www.google.com\"><strong>their</strong></a> brand was allowed to flex and adapt to specific uses. And by introducing these illustrative elements to the logomark, Strictly found it's voice.",
+    "client": "Client",
+    "year": "2022",
+    "thumbnail": "thumbnail-19-MWC-mockup-01.png",
+    "template": "portfolio-gallery-full"
+  },
+  {
+    "title": "WitCare Branding",
+    "slug": "/portfolio/WitCare",
+    "subtitle": "Adaptable but Identifiable Product for Kandinsky.",
+    "categories": [
+      "graphics"
+    ],
+    "gallery": [],
+    "description": "To satisfy our goal of creating a brand that could adapt across many use cases, we took the base form of their new logo and used it as an artboard. As long as the structural outline of the mark stayed consistent <a href=\"https://www.google.com\"><strong>their</strong></a> brand was allowed to flex and adapt to specific uses. And by introducing these illustrative elements to the logomark, Strictly found it's voice.",
+    "client": "Client",
+    "year": "2022",
+    "thumbnail": "thumbnail-20-WitCare.png",
+    "template": "portfolio-gallery-full"
+  },
+  {
+    "title": "Nature Oats Packaging",
+    "slug": "/portfolio/oatmeal-mockup",
+    "subtitle": "Adaptable but Identifiable Product for Kandinsky.",
+    "categories": [
+      "graphics"
+    ],
+    "gallery": [],
+    "description": "To satisfy our goal of creating a brand that could adapt across many use cases, we took the base form of their new logo and used it as an artboard. As long as the structural outline of the mark stayed consistent <a href=\"https://www.google.com\"><strong>their</strong></a> brand was allowed to flex and adapt to specific uses. And by introducing these illustrative elements to the logomark, Strictly found it's voice.",
+    "client": "Client",
+    "year": "2022",
+    "thumbnail": "thumbnail-21-oatmeal-mockup.png",
+    "template": "portfolio-gallery-full"
+  },
+  {
+    "title": "Coffee House Branding",
+    "slug": "/portfolio/coffee-wallmenu",
+    "subtitle": "Adaptable but Identifiable Product for Kandinsky.",
+    "categories": [
+      "graphics"
+    ],
+    "gallery": [],
+    "description": "To satisfy our goal of creating a brand that could adapt across many use cases, we took the base form of their new logo and used it as an artboard. As long as the structural outline of the mark stayed consistent <a href=\"https://www.google.com\"><strong>their</strong></a> brand was allowed to flex and adapt to specific uses. And by introducing these illustrative elements to the logomark, Strictly found it's voice.",
+    "client": "Client",
+    "year": "2022",
+    "thumbnail": "thumbnail-22-coffee-wallmenu.png",
+    "template": "portfolio-gallery-full"
+  },
+  {
+    "title": "Board Game Design",
+    "slug": "/portfolio/jungle-mockup-3d",
+    "subtitle": "Adaptable but Identifiable Product for Kandinsky.",
+    "categories": [
+      "graphics"
+    ],
+    "gallery": [],
+    "description": "To satisfy our goal of creating a brand that could adapt across many use cases, we took the base form of their new logo and used it as an artboard. As long as the structural outline of the mark stayed consistent <a href=\"https://www.google.com\"><strong>their</strong></a> brand was allowed to flex and adapt to specific uses. And by introducing these illustrative elements to the logomark, Strictly found it's voice.",
+    "client": "Client",
+    "year": "2022",
+    "thumbnail": "thumbnail-23-jungle-mockup-3d.png",
+    "template": "portfolio-gallery-full"
+  },
+  {
+    "title": "Illustration",
+    "slug": "/portfolio/omg-illustration",
+    "subtitle": "Adaptable but Identifiable Product for Kandinsky.",
+    "categories": [
+      "graphics"
+    ],
+    "gallery": [],
+    "description": "To satisfy our goal of creating a brand that could adapt across many use cases, we took the base form of their new logo and used it as an artboard. As long as the structural outline of the mark stayed consistent <a href=\"https://www.google.com\"><strong>their</strong></a> brand was allowed to flex and adapt to specific uses. And by introducing these illustrative elements to the logomark, Strictly found it's voice.",
+    "client": "Client",
+    "year": "2022",
+    "thumbnail": "thumbnail-24-omg-illustration.png",
+    "template": "portfolio-gallery-full"
+  },
+  {
+    "title": "Cubic Packaging Design",
+    "slug": "/portfolio/cubic-cube-3d",
+    "subtitle": "Adaptable but Identifiable Product for Kandinsky.",
+    "categories": [
+      "graphics"
+    ],
+    "gallery": [],
+    "description": "To satisfy our goal of creating a brand that could adapt across many use cases, we took the base form of their new logo and used it as an artboard. As long as the structural outline of the mark stayed consistent <a href=\"https://www.google.com\"><strong>their</strong></a> brand was allowed to flex and adapt to specific uses. And by introducing these illustrative elements to the logomark, Strictly found it's voice.",
+    "client": "Client",
+    "year": "2022",
+    "thumbnail": "thumbnail-25-cubic-cube-3d.png",
+    "template": "portfolio-gallery-full"
+  },
+  {
+    "title": "Branding Redesign",
+    "slug": "/portfolio/kegking-wheat",
+    "subtitle": "Adaptable but Identifiable Product for Kandinsky.",
+    "categories": [
+      "graphics"
+    ],
+    "gallery": [],
+    "description": "To satisfy our goal of creating a brand that could adapt across many use cases, we took the base form of their new logo and used it as an artboard. As long as the structural outline of the mark stayed consistent <a href=\"https://www.google.com\"><strong>their</strong></a> brand was allowed to flex and adapt to specific uses. And by introducing these illustrative elements to the logomark, Strictly found it's voice.",
+    "client": "Client",
+    "year": "2022",
+    "thumbnail": "thumbnail-26-kegking-wheat.png",
+    "template": "portfolio-gallery-full"
+  },
+  {
+    "title": "Branding Redesign",
+    "slug": "/portfolio/kegking-biz-card",
+    "subtitle": "Adaptable but Identifiable Product for Kandinsky.",
+    "categories": [
+      "graphics"
+    ],
+    "gallery": [],
+    "description": "To satisfy our goal of creating a brand that could adapt across many use cases, we took the base form of their new logo and used it as an artboard. As long as the structural outline of the mark stayed consistent <a href=\"https://www.google.com\"><strong>their</strong></a> brand was allowed to flex and adapt to specific uses. And by introducing these illustrative elements to the logomark, Strictly found it's voice.",
+    "client": "Client",
+    "year": "2022",
+    "thumbnail": "thumbnail-27-kegking-biz-card.png",
+    "template": "portfolio-gallery-full"
+  },
+  {
+    "title": "Marketing",
+    "slug": "/marketing",
+    "subtitle": "",
+    "categories": [
+      "marketing"
+    ],
+    "gallery": [
+      "1509_00003_cbd_arm_hd_tko_menu_hotplate_v5-05.jpg",
+      "ARM-201512-Strawberry-06PhotoBooth-LabTVWallR1_LCD1080x1920 copy.jpg",
+      "ARM-201512-Strawberry-19WebBanner-R2_742x258.jpg",
+      "Arome-Pillars-LP-ADM-Jan-16-001.jpg",
+      "Arome-Pillars-LP-ADM-Jan-16-008.jpg",
+      "Arome-Pillars-LP-ADM-Jan-16-014.jpg",
+      "Arome-Pillars-LP-ADM-Jan-16-015.jpg",
+      "IMG_4566.JPG.jpg",
+      "IMG_5701 - Copy.JPG.jpg",
+      "IMG_6163.JPG.jpg",
+      "IMG_6164.JPG.jpg",
+      "IMG_8373.PNG.png",
+      "IMG_8918.JPG.jpg",
+      "IMG-20150808-WA0021.jpg",
+      "Layout screenshot.png",
+      "MVMH screenshot_ipod.png",
+      "store-countertop-mockp.png"
+    ],
+    "description": "asdasd",
+    "client": "asdasd",
+    "year": "",
+    "thumbnail": "",
+    "template": "portfolio-gallery-masonry"
+  }
 ]

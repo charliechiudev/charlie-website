@@ -1,14 +1,13 @@
 import React from "react";
 import { Element } from "react-scroll";
 import styled from "styled-components";
-
 import { Container, Row, Col } from "react-bootstrap";
-
 import { Title, Section, Box } from "../components/Core";
 
 import PageWrapper from "../components/PageWrapper";
-import Works from "../sections/landing3/Works";
-import Contact from "../sections/landing3/Contact";
+
+import Works from "../sections/charlie-work-category/Works";
+import Contact from "../sections/charlie-home/Contact";
 
 const SectionStyled = styled(Section)`
   &::before {
@@ -25,28 +24,40 @@ const IndexPage = () => {
   return (
     <>
       <PageWrapper>
-        <SectionStyled className="position-relative">
+        <SectionStyled hero className="position-relative pb-0">
           <Container fluid>
             <Row className="align-items-lg-end">
-              <Col xl="8" lg="8" sm="12" className="">
-                <Box className="">
+              <Col sm="11" className="">
+                <Box className="d-flex flex-column">
+                  <Title
+                    css={`
+                    font-size: 3rem;
+                    line-height: 1;
+                    font-weight: normal;
+                  `}
+                  >
+                    This website is UX-UI.
+                  </Title>
+                </Box>
+
+                {/* <Box className="pt-4">
                   <Title
                     css={`
                     font-size: 1.4rem;
                     line-height: 1.3;
                     font-weight: normal;
-                    padding: 6rem 15px 1.6rem;
                     `}
                   >
                     UX/UI Page. Melbourne-based full-stack designer with Marketing and IT background, skilled in UX/UI design with 9+ years of experience in the Business and Public sectors. Enjoys problem solving with creative and analytical thinking, believes functionality and aesthetics can always be friends.
                   </Title>
-                </Box>
+                </Box> */}
               </Col>
             </Row>
           </Container>
-        </SectionStyled>
+        </SectionStyled> 
+
         <Element name="works">
-          <Works />
+          <Works category="ux-ui" />
         </Element>
 
         <Contact />

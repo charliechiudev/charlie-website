@@ -39,7 +39,17 @@ const ButtonStyled = styled.button`
   &:focus,
   &:active {
     ${color};
-    ${background};
+    ${background}; 
+  }
+
+  path {
+    stroke: #000;
+  }
+
+  &:hover path,
+  &:focus path,
+  &:active path {
+    stroke: #efefef !important;
   }
 `;
 
@@ -55,7 +65,6 @@ const Button = ({
       {children}
       {arrowRight && (
         <svg
-          id="SVGDoc"
           width="18"
           height="12"
           xmlns="http://www.w3.org/2000/svg"
@@ -65,41 +74,24 @@ const Button = ({
             margin-left: 1.5rem;
           `}
         >
-          <defs></defs>
-          <desc>Generated with Avocode.</desc>
-          <g>
-            <g>
-              <title>tail-right</title>
-              <g>
-                <title>Path</title>
-                <path
-                  d="M1,5.5h16"
-                  fillOpacity="0"
-                  fill="#efefef"
-                  strokeLinejoin="round"
-                  strokeLinecap="round"
-                  strokeOpacity="1"
-                  stroke="#efefef"
-                  strokeMiterlimit="20"
-                  strokeWidth="2"
-                ></path>
-              </g>
-              <g>
-                <title>Path</title>
-                <path
-                  d="M12,1v0l5,5v0l-5,5v0"
-                  fillOpacity="0"
-                  fill="#efefef"
-                  strokeLinejoin="round"
-                  strokeLinecap="round"
-                  strokeOpacity="1"
-                  stroke="#efefef"
-                  strokeMiterlimit="20"
-                  strokeWidth="2"
-                ></path>
-              </g>
-            </g>
-          </g>
+          <path
+            d="M1,5.5h16"
+            fillOpacity="0"
+            strokeLinejoin="round"
+            strokeLinecap="round"
+            strokeOpacity="1"
+            strokeMiterlimit="20"
+            strokeWidth="2"
+          ></path>
+          <path
+            d="M12,1v0l5,5v0l-5,5v0"
+            fillOpacity="0"
+            strokeLinejoin="round"
+            strokeLinecap="round"
+            strokeOpacity="1"
+            strokeMiterlimit="20"
+            strokeWidth="2"
+          ></path>
         </svg>
       )}
     </ButtonStyled>

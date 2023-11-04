@@ -1,26 +1,24 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import { Container, Col } from "react-bootstrap";
 import Masonry from "react-masonry-component";
 
 import { Section, Box, ListNav } from "../../components/Core";
 import WorkCardGql from "../../components/WorkCardGql";
 
-const PortfolioItems = require('../../data/PortfolioItems.json')
+const PortfolioItems = require('../../data/PortfolioItems.json');
 
 const Works = () => {
-  const [items, setItems] = useState([]);
-  const [activeLink, setActiveLink] = useState("*");
+  const initialItems = PortfolioItems.filter(i => !i.categories.includes("marketing"));
 
-  useEffect(() => {
-    setItems(PortfolioItems);
-  }, []);
+  const [items, setItems] = useState(initialItems);
+  const [activeLink, setActiveLink] = useState("*");
 
   const filterBy = (cat) => {
     if (cat === "*") {
       setActiveLink("*");
-      setItems(PortfolioItems);
+      setItems(initialItems);
     } else {
-      const filteredItems = PortfolioItems.filter((item) => {
+      const filteredItems = initialItems.filter((item) => {
         return item.categories.indexOf(cat) !== -1;
       });
       setActiveLink(cat);
@@ -55,33 +53,33 @@ const Works = () => {
               <li className="nav-item">
                 <a
                   className={`nav-link font-weight-bold text-uppercase ${
-                    activeLink === "ui-design" ? "active" : null
+                    activeLink === "case-study" ? "active" : null
+                  }`}
+                  onClick={(e) => {
+                    e.preventDefault();
+                    filterBy("case study");
+                  }}
+                >
+                  Case studies
+                </a>
+              </li>
+              <li className="nav-item">
+                <a
+                  className={`nav-link font-weight-bold text-uppercase ${
+                    activeLink === "uxui" ? "active" : null
                   }`}
                   onClick={(e) => {
                     e.preventDefault();
                     filterBy("ux-ui");
                   }}
                 >
-                  UX/UI Design
+                  UX/UI
                 </a>
               </li>
               <li className="nav-item">
                 <a
                   className={`nav-link font-weight-bold text-uppercase ${
-                    activeLink === "app" ? "active" : null
-                  }`}
-                  onClick={(e) => {
-                    e.preventDefault();
-                    filterBy("dev");
-                  }}
-                >
-                  Developement
-                </a>
-              </li>
-              <li className="nav-item">
-                <a
-                  className={`nav-link font-weight-bold text-uppercase ${
-                    activeLink === "web" ? "active" : null
+                    activeLink === "graphics" ? "active" : null
                   }`}
                   onClick={(e) => {
                     e.preventDefault();
@@ -101,7 +99,7 @@ const Works = () => {
             className={"masonry-grid row"} // default ''
           >
             {items.map((item, index) => (
-              <Col lg="4" md="6" sm="6" key={index} className="filtr-item">
+              <Col lg="4" md="6" sm="6" key={`work-grid-${index}`} className="filtr-item">
                 <WorkCardGql workItem={item} mb="30px" />
               </Col>
             ))}

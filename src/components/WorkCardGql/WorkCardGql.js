@@ -43,11 +43,11 @@ const TextBox = styled(Box)`
 `;
 
 const WorkCardGql = ({ workItem, ...rest }) => {
-  const data = useStaticQuery(graphql`
+  const images = useStaticQuery(graphql`
     query {
-      allFile(filter: {
-        sourceInstanceName: {eq: "dataImages"}}) 
-      {
+      allFile(
+        filter: {extension: {regex: "/(jpg)|(jpeg)|(png)/"}, sourceInstanceName: {eq: "dataImages"}}
+      ) {
         edges {
           node {
             childImageSharp {
@@ -61,7 +61,7 @@ const WorkCardGql = ({ workItem, ...rest }) => {
       }
     }`);
 
-  const matchedImage = data.allFile.edges.find((edge) => edge.node.childImageSharp.fluid.originalName === workItem.thumbnail);
+  const matchedImage = images.allFile.edges.find((edge) => edge.node?.childImageSharp?.fluid.originalName === workItem.thumbnail);
   
   return (
   <WorkBox className="position-relative" {...rest}>
@@ -71,7 +71,7 @@ const WorkCardGql = ({ workItem, ...rest }) => {
 
     <TextBox>
       <Text variant="tag" mb={2}>
-        {workItem.categories.join(", ")}
+        {workItem.categories.filter(cat => cat !== "case study").join(", ")}
       </Text>
       <Title variant="card">
         <Link to={workItem.slug}>{workItem.title} </Link>

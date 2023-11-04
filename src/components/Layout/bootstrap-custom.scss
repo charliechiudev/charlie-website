@@ -46,3 +46,11 @@ $headings-font-weight: 700;
 .modal-backdrop {
   z-index: 99999 !important;
 }
+
+.slick-dots.portfolio-gallery-slide-slick-dots {
+  bottom: 15px;
+}
+
+.slick-dots.portfolio-gallery-slide-slick-dots li button:before {
+  font-size: 10px;
+}
