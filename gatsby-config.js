@@ -8,6 +8,8 @@ module.exports = {
       options: {
         path: `${__dirname}/src/data/images`,
         name: "dataImages",
+        fastHash: true,
+        ignore: [/\.(?!(jpe?g|png|webp|webm|mp4|gif|mov))/]
       },
     },
     {
@@ -43,6 +45,7 @@ module.exports = {
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-sass`,
     `gatsby-plugin-styled-components`,
+    `gatsby-plugin-image`,
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,
     `gatsby-transformer-remark`,

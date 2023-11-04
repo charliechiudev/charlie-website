@@ -1,6 +1,6 @@
 import React from "react";
-import { useStaticQuery, graphql, Link } from "gatsby";
-import GatsbyImage from 'gatsby-image';
+import { Link } from "gatsby";
+import { GatsbyImage } from "gatsby-plugin-image";
 import styled from "styled-components";
 import { Box, Title, Text } from "../Core";
 
@@ -42,31 +42,11 @@ const TextBox = styled(Box)`
   }
 `;
 
-const WorkCardGql = ({ workItem, ...rest }) => {
-  const images = useStaticQuery(graphql`
-    query {
-      allFile(
-        filter: {extension: {regex: "/(jpg)|(jpeg)|(png)/"}, sourceInstanceName: {eq: "dataImages"}}
-      ) {
-        edges {
-          node {
-            childImageSharp {
-              fluid(maxWidth: 500, quality: 90) {
-                originalName
-                ...GatsbyImageSharpFluid
-              }
-            }
-          }
-        }
-      }
-    }`);
-
-  const matchedImage = images.allFile.edges.find((edge) => edge.node?.childImageSharp?.fluid.originalName === workItem.thumbnail);
-  
+const WorkCardGql = ({ image, workItem, ...rest }) => {
   return (
   <WorkBox className="position-relative" {...rest}>
     <Link to={workItem.slug} className="d-block">
-      {matchedImage && <GatsbyImage fluid={matchedImage.node.childImageSharp.fluid} className="w-100" />}
+      {image && <GatsbyImage image={image.node.childImageSharp.gatsbyImageData} className="w-100" />}
     </Link>
 
     <TextBox>

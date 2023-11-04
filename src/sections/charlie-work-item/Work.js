@@ -1,6 +1,6 @@
 import React from "react";
 import { useStaticQuery, graphql } from "gatsby";
-import GatsbyImage from 'gatsby-image';
+import { GatsbyImage } from "gatsby-plugin-image";
 import { Container, Row, Col } from "react-bootstrap";
 import Masonry from "react-masonry-component";
 import Slider from "react-slick";
@@ -27,57 +27,43 @@ const Work = ({ style, location }) => {
     slidesToScroll: 1
   };
 
-  const portfolioItem = PortfolioItems.find(i => i.slug == location.pathname.substr(0, location.pathname.length - 1));
+  const portfolioItem = PortfolioItems.find(i => i.slug === location.pathname.substr(0, location.pathname.length - 1));
 
   const data = useStaticQuery(graphql`
   query {
-    images: allFile(
-      filter: {extension: {regex: "/(jpg)|(jpeg)|(png)|(gif)/"}, sourceInstanceName: {eq: "dataImages"}}
-    ) {
+    allFile(filter: {sourceInstanceName: {eq: "dataImages"}}) {
       edges {
         node {
-          childImageSharp {
-            fluid(maxWidth: 1280, quality: 90) {
-              originalName
-              ...GatsbyImageSharpFluid
-            }
-          }
-        }
-      }
-    }
-    videos: allFile(
-      filter: {extension: {regex: "/(mov)|(mp4)|(avi)/"}, sourceInstanceName: {eq: "dataImages"}}
-    ) {
-      edges {
-        node {
+          ext
+          name
           publicURL
+          childImageSharp {
+            gatsbyImageData(layout: FULL_WIDTH)
+          }
         }
       }
     }
   }`);
 
-  const mainImage = data.images.edges.find((edge) => edge.node?.childImageSharp?.fluid.originalName === portfolioItem.gallery[0]);
-  const mainVideo = data.videos.edges.find((edge) => edge.node?.publicURL.endsWith(portfolioItem.gallery[0]));
+  const mainImage = data.allFile.edges.find((edge) => edge.node.publicURL.endsWith(portfolioItem.gallery[0]));
 
   const gallery = [];
   for (const name of portfolioItem.gallery) {
+    if(name === portfolioItem.gallery[0]) continue;
+
     if (Array.isArray(name)) {
       const slide = [];
       for (const n of name) {
-        const slideImage = data.images.edges.find((edge) => edge.node?.childImageSharp?.fluid.originalName === n);
+        const slideImage = data.allFile.edges.find((edge) => edge.node.publicURL.endsWith(n));
         if (slideImage) slide.push(slideImage);
       }
       gallery.push(slide);
       continue;
     }
-    const image = data.images.edges.find((edge) => edge.node?.childImageSharp?.fluid.originalName === name && edge.node?.childImageSharp?.fluid.originalName !== mainImage?.node?.childImageSharp?.fluid.originalName);
+    
+    const image = data.allFile.edges.find((edge) => edge.node.publicURL.endsWith(name));
     if (image) {
       gallery.push(image);
-      continue;
-    }
-    const video = data.videos.edges.find((edge) => edge.node?.publicURL.endsWith(name) && edge.node?.publicURL !== mainVideo?.node?.publicURL);
-    if (video) {
-      gallery.push(video);
       continue;
     }
   }
@@ -86,8 +72,13 @@ const Work = ({ style, location }) => {
     <>
       <PageWrapper>
         <Container fluid className="mt-5 pt-5 px-5">
-          {mainImage && <GatsbyImage fluid={mainImage.node.childImageSharp.fluid} className="w-100" />}
-          {mainVideo && <video muted autoPlay loop className="w-100"><source src={mainVideo.node.publicURL} type="video/mp4" /></video>}
+          {mainImage && (
+            mainImage.node.childImageSharp ? 
+            <GatsbyImage image={mainImage.node.childImageSharp.gatsbyImageData} className="w-100" /> : 
+            mainImage.node.ext.endsWith("gif") ? 
+            <img src={mainImage.node.publicURL} className="w-100" /> :
+            <video muted autoPlay loop className="w-100"><source src={mainImage.node.publicURL} type="video/mp4" /></video> 
+          )}
         </Container>
         <Section className="mt-0 mb-0 pb-0">
           <Container>
@@ -135,16 +126,20 @@ const Work = ({ style, location }) => {
             {style === "gallery-full" ?
               <Row>
                 {gallery.map((item, i) => (
-                  <Col lg="12" md="12" sm="12" className="mb-4" key={`gallery-${i}`}>
+                  <Col lg={"12"} md={"12"} sm={"12"} className="mb-4" key={`gallery-${i}`}>
                     {Array.isArray(item) ?
                       <Slider {...sliderSettings}>
                         {item.map((slide, j) => (
-                          <GatsbyImage key={`gallery-${i}-slide-${j}`} fluid={slide.node.childImageSharp.fluid} className="w-100" />
+                          slide.node.ext.endsWith("gif") ? 
+                          <img key={`gallery-${i}-slide-${j}`} src={slide.node.publicURL} className="w-100" /> :
+                          <GatsbyImage key={`gallery-${i}-slide-${j}`} image={slide.node.childImageSharp.gatsbyImageData} className="w-100" />
                         ))}
                       </Slider>
-                      : item.node.childImageSharp ?
-                        <GatsbyImage fluid={item.node.childImageSharp.fluid} className="w-100" /> :
-                        <video muted autoPlay loop className="w-100"><source src={item.node.publicURL} type="video/mp4" /></video>
+                      : item.node.childImageSharp ? 
+                      <GatsbyImage key={`gallery-${i}`} image={item.node.childImageSharp.gatsbyImageData} className="w-100" /> : 
+                      item.node.ext.endsWith("gif") ? 
+                      <img key={`gallery-${i}`} src={item.node.publicURL} className="w-100" /> :
+                      <video key={`gallery-${i}`} muted autoPlay loop className="w-100"><source src={item.node.publicURL} type="video/mp4" /></video>
                     }
                   </Col>
                 ))}
@@ -155,16 +150,20 @@ const Work = ({ style, location }) => {
                 className={"masonry-grid row"}
               >
                 {gallery.map((item, i) => (
-                  <Col lg="6" md="6" sm="6" className="mb-4" key={`gallery-${i}`}>
+                  <Col lg={"6"} md={"6"} sm={"6"} className="mb-4" key={`gallery-${i}`}>
                     {Array.isArray(item) ?
                       <Slider {...sliderSettings}>
                         {item.map((slide, j) => (
-                          <GatsbyImage key={`gallery-${i}-slide-${j}`} fluid={slide.node.childImageSharp.fluid} className="w-100" />
+                          slide.node.ext.endsWith("gif") ? 
+                          <img key={`gallery-${i}-slide-${j}`} src={slide.node.publicURL} className="w-100" /> :
+                          <GatsbyImage key={`gallery-${i}-slide-${j}`} image={slide.node.childImageSharp.gatsbyImageData} className="w-100" />
                         ))}
                       </Slider>
-                      : item.node.childImageSharp ?
-                        <GatsbyImage fluid={item.node.childImageSharp.fluid} className="w-100" /> :
-                        <video muted autoPlay loop className="w-100"><source src={item.node.publicURL} type="video/mp4" /></video>
+                      : item.node.childImageSharp ? 
+                      <GatsbyImage key={`gallery-${i}`} image={item.node.childImageSharp.gatsbyImageData} className="w-100" /> : 
+                      item.node.ext.endsWith("gif") ? 
+                      <img key={`gallery-${i}`} src={item.node.publicURL} className="w-100" /> :
+                      <video key={`gallery-${i}`} muted autoPlay loop className="w-100"><source src={item.node.publicURL} type="video/mp4" /></video>
                     }
                   </Col>
                 ))}
