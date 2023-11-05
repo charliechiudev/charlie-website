@@ -1,4 +1,5 @@
 import React, { useContext, useState, useEffect } from "react";
+import { Link } from "gatsby";
 import styled from "styled-components";
 import { Container, Row, Col } from "react-bootstrap";
 import Typist from 'react-typist';
@@ -90,14 +91,11 @@ const Hero = () => {
               <Box pl="" className="" css={`
                   margin: 0 0 -100px 10px;
                 `}>
-                <ButtonIcon
-                  onClick={(e) => {
-                    e.preventDefault();
-                    gContext.toggleContact();
-                  }}
-                >
-                  About Charlie
-                </ButtonIcon>
+                <Link to="/about">
+                  <ButtonIcon>
+                    About Charlie
+                  </ButtonIcon>
+                </Link>
               </Box>
             </Col>
             <Col xl="3" lg="3" sm="12">
