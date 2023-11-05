@@ -19,7 +19,7 @@ const Zero2 = () => {
   return (
     <>
       {/* <!-- Hero Area --> */}
-      <SectionStyled className="position-relative pt-4 border-bottom">
+      <SectionStyled className="position-relative pt-4 border-bottom mx-4">
         <Container>
           <Row className="">
             <Col xl="12" lg="12" sm="12" className="pl-5 pt-5 pb-5">
@@ -29,7 +29,7 @@ const Zero2 = () => {
                   font-size: 4rem;
                   line-height: 1;
                   letter-spacing: -3px;
-                  font-weight: bold;
+                  font-weight: 500;
                   padding: 0 0 0 0;
                 `}
                 >

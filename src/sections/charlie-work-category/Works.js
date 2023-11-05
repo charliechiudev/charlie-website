@@ -27,7 +27,7 @@ const Works = ({ category }) => {
             name
             publicURL
             childImageSharp {
-              gatsbyImageData(width: 640)
+              gatsbyImageData(width: 640, quality: 95)
             }
           }
         }

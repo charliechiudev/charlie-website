@@ -19,7 +19,7 @@ const SectionStyled = styled(Section)`
 const Zero1 = () => {
   return (
     <>
-      <SectionStyled className="position-relative mt-5 pt-0 pb-0 border-bottom border-top">
+      <SectionStyled className="position-relative mt-5 pt-0 pb-0 border-bottom border-top mx-4">
         <Container className="">
           <Row className="">
             <Col xl="4" lg="4" sm="4" className="pl-5">

@@ -43,6 +43,7 @@ const Hero = () => {
                 variant="hero"
                 css={`
                 margin-top: 1rem;
+                text-indent: -3rem;
               `}>
                 {typing ? <>
                   <Typist cursor={typeCursor} onTypingDone={() => setTyping(false)}>

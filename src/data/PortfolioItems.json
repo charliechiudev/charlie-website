@@ -1,8 +1,8 @@
 [
   {
-    "title": "Verde Branding",
-    "slug": "/portfolio/verde-mockup-bizcard",
-    "subtitle": "What is this?",
+    "title": "Verde Branding & UI Design",
+    "slug": "/portfolio/verde",
+    "subtitle": "",
     "categories": [
       "graphics"
     ],
@@ -16,30 +16,30 @@
       "verde-07-hifi-wireframe-1.png",
       "verde-08-hifi-wireframe-2.png"
     ],
-    "description": "To satisfy our goal of creating a brand that could adapt across many use cases, we took the base form of their new logo and used it as an artboard. As long as the structural outline of the mark stayed consistent <a href=\"https://www.google.com\"><strong>their</strong></a> brand was allowed to flex and adapt to specific uses. And by introducing these illustrative elements to the logomark, Strictly found it's voice.",
-    "client": "Client",
-    "year": "2022",
+    "description": "",
+    "client": "",
+    "year": "",
     "thumbnail": "thumbnail-01-verde-mockup-bizcard.png",
-    "template": "portfolio-gallery-full"
+    "template": "masonry"
   },
   {
-    "title": "Habitat Branding",
-    "slug": "/portfolio/habitat-mockup-door",
-    "subtitle": "Adaptable but Identifiable Product for Kandinsky.",
+    "title": "Habitat Branding & Wayfinding",
+    "slug": "/portfolio/habitat",
+    "subtitle": "",
     "categories": [
       "graphics"
     ],
-    "gallery": [],
-    "description": "To satisfy our goal of creating a brand that could adapt across many use cases, we took the base form of their new logo and used it as an artboard. As long as the structural outline of the mark stayed consistent <a href=\"https://www.google.com\"><strong>their</strong></a> brand was allowed to flex and adapt to specific uses. And by introducing these illustrative elements to the logomark, Strictly found it's voice.",
-    "client": "Client",
-    "year": "2022",
+    "gallery": ["habitat-02-mockup-door.png", "habitat-03-mockup-exterior.png", "habitat-01-mockup-lobby.png",["proposal_Page_01.jpg", "proposal_Page_02.jpg", "proposal_Page_03.jpg", "proposal_Page_04.jpg", "proposal_Page_05.jpg", "proposal_Page_06.jpg", "proposal_Page_07.jpg", "proposal_Page_08.jpg", "proposal_Page_09.jpg", "proposal_Page_10.jpg", "proposal_Page_11.jpg", "proposal_Page_12.jpg", "proposal_Page_13.jpg", "proposal_Page_14.jpg", "proposal_Page_15.jpg", "proposal_Page_16.jpg", "proposal_Page_17.jpg", "proposal_Page_18.jpg"], "habitat-04-book1.png", "habitat-05-book2.jpg", "habitat-06-book3.jpg","habitat-07-book4.jpg"],
+    "description": "",
+    "client": "",
+    "year": "",
     "thumbnail": "thumbnail-02-habitat-mockup-door.png",
-    "template": "portfolio-gallery-full"
+    "template": "full"
   },
   {
     "title": "Parkie App",
-    "slug": "/portfolio/parkie-iphone",
-    "subtitle": "Adaptable but Identifiable Product for Kandinsky.",
+    "slug": "/portfolio/parkie",
+    "subtitle": "",
     "categories": [
       "ux-ui",
       "dev",
@@ -52,16 +52,16 @@
       "parkie-04-hifi-wireframe.png",
       "parkie-05-prototype.png"
     ],
-    "description": "To satisfy our goal of creating a brand that could adapt across many use cases, we took the base form of their new logo and used it as an artboard. As long as the structural outline of the mark stayed consistent <a href=\"https://www.google.com\"><strong>their</strong></a> brand was allowed to flex and adapt to specific uses. And by introducing these illustrative elements to the logomark, Strictly found it's voice.",
+    "description": "Parkie is a driver’s best mate. Through the GPS localization technology, Parkie recommends all car parks nearby the destination of the user with pricing, opening hours information and most importantly, a vacancy map that will show the number of spots that are available for each level and where they are exactly in a visualised map view which the available spot will be shown in green and red will be shown for the occupied ones. Users would be able to know the real-time availability and which spot they would like to park visually, rather than driving around in every floor and having no luck finding an empty spot especially during peak hours.<br><br>What is more, have you ever experienced forgetting when your parking expires and got a parking fine? Parkie helps the driver to remember where he has parked and what time is his parking time expiring with a 15 or 30 minutes alert in advance if he decides to activate such a service.<br><br>The unique selling proposition of this project is the simplicity of the idea and its realization through an already existing technology." ,
     "client": "Client",
-    "year": "2022",
+    "year": "2018",
     "thumbnail": "thumbnail-03-parkie-iphone.png",
-    "template": "portfolio-gallery-full"
+    "template": "masonry"
   },
   {
     "title": "Parkie App",
-    "slug": "/portfolio/parkie-screens",
-    "subtitle": "Adaptable but Identifiable Product for Kandinsky.",
+    "slug": "/portfolio/parkie",
+    "subtitle": "",
     "categories": [
       "ux-ui",
       "dev"
@@ -77,12 +77,12 @@
     "client": "Client",
     "year": "2022",
     "thumbnail": "thumbnail-04-parkie-screens.png",
-    "template": "portfolio-gallery-full"
+    "template": "masonry"
   },
   {
     "title": "Veganom App",
-    "slug": "/portfolio/veganom-screens",
-    "subtitle": "Adaptable but Identifiable Product for Kandinsky.",
+    "slug": "/portfolio/veganom",
+    "subtitle": "",
     "categories": [
       "ux-ui",
       "case study"
@@ -101,16 +101,16 @@
       "veganom-11-prototype-screens-1.png",
       "veganom-12-userflow.png"
     ],
-    "description": "To satisfy our goal of creating a brand that could adapt across many use cases, we took the base form of their new logo and used it as an artboard. As long as the structural outline of the mark stayed consistent <a href=\"https://www.google.com\"><strong>their</strong></a> brand was allowed to flex and adapt to specific uses. And by introducing these illustrative elements to the logomark, Strictly found it's voice.",
-    "client": "Client",
-    "year": "2022",
+    "description": "Going vegan has somehow become a trend in recent years due to numerous reasons including animal welfare, environment, health concerns or simply a lifestyle. However this plant-based diet is still a minority and people are lacking “vegan knowledge”. According to riseofthevegan.com [source 1.1], in 2017, the number of Google searches for “vegan” have never been higher, while Australia is ranked the first out of the top 10 countries. This inspires us to develop Veganom.<br><br>Veganom aims to promote this plant-based eating which is not only for vegans but anyone who would like to know more about vegan or just occasionally have a green diet. Veganom allows you to nail a vegan meal in just 5 minutes with your leftovers. Don’t feel like cooking tonight? Veganom also provides vegan-friendly restaurants suggestions around your area. With Veganom, we aim to promote green eating, reduce food waste as well as saving your time doing groceries shopping, simply makes your vegan life easier no matter you are vegan or not!",
+    "client": "Veganom",
+    "year": "2018",
     "thumbnail": "thumbnail-05-veganom-screens.png",
-    "template": "portfolio-gallery-full"
+    "template": "full"
   },
   {
     "title": "Veganom App",
-    "slug": "/portfolio/veganom-mockup-closeup",
-    "subtitle": "Adaptable but Identifiable Product for Kandinsky.",
+    "slug": "/portfolio/veganom",
+    "subtitle": "",
     "categories": [
       "ux-ui"
     ],
@@ -128,16 +128,16 @@
       "veganom-11-prototype-screens-1.png",
       "veganom-12-userflow.png"
     ],
-    "description": "To satisfy our goal of creating a brand that could adapt across many use cases, we took the base form of their new logo and used it as an artboard. As long as the structural outline of the mark stayed consistent <a href=\"https://www.google.com\"><strong>their</strong></a> brand was allowed to flex and adapt to specific uses. And by introducing these illustrative elements to the logomark, Strictly found it's voice.",
-    "client": "Client",
-    "year": "2022",
-    "thumbnail": "thumbnail-06-veganom-mockup-closeup.png",
-    "template": "portfolio-gallery-full"
+    "description": "Going vegan has somehow become a trend in recent years due to numerous reasons including animal welfare, environment, health concerns or simply a lifestyle. However this plant-based diet is still a minority and people are lacking “vegan knowledge”. According to riseofthevegan.com [source 1.1], in 2017, the number of Google searches for “vegan” have never been higher, while Australia is ranked the first out of the top 10 countries. This inspires us to develop Veganom.<br><br>Veganom aims to promote this plant-based eating which is not only for vegans but anyone who would like to know more about vegan or just occasionally have a green diet. Veganom allows you to nail a vegan meal in just 5 minutes with your leftovers. Don’t feel like cooking tonight? Veganom also provides vegan-friendly restaurants suggestions around your area. With Veganom, we aim to promote green eating, reduce food waste as well as saving your time doing groceries shopping, simply makes your vegan life easier no matter you are vegan or not!",
+    "client": "Veganom",
+    "year": "2018",
+    "thumbnail": "thumbnail-06-veganom-mockup-closeup",
+    "template": "full"
   },
   {
     "title": "Verde Ecommerce Website",
-    "slug": "/portfolio/verde-imac",
-    "subtitle": "Adaptable but Identifiable Product for Kandinsky.",
+    "slug": "/portfolio/verde",
+    "subtitle": "",
     "categories": [
       "ux-ui",
       "dev"
@@ -152,16 +152,16 @@
       "verde-07-hifi-wireframe-1.png",
       "verde-08-hifi-wireframe-2.png"
     ],
-    "description": "To satisfy our goal of creating a brand that could adapt across many use cases, we took the base form of their new logo and used it as an artboard. As long as the structural outline of the mark stayed consistent <a href=\"https://www.google.com\"><strong>their</strong></a> brand was allowed to flex and adapt to specific uses. And by introducing these illustrative elements to the logomark, Strictly found it's voice.",
-    "client": "Client",
-    "year": "2022",
+    "description": "",
+    "client": "",
+    "year": "",
     "thumbnail": "thumbnail-07-verde-imac.png",
-    "template": "portfolio-gallery-full"
+    "template": "masonry"
   },
   {
     "title": "Verde eCommerce Website 2",
-    "slug": "/portfolio/verde-screens",
-    "subtitle": "Adaptable but Identifiable Product for Kandinsky.",
+    "slug": "/portfolio/verde",
+    "subtitle": "",
     "categories": [
       "ux-ui",
       "dev"
@@ -180,16 +180,16 @@
         "verde-08-hifi-wireframe-2.png"
       ]
     ],
-    "description": "To satisfy our goal of creating a brand that could adapt across many use cases, we took the base form of their new logo and used it as an artboard. As long as the structural outline of the mark stayed consistent <a href=\"https://www.google.com\"><strong>their</strong></a> brand was allowed to flex and adapt to specific uses. And by introducing these illustrative elements to the logomark, Strictly found it's voice.",
-    "client": "Client",
-    "year": "2022",
+    "description": "",
+    "client": "",
+    "year": "",
     "thumbnail": "thumbnail-08-verde-screens.png",
-    "template": "portfolio-gallery-masonry"
+    "template": "masonry"
   },
   {
     "title": "SisterWorks eCommerce Website",
     "slug": "/portfolio/sisterworks",
-    "subtitle": "Adaptable but Identifiable Product for Kandinsky.",
+    "subtitle": "",
     "categories": [
       "ux-ui",
       "dev"
@@ -198,16 +198,16 @@
       "sisterworks-01-home.png",
       "sisterworks-02-sitemap.png"
     ],
-    "description": "To satisfy our goal of creating a brand that could adapt across many use cases, we took the base form of their new logo and used it as an artboard. As long as the structural outline of the mark stayed consistent <a href=\"https://www.google.com\"><strong>their</strong></a> brand was allowed to flex and adapt to specific uses. And by introducing these illustrative elements to the logomark, Strictly found it's voice.",
-    "client": "Ciao",
-    "year": "2022",
+    "description": "SisterWorks is a social enterprise that provides support for women in starting their own micro-businesses, selling handcrafted goods out of recycled and ethically produced materials. The products are sold via their retail stores and e-commerce website where I was engaged in a 4-months website usability optimisation project as part of their online sales growth initiatives. I conducted a usability test to examine the website’s information architecture (IA) and navigation system, followed by a total of 14 web pages redesign based on the test result.<br><br>A card sorting test is conducted as the first step of the  usability testing. A card sorting is a design thinking method to help evaluate the information architecture by getting users to organize topics/pages into categories that make sense and relatable to them in order to help us to label these groups and decide where to put them in such a commonly-understandable way.<br><br>3 users are tested in this stage. In general, most major topics are self-explanatory enough and are under the right sections as the way we have now other than the following: Workshops (the one under Shop), Corporate, Volunteering, Press,  Blog and Recipes.<br><br>The result reflects that the users are not able to locate these certain sections under our current navigation system but they also provide insights to us that they think some of the topics should be put together.",
+    "client": "SisterWorks",
+    "year": "2019",
     "thumbnail": "thumbnail-09-sisterworks-home.png",
-    "template": "portfolio-gallery-full"
+    "template": "full"
   },
   {
     "title": "AI Smart Pet Door",
-    "slug": "/portfolio/smart-pet-door-cover",
-    "subtitle": "Adaptable but Identifiable Product for Kandinsky.",
+    "slug": "/portfolio/smartpetdoor",
+    "subtitle": "",
     "categories": [
       "ux-ui",
       "dev",
@@ -243,55 +243,55 @@
         "adv2-smart-pet-door-final_Page_25.png"
       ]
     ],
-    "description": "To satisfy our goal of creating a brand that could adapt across many use cases, we took the base form of their new logo and used it as an artboard. As long as the structural outline of the mark stayed consistent <a href=\"https://www.google.com\"><strong>their</strong></a> brand was allowed to flex and adapt to specific uses. And by introducing these illustrative elements to the logomark, Strictly found it's voice.",
-    "client": "Client",
-    "year": "2022",
+    "description": "The Smart Pet Door is a smart pet flap that works with Artificial Intelligence (AI) visual recognition system. Users would only need to upload a few images of their pets during the setup for machine learning purposes then Smart Pet Door will be able to visually recognize your pets and only open the flap for the authorized pets. User can also monitor and control the door flap via its mobile app. The Smart Pet Door can keep your beloved pets free meanwhile gives you greater security control and avoiding intruders.<br><br>According to RSPCA (Kb.rspca.org.au, 2019), there are more than 24 million pets in Australia - while 38% of households owning a dog and 29% of households owning a cat. It is common for the owners to keep their pets in the yard but a lot of owners would also allow and love their pets to run in the house. No doubt pet door is the solution, however, that also leads to security concerns especially for those who own larger dogs since animal or human intruders can also enter your house easily as your pets do - inspired by the movie “Marmaduke”, a lovable yet naughty giant Great Dane named Marmaduke, always sneak out from the dog flap in the Winslow family and brought a lot of “friends” into the house.<br><br>Currently, there are “smart” pet door products in the market already but they require microchip that is embedded in the pet’s collar for authentication (Surepetcare.com, 2019). While it is also common to own more than one pet, without the need of using any external microchip, our product - The Smart Pet Door works with a visual recognition system for authentication. Owners would only have to upload a few images of the pets during the setup for machine learning. The camera embedded in the top of the door flap detects objects and the flap would be open to certain pets only that have already been identified. Owners can also monitor and control the door flap via its mobile app.<br><br>With the use of Transfer Learning in MobileNet - an efficient Convolutional Neural Networks for mobile vision applications, the machine learning process efficiency has been greatly enhanced. Therefore, only simple set up is required for you to enjoy the innovative Smart Pet Door product.",
+    "client": "Smart Pet Door",
+    "year": "2019",
     "thumbnail": "thumbnail-10-smart-pet-door-cover.png",
-    "template": "portfolio-gallery-full"
+    "template": "full"
   },
   {
     "title": "WISP Platform",
-    "slug": "/portfolio/wisp-mockup1",
-    "subtitle": "Adaptable but Identifiable Product for Kandinsky.",
+    "slug": "/portfolio/wisp",
+    "subtitle": "",
     "categories": [
       "ux-ui",
       "dev",
       "case study"
     ],
     "gallery": [
-      "wisp-01-demo-video.mp4",
-      "wisp-01-mockup2.jpg",
-      "wisp-02-mockup1.jpg"
-    ],
-    "description": "To satisfy our goal of creating a brand that could adapt across many use cases, we took the base form of their new logo and used it as an artboard. As long as the structural outline of the mark stayed consistent <a href=\"https://www.google.com\"><strong>their</strong></a> brand was allowed to flex and adapt to specific uses. And by introducing these illustrative elements to the logomark, Strictly found it's voice.",
-    "client": "Client",
-    "year": "2022",
+        "wisp-01-demo-video.mp4",
+        ["wisp-presentation-website_Page_01.png", "wisp-presentation-website_Page_02.png", "wisp-presentation-website_Page_03.png", "wisp-presentation-website_Page_04.png", "wisp-presentation-website_Page_05.png", "wisp-presentation-website_Page_06.png", "wisp-presentation-website_Page_07.png", "wisp-presentation-website_Page_08.png", "wisp-presentation-website_Page_09.png", "wisp-presentation-website_Page_10.png", "wisp-presentation-website_Page_11.png", "wisp-presentation-website_Page_12.png", "wisp-presentation-website_Page_13.png", "wisp-presentation-website_Page_14.png", "wisp-presentation-website_Page_15.png", "wisp-presentation-website_Page_16.png", "wisp-presentation-website_Page_17.png", "wisp-presentation-website_Page_18.png", "wisp-presentation-website_Page_19.png", "wisp-presentation-website_Page_20.png", "wisp-presentation-website_Page_21.png", "wisp-presentation-website_Page_22.png", "wisp-presentation-website_Page_23.png", "wisp-presentation-website_Page_24.png"],
+        "wisp-01-mockup2.jpg"
+      ],
+    "description": "WISP stands for Working-holiday & International Student Internship Platform - an internship and job matching platform designed for temporary workers and Australian businesses. Its vision is to ensure equality between organisations and temporary workers in order to assist them in integrating into the Australian society. Partnered with 3 software engineers, we developed a serverless web application. My deliverables included the branding and UI style guide, user flow, wireframes, high fidelity prototype and part of the front-end development.",
+    "client": "NOMIT",
+    "year": "2019 haha",
     "thumbnail": "thumbnail-11-wisp-mockup1.jpg",
-    "template": "portfolio-gallery-full"
+    "template": "full"
   },
   {
     "title": "WISP Platform",
-    "slug": "/portfolio/wisp-mockup2",
-    "subtitle": "Adaptable but Identifiable Product for Kandinsky.",
+    "slug": "/portfolio/wisp",
+    "subtitle": "",
     "categories": [
       "ux-ui",
       "dev"
     ],
     "gallery": [
       "wisp-01-demo-video.mp4",
-      "wisp-01-mockup2.jpg",
-      "wisp-02-mockup1.jpg"
+      ["wisp-presentation-website/wisp-presentation-website_Page_01.png", "wisp-presentation-website/wisp-presentation-website_Page_02.png", "wisp-presentation-website/wisp-presentation-website_Page_03.png", "wisp-presentation-website/wisp-presentation-website_Page_04.png", "wisp-presentation-website/wisp-presentation-website_Page_05.png", "wisp-presentation-website/wisp-presentation-website_Page_06.png", "wisp-presentation-website/wisp-presentation-website_Page_07.png", "wisp-presentation-website/wisp-presentation-website_Page_08.png", "wisp-presentation-website/wisp-presentation-website_Page_09.png", "wisp-presentation-website/wisp-presentation-website_Page_10.png", "wisp-presentation-website/wisp-presentation-website_Page_11.png", "wisp-presentation-website/wisp-presentation-website_Page_12.png", "wisp-presentation-website/wisp-presentation-website_Page_13.png", "wisp-presentation-website/wisp-presentation-website_Page_14.png", "wisp-presentation-website/wisp-presentation-website_Page_15.png", "wisp-presentation-website/wisp-presentation-website_Page_16.png", "wisp-presentation-website/wisp-presentation-website_Page_17.png", "wisp-presentation-website/wisp-presentation-website_Page_18.png", "wisp-presentation-website/wisp-presentation-website_Page_19.png", "wisp-presentation-website/wisp-presentation-website_Page_20.png", "wisp-presentation-website/wisp-presentation-website_Page_21.png", "wisp-presentation-website/wisp-presentation-website_Page_22.png", "wisp-presentation-website/wisp-presentation-website_Page_23.png", "wisp-presentation-website/wisp-presentation-website_Page_24.png"],
+      "wisp-01-mockup2.jpg"
     ],
-    "description": "To satisfy our goal of creating a brand that could adapt across many use cases, we took the base form of their new logo and used it as an artboard. As long as the structural outline of the mark stayed consistent <a href=\"https://www.google.com\"><strong>their</strong></a> brand was allowed to flex and adapt to specific uses. And by introducing these illustrative elements to the logomark, Strictly found it's voice.",
-    "client": "Client",
-    "year": "2022",
-    "thumbnail": "thumbnail-12-wisp-mockup2.jpg",
-    "template": "portfolio-gallery-full"
+    "description": "WISP stands for Working-holiday & International Student Internship Platform - an internship and job matching platform designed for temporary workers and Australian businesses. Its vision is to ensure equality between organisations and temporary workers in order to assist them in integrating into the Australian society. Partnered with 3 software engineers, we developed a serverless web application. My deliverables included the branding and UI style guide, user flow, wireframes, high fidelity prototype and part of the front-end development.",
+    "client": "NOMIT",
+    "year": "2019",
+    "thumbnail": "thumbnail-11-wisp-mockup2.jpg",
+    "template": "full"
   },
   {
     "title": "Weather Dresser App",
-    "slug": "/portfolio/weather-dress-cover",
-    "subtitle": "Adaptable but Identifiable Product for Kandinsky.",
+    "slug": "/portfolio/weatherdresser",
+    "subtitle": "",
     "categories": [
       "ux-ui",
       "dev",
@@ -303,35 +303,35 @@
       "weatherdresser-03-screens-2.png",
       "weatherdresser-04-demo.gif"
     ],
-    "description": "To satisfy our goal of creating a brand that could adapt across many use cases, we took the base form of their new logo and used it as an artboard. As long as the structural outline of the mark stayed consistent <a href=\"https://www.google.com\"><strong>their</strong></a> brand was allowed to flex and adapt to specific uses. And by introducing these illustrative elements to the logomark, Strictly found it's voice.",
+    "description": "Weather Dresser tells you what to wear everyday based on the real-time weather. Melbourne is famous for its unpredictable ‘4-seasons-in-a-day’ weather, every Melbournian can relate to how important it is to check real-time weather every morning before we go out so we can pick the right clothes. To save your time in every rush morning, you will be shown matched outfits images according to different weather conditions a real-time so to avoid wearing the wrong outfit for the day.<br><br>We all have that weather app that tells you the weather but we probably do not have one that tells you what to wear. So other than simply telling you the weather forecast, Weather Dresser also gives you inspiration about what you should wear for the day, aka “OOTD”. User will be displayed the local weather at the launch screen then to hit “the See My OOTD” to see the outfit inspiration that we mixed and matched for you based on the specific weather. Not a fan of the inspiration? User can also hit the “Show Me Another” button for more outfit ideas. Of course, user will also be able to select specific city manually and swipe to the right to see tomorrow’s weather.",
     "client": "Client",
-    "year": "2022",
+    "year": "2019",
     "thumbnail": "thumbnail-13-weather-dress-cover.png",
-    "template": "portfolio-gallery-full"
+    "template": "full"
   },
   {
     "title": "WhatToDo App",
-    "slug": "/portfolio/whattodo-screen1",
-    "subtitle": "Adaptable but Identifiable Product for Kandinsky.",
+    "slug": "/portfolio/whattodo",
+    "subtitle": "",
     "categories": [
       "ux-ui",
       "dev"
     ],
     "gallery": [
-      "whattodo-01-demo.mov",
-      "whattodo-02-screen1-closeup.jpg",
+      "whattodo-01-demo.mp4",
+      "whattodo-02-screen1.png",
       "whattodo-03-demo.gif"
     ],
-    "description": "To satisfy our goal of creating a brand that could adapt across many use cases, we took the base form of their new logo and used it as an artboard. As long as the structural outline of the mark stayed consistent <a href=\"https://www.google.com\"><strong>their</strong></a> brand was allowed to flex and adapt to specific uses. And by introducing these illustrative elements to the logomark, Strictly found it's voice.",
-    "client": "Client",
-    "year": "2022",
+    "description": "“What To Do” is a simple cross-platform mobile app that allows users to quickly jot down their to-do items and tasks on the application. Users are also able to mark tasks as completed quickly by simply tapping the check icon or remove task by tapping the bin icon. Task will have a line through to indicate completed in order to provide users a quick glance of what tasks are done and what tasks are not.",
+    "client": "What To Do",
+    "year": "2019",
     "thumbnail": "thumbnail-14-whattodo-screen1.pn",
-    "template": "portfolio-gallery-full"
+    "template": "masonry"
   },
   {
     "title": "Moodboard App",
-    "slug": "/portfolio/moodboard-mockup",
-    "subtitle": "Adaptable but Identifiable Product for Kandinsky.",
+    "slug": "/portfolio/moodboard",
+    "subtitle": "",
     "categories": [
       "ux-ui",
       "dev",
@@ -344,16 +344,16 @@
       "moodboard-03-mockup-screens.png",
       "moodboard-04-objectivec.png"
     ],
-    "description": "To satisfy our goal of creating a brand that could adapt across many use cases, we took the base form of their new logo and used it as an artboard. As long as the structural outline of the mark stayed consistent <a href=\"https://www.google.com\"><strong>their</strong></a> brand was allowed to flex and adapt to specific uses. And by introducing these illustrative elements to the logomark, Strictly found it's voice.",
-    "client": "Client",
-    "year": "2022",
+    "description": "An interior design iOS mobile app that allows users to easily create their own moodboard by simply uploading the images of their favourite style saved from Pinterest and Instagram (we hear you!). Most importantly, Moodboard utilises the color detection technology supported by Google Cloud Vision to generate color scheme from your selected image to complete your digital moodboard and provide inspirations for your next home decoration or renovation project.",
+    "client": "Moodboard",
+    "year": "2019",
     "thumbnail": "thumbnail-15-moodboard-mockup-1.png",
-    "template": "portfolio-gallery-full"
+    "template": "full"
   },
   {
     "title": "Moodboard App",
-    "slug": "/portfolio/moodboard-mockup-2",
-    "subtitle": "Adaptable but Identifiable Product for Kandinsky.",
+    "slug": "/portfolio/moodboard",
+    "subtitle": "",
     "categories": [
       "ux-ui",
       "dev"
@@ -365,44 +365,44 @@
       "moodboard-03-mockup-screens.png",
       "moodboard-04-objectivec.png"
     ],
-    "description": "To satisfy our goal of creating a brand that could adapt across many use cases, we took the base form of their new logo and used it as an artboard. As long as the structural outline of the mark stayed consistent <a href=\"https://www.google.com\"><strong>their</strong></a> brand was allowed to flex and adapt to specific uses. And by introducing these illustrative elements to the logomark, Strictly found it's voice.",
-    "client": "Client",
-    "year": "2022",
+    "description": "An interior design iOS mobile app that allows users to easily create their own moodboard by simply uploading the images of their favourite style saved from Pinterest and Instagram (we hear you!). Most importantly, Moodboard utilises the color detection technology supported by Google Cloud Vision to generate color scheme from your selected image to complete your digital moodboard and provide inspirations for your next home decoration or renovation project.",
+    "client": "Moodboard",
+    "year": "2019",
     "thumbnail": "thumbnail-16-moodboard-mockup-2.png",
-    "template": "portfolio-gallery-full"
+    "template": "full"
   },
   {
     "title": "Kalma Branding",
-    "slug": "/portfolio/alma-soap",
-    "subtitle": "Adaptable but Identifiable Product for Kandinsky.",
+    "slug": "/portfolio/kalma",
+    "subtitle": "",
     "categories": [
       "graphics"
     ],
-    "gallery": [],
-    "description": "To satisfy our goal of creating a brand that could adapt across many use cases, we took the base form of their new logo and used it as an artboard. As long as the structural outline of the mark stayed consistent <a href=\"https://www.google.com\"><strong>their</strong></a> brand was allowed to flex and adapt to specific uses. And by introducing these illustrative elements to the logomark, Strictly found it's voice.",
-    "client": "Client",
-    "year": "2022",
+    "gallery": ["kalma_soap1.png","kalma_soap2.png","kalma-mood-jungle.jpg","kalma-mockup_productrange1.png","kalma-mood-tree.jpg"],
+    "description": "",
+    "client": "",
+    "year": "",
     "thumbnail": "thumbnail-17-kalma-soap.png",
-    "template": "portfolio-gallery-full"
+    "template": "masonry"
   },
   {
     "title": "Kalma Branding",
-    "slug": "/portfolio/kalma-mood",
-    "subtitle": "Adaptable but Identifiable Product for Kandinsky.",
+    "slug": "/portfolio/kalma",
+    "subtitle": "",
     "categories": [
       "graphics"
     ],
-    "gallery": [],
-    "description": "To satisfy our goal of creating a brand that could adapt across many use cases, we took the base form of their new logo and used it as an artboard. As long as the structural outline of the mark stayed consistent <a href=\"https://www.google.com\"><strong>their</strong></a> brand was allowed to flex and adapt to specific uses. And by introducing these illustrative elements to the logomark, Strictly found it's voice.",
-    "client": "Client",
-    "year": "2022",
+    "gallery": ["kalma_soap1.png","kalma_soap2.png","kalma-mood-jungle.jpg","kalma-mockup_productrange1.png","kalma-mood-tree.jpg"],
+    "description": "",
+    "client": "",
+    "year": "",
     "thumbnail": "thumbnail-18-kalma-mood.png",
-    "template": "portfolio-gallery-full"
+    "template": "masonry"
   },
   {
     "title": "Migrant Workers Centre Event KV",
-    "slug": "/portfolio/MWC-mockup-01",
-    "subtitle": "Adaptable but Identifiable Product for Kandinsky.",
+    "slug": "/portfolio/MWC",
+    "subtitle": "",
     "categories": [
       "graphics"
     ],
@@ -411,12 +411,12 @@
     "client": "Client",
     "year": "2022",
     "thumbnail": "thumbnail-19-MWC-mockup-01.png",
-    "template": "portfolio-gallery-full"
+    "template": "full"
   },
   {
     "title": "WitCare Branding",
     "slug": "/portfolio/WitCare",
-    "subtitle": "Adaptable but Identifiable Product for Kandinsky.",
+    "subtitle": "",
     "categories": [
       "graphics"
     ],
@@ -425,105 +425,105 @@
     "client": "Client",
     "year": "2022",
     "thumbnail": "thumbnail-20-WitCare.png",
-    "template": "portfolio-gallery-full"
+    "template": "full"
   },
   {
     "title": "Nature Oats Packaging",
-    "slug": "/portfolio/oatmeal-mockup",
-    "subtitle": "Adaptable but Identifiable Product for Kandinsky.",
+    "slug": "/portfolio/natureoats",
+    "subtitle": "",
     "categories": [
       "graphics"
     ],
-    "gallery": [],
-    "description": "To satisfy our goal of creating a brand that could adapt across many use cases, we took the base form of their new logo and used it as an artboard. As long as the structural outline of the mark stayed consistent <a href=\"https://www.google.com\"><strong>their</strong></a> brand was allowed to flex and adapt to specific uses. And by introducing these illustrative elements to the logomark, Strictly found it's voice.",
-    "client": "Client",
-    "year": "2022",
+    "gallery": ["oatmeal-03-cover.png", "oatmeal-02-dieline.jpg", "oatmeal-01-cover.jpg","oatmeal-05-illustration.png","oatmeal-04-sketches.png"],
+    "description": "",
+    "client": "",
+    "year": "",
     "thumbnail": "thumbnail-21-oatmeal-mockup.png",
-    "template": "portfolio-gallery-full"
+    "template": "masonry"
   },
   {
-    "title": "Coffee House Branding",
-    "slug": "/portfolio/coffee-wallmenu",
-    "subtitle": "Adaptable but Identifiable Product for Kandinsky.",
+    "title": "Coffee House Brand Identity",
+    "slug": "/portfolio/coffeehouse",
+    "subtitle": "",
     "categories": [
       "graphics"
     ],
-    "gallery": [],
-    "description": "To satisfy our goal of creating a brand that could adapt across many use cases, we took the base form of their new logo and used it as an artboard. As long as the structural outline of the mark stayed consistent <a href=\"https://www.google.com\"><strong>their</strong></a> brand was allowed to flex and adapt to specific uses. And by introducing these illustrative elements to the logomark, Strictly found it's voice.",
-    "client": "Client",
-    "year": "2022",
+    "gallery": ["coffeehouse-01-cover.jpeg", "coffeehouse-02-sign.jpg", "coffeehouse-02-wallmenu.jpg", "coffeehouse-03-menu.jpg", "coffeehouse-04-cup.png", "coffeehouse-05-illustration.jpg"],
+    "description": "",
+    "client": "",
+    "year": "",
     "thumbnail": "thumbnail-22-coffee-wallmenu.png",
-    "template": "portfolio-gallery-full"
+    "template": "masonry"
   },
   {
     "title": "Board Game Design",
-    "slug": "/portfolio/jungle-mockup-3d",
-    "subtitle": "Adaptable but Identifiable Product for Kandinsky.",
+    "slug": "/portfolio/junglezodiac",
+    "subtitle": "",
     "categories": [
       "graphics"
     ],
-    "gallery": [],
-    "description": "To satisfy our goal of creating a brand that could adapt across many use cases, we took the base form of their new logo and used it as an artboard. As long as the structural outline of the mark stayed consistent <a href=\"https://www.google.com\"><strong>their</strong></a> brand was allowed to flex and adapt to specific uses. And by introducing these illustrative elements to the logomark, Strictly found it's voice.",
-    "client": "Client",
-    "year": "2022",
+    "gallery": ["jungle-01-3D-mockup.png", "jungle-01-board.png", "jungle-02-packaging-front.png", "jungle-03-packaging-back.png", "jungle-04-game-pieces.png", "jungle-05-cards.png", "jungle-06-manuals.png", "jungle-07-image1.png", "jungle-08-image2.png", "jungle-09-image3.png"],
+    "description": "A board game creation from concept, design, packaging to a physical prototype.",
+    "client": "Jungle Zodiac",
+    "year": "2016",
     "thumbnail": "thumbnail-23-jungle-mockup-3d.png",
-    "template": "portfolio-gallery-full"
+    "template": "masonry"
   },
   {
-    "title": "Illustration",
-    "slug": "/portfolio/omg-illustration",
-    "subtitle": "Adaptable but Identifiable Product for Kandinsky.",
+    "title": "T-shirt Design & Illustration",
+    "slug": "/portfolio/omg",
+    "subtitle": "",
     "categories": [
       "graphics"
     ],
-    "gallery": [],
-    "description": "To satisfy our goal of creating a brand that could adapt across many use cases, we took the base form of their new logo and used it as an artboard. As long as the structural outline of the mark stayed consistent <a href=\"https://www.google.com\"><strong>their</strong></a> brand was allowed to flex and adapt to specific uses. And by introducing these illustrative elements to the logomark, Strictly found it's voice.",
-    "client": "Client",
-    "year": "2022",
+    "gallery": ["omg-01-tshirt.png", "omg-02-illustration.png", ["omg-grap5345c_p3_chiu_Page_01.jpg", "omg-grap5345c_p3_chiu_Page_02.jpg", "omg-grap5345c_p3_chiu_Page_03.jpg", "omg-grap5345c_p3_chiu_Page_04.jpg", "omg-grap5345c_p3_chiu_Page_05.jpg", "omg-grap5345c_p3_chiu_Page_06.jpg", "omg-grap5345c_p3_chiu_Page_07.jpg", "omg-grap5345c_p3_chiu_Page_08.jpg", "omg-grap5345c_p3_chiu_Page_09.jpg", "omg-grap5345c_p3_chiu_Page_10.jpg", "omg-grap5345c_p3_chiu_Page_11.jpg", "omg-grap5345c_p3_chiu_Page_12.jpg", "omg-grap5345c_p3_chiu_Page_13.jpg", "omg-grap5345c_p3_chiu_Page_14.jpg", "omg-grap5345c_p3_chiu_Page_15.jpg", "omg-grap5345c_p3_chiu_Page_16.jpg", "omg-grap5345c_p3_chiu_Page_17.jpg", "omg-grap5345c_p3_chiu_Page_18.jpg"]],
+    "description": "",
+    "client": "",
+    "year": "",
     "thumbnail": "thumbnail-24-omg-illustration.png",
-    "template": "portfolio-gallery-full"
+    "template": "full"
   },
   {
-    "title": "Cubic Packaging Design",
-    "slug": "/portfolio/cubic-cube-3d",
-    "subtitle": "Adaptable but Identifiable Product for Kandinsky.",
+    "title": "Chips Packaging Solution",
+    "slug": "/portfolio/cubiccube",
+    "subtitle": "",
     "categories": [
       "graphics"
     ],
-    "gallery": [],
-    "description": "To satisfy our goal of creating a brand that could adapt across many use cases, we took the base form of their new logo and used it as an artboard. As long as the structural outline of the mark stayed consistent <a href=\"https://www.google.com\"><strong>their</strong></a> brand was allowed to flex and adapt to specific uses. And by introducing these illustrative elements to the logomark, Strictly found it's voice.",
-    "client": "Client",
-    "year": "2022",
+    "gallery": ["cubic_cover.jpg", "cubic-01-cover.png", "cubic-02-share.png", "cubic-03-DielineAW.jpg", "cubic-04-inside.png", "cubic-05-dice.png"],
+    "description": "",
+    "client": "",
+    "year": "",
     "thumbnail": "thumbnail-25-cubic-cube-3d.png",
-    "template": "portfolio-gallery-full"
+    "template": "masonry"
   },
   {
-    "title": "Branding Redesign",
-    "slug": "/portfolio/kegking-wheat",
-    "subtitle": "Adaptable but Identifiable Product for Kandinsky.",
+    "title": "Logo Redesign",
+    "slug": "/portfolio/kegking",
+    "subtitle": "",
     "categories": [
       "graphics"
     ],
-    "gallery": [],
-    "description": "To satisfy our goal of creating a brand that could adapt across many use cases, we took the base form of their new logo and used it as an artboard. As long as the structural outline of the mark stayed consistent <a href=\"https://www.google.com\"><strong>their</strong></a> brand was allowed to flex and adapt to specific uses. And by introducing these illustrative elements to the logomark, Strictly found it's voice.",
-    "client": "Client",
-    "year": "2022",
+    "gallery": ["kegking-01-bizcard.jpg", "kegking-02-sketch.jpg", "kegking-03-mood.png", "kegking-04-iphone.png", "kegking-05-rollupbanner.jpg"],
+    "description": "",
+    "client": "",
+    "year": "",
     "thumbnail": "thumbnail-26-kegking-wheat.png",
-    "template": "portfolio-gallery-full"
+    "template": "masonry"
   },
   {
-    "title": "Branding Redesign",
-    "slug": "/portfolio/kegking-biz-card",
-    "subtitle": "Adaptable but Identifiable Product for Kandinsky.",
+    "title": "Logo Redesign",
+    "slug": "/portfolio/kegking",
+    "subtitle": "",
     "categories": [
       "graphics"
     ],
-    "gallery": [],
-    "description": "To satisfy our goal of creating a brand that could adapt across many use cases, we took the base form of their new logo and used it as an artboard. As long as the structural outline of the mark stayed consistent <a href=\"https://www.google.com\"><strong>their</strong></a> brand was allowed to flex and adapt to specific uses. And by introducing these illustrative elements to the logomark, Strictly found it's voice.",
-    "client": "Client",
-    "year": "2022",
+    "gallery": ["kegking-01-bizcard.jpg", "kegking-02-sketch.jpg", "kegking-03-mood.png", "kegking-04-iphone.png", "kegking-05-rollupbanner.jpg"],
+    "description": "",
+    "client": "",
+    "year": "",
     "thumbnail": "thumbnail-27-kegking-biz-card.png",
-    "template": "portfolio-gallery-full"
+    "template": "masonry"
   },
   {
     "title": "Marketing",
@@ -533,28 +533,11 @@
       "marketing"
     ],
     "gallery": [
-      "1509_00003_cbd_arm_hd_tko_menu_hotplate_v5-05.jpg",
-      "ARM-201512-Strawberry-06PhotoBooth-LabTVWallR1_LCD1080x1920 copy.jpg",
-      "ARM-201512-Strawberry-19WebBanner-R2_742x258.jpg",
-      "Arome-Pillars-LP-ADM-Jan-16-001.jpg",
-      "Arome-Pillars-LP-ADM-Jan-16-008.jpg",
-      "Arome-Pillars-LP-ADM-Jan-16-014.jpg",
-      "Arome-Pillars-LP-ADM-Jan-16-015.jpg",
-      "IMG_4566.JPG.jpg",
-      "IMG_5701 - Copy.JPG.jpg",
-      "IMG_6163.JPG.jpg",
-      "IMG_6164.JPG.jpg",
-      "IMG_8373.PNG.png",
-      "IMG_8918.JPG.jpg",
-      "IMG-20150808-WA0021.jpg",
-      "Layout screenshot.png",
-      "MVMH screenshot_ipod.png",
-      "store-countertop-mockp.png"
-    ],
-    "description": "asdasd",
-    "client": "asdasd",
-    "year": "",
-    "thumbnail": "",
-    "template": "portfolio-gallery-masonry"
+        "arome-01-strawberry-cover.jpg","arome-strawberry-campaign-TVC.mp4","arome-02-strawberry-metro.jpg","arome-03-strawberry-store.png","arome-04-strawberry-news.PNG.png","arome-05-strawberry-youtube.png","arome-06-strawberry-booth.jpg","arome-07-new-store1.jpg","arome-08-new-store2.jpg","arome-09-new-store3.jpg","arome-10-new-store3.jpg","arome-11-new-store4.jpg"],
+    "description": "Maxim's Group is Hong Kong's largest food and beverage corporate. Its diverse portfolio includes bakeries, restaurants, and Starbucks coffee shops, with a network of over 1,000 outlets across Asia.",
+    "client": "Arome Barkery",
+    "year": "2016",
+    "thumbnail": "arome-01-strawberry-cover.jpg",
+    "template": "masonry"
   }
 ]

@@ -39,88 +39,85 @@ const Hero = () => {
   });
 
   return (
-    <>
-      {/* <!-- Hero Area --> */}
-      <SectionStyled hero className="position-relative">
-        <Container fluid>
-          <Row className="align-items-lg-center pmb-5">
-            <Col xl="12" lg="12" sm="12" className="">
-              <Box className="">
-                <Title 
+    <SectionStyled hero className="position-relative mb-5">
+      <Container fluid>
+        <Row className="align-items-lg-center pmb-5">
+          <Col xl="12" lg="12" sm="12" className="">
+            <Box className="mt-1 ml-2">
+              <Title 
+              css={`
+              font-size: 6rem;
+              letter-spacing: -3px;
+              line-height: 1;
+              font-weight: 400;
+            `}>
+              Charlie is a Melbourne-based<br />
+              {typing ? <Typist className="d-inline" cursor={typeCursor} onTypingDone={() => setTyping(false)}>
+                <span>UX/UI Designer</span>
+                <Typist.Backspace count={12} delay={4000} />
+                <span> Strategist</span>
+                <Typist.Backspace count={11} delay={4000} />
+                <span>/UI Designer</span>
+                <Typist.Backspace count={12} delay={4000} />
+                <span> Strategist</span>
+                <Typist.Backspace count={11} delay={4000} />
+                <span>/UI Designer</span>
+                <Typist.Backspace count={12} delay={4000} />
+                <span> Strategist</span>
+                <Typist.Backspace count={11} delay={4000} />
+                <span>/UI Designer</span>
+                <Typist.Backspace count={12} delay={4000} />
+                <span> Strategist</span>
+                <Typist.Backspace count={11} delay={4000} />
+                <span>/UI Designer</span>
+                <Typist.Backspace count={12} delay={4000} />
+                <span> Strategist</span>
+                <Typist.Backspace count={11} delay={4000} />
+              </Typist> : <>&nbsp;</>}
+              <br />Product Designer
+            </Title>
+            </Box>
+            <Box className="">
+              <Title
                 css={`
-                font-size: 6rem;
-                line-height: 1;
+                font-size: 1.4rem;
+                line-height: 1.3;
+                font-family: Courier;
                 font-weight: normal;
-                margin-top: 1rem;
-              `}>
-                Charlie is a Melbourne-based<br />
-                {typing ? <Typist className="d-inline" cursor={typeCursor} onTypingDone={() => setTyping(false)}>
-                  <span>UX/UI Designer</span>
-                  <Typist.Backspace count={12} delay={4000} />
-                  <span> Strategist</span>
-                  <Typist.Backspace count={11} delay={4000} />
-                  <span>/UI Designer</span>
-                  <Typist.Backspace count={12} delay={4000} />
-                  <span> Strategist</span>
-                  <Typist.Backspace count={11} delay={4000} />
-                  <span>/UI Designer</span>
-                  <Typist.Backspace count={12} delay={4000} />
-                  <span> Strategist</span>
-                  <Typist.Backspace count={11} delay={4000} />
-                  <span>/UI Designer</span>
-                  <Typist.Backspace count={12} delay={4000} />
-                  <span> Strategist</span>
-                  <Typist.Backspace count={11} delay={4000} />
-                  <span>/UI Designer</span>
-                  <Typist.Backspace count={12} delay={4000} />
-                  <span> Strategist</span>
-                  <Typist.Backspace count={11} delay={4000} />
-                </Typist> : <>&nbsp;</>}
-                <br />Product Designer
+                font-style: italic;
+                padding: 1.6rem 15px 1rem;
+              `}
+              >
+                [She/Her]
               </Title>
-              </Box>
-              <Box className="">
-                <Title
-                  css={`
-                  font-size: 1.4rem;
-                  line-height: 1.3;
-                  font-family: Courier;
-                  font-weight: normal;
-                  font-style: italic;
-                  padding: 1.6rem 15px 1rem;
-                `}
-                >
-                  [She/Her]
-                </Title>
-                <Title
-                  css={`
-                  font-size: 1.4rem;
-                  line-height: 1.3;
-                  font-family: Courier;
-                  font-weight: normal;
-                  padding: 0rem 15px 3rem;
-                `}
-                >
-                  Sometimes people ask what I do, here is what I tell them:
-                </Title>
-                <AboutDiagram><img src={Diagram} /></AboutDiagram>
-              </Box>
-              <Box pl="" className="" css={`
-                  margin: 0 0 -100px 10px;
-                `}>
-                <ButtonIcon
-                  onClick={(e) => {
-                    e.preventDefault();
-                  }}
-                >
-                  Keep reading
-                </ButtonIcon>
-              </Box>
-            </Col>
-          </Row>
-        </Container>
-      </SectionStyled>
-    </>
+              <Title
+                css={`
+                font-size: 1.4rem;
+                line-height: 1.3;
+                font-family: Courier;
+                font-weight: normal;
+                padding: 0rem 15px 3rem;
+              `}
+              >
+                Sometimes people ask what I do, here is what I tell them:
+              </Title>
+              <AboutDiagram><img src={Diagram} /></AboutDiagram>
+            </Box>
+            <Box pl="" className="" css={`
+                margin: 0 0 -100px 10px;
+              `}>
+              <ButtonIcon
+                onClick={(e) => {
+                  e.preventDefault();
+                }}
+              >
+                Keep reading
+              </ButtonIcon>
+            </Box>
+          </Col>
+        </Row>
+      </Container>
+    </SectionStyled>
   );
 };
 

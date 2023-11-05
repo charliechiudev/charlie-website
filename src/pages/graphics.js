@@ -36,7 +36,7 @@ const IndexPage = () => {
                     font-weight: normal;
                   `}
                   >
-                    This website is Graphics.
+                    Graphic design projects. For other recent commercial projects, please reach out to me and I am more than happy to do something.
                   </Title>
                 </Box>
 

@@ -9,9 +9,7 @@ import { Section, Title, Text, Box } from "../../components/Core";
 import PageWrapper from "../../components/PageWrapper";
 import Contact from "../../sections/charlie-about/Contact";
 
-const PortfolioItems = require('../../data/PortfolioItems.json');
-
-const Work = ({ style, location }) => {
+const Work = ({ portfolioItem }) => {
   const masonryOptions = {
     transitionDuration: 1000,
   };
@@ -27,8 +25,6 @@ const Work = ({ style, location }) => {
     slidesToScroll: 1
   };
 
-  const portfolioItem = PortfolioItems.find(i => i.slug === location.pathname.substr(0, location.pathname.length - 1));
-
   const data = useStaticQuery(graphql`
   query {
     allFile(filter: {sourceInstanceName: {eq: "dataImages"}}) {
@@ -38,7 +34,7 @@ const Work = ({ style, location }) => {
           name
           publicURL
           childImageSharp {
-            gatsbyImageData(layout: FULL_WIDTH)
+            gatsbyImageData(layout: FULL_WIDTH, quality: 95)
           }
         }
       }
@@ -104,13 +100,13 @@ const Work = ({ style, location }) => {
         {portfolioItem.client && <Container className="mt-5 mb-0 pb-0">
           <Row>
             <Col lg="4" className="mb-4 mb-lg-0">
-              <Text variant="tag">Client</Text>
+              <Text variant="tag">Tech</Text>
               <Title variant="cardBig" className="mt-3">
                 {portfolioItem.client}
               </Title>
             </Col>
             <Col lg="4" className="mb-4 mb-lg-0">
-              <Text variant="tag">Time</Text>
+              <Text variant="tag">Year</Text>
               <Title variant="cardBig" className="mt-3">
                 {portfolioItem.year}
               </Title>
@@ -123,7 +119,7 @@ const Work = ({ style, location }) => {
 
         <Section className="mt-0">
           <Container>
-            {style === "gallery-full" ?
+            {portfolioItem.template === "full" ?
               <Row>
                 {gallery.map((item, i) => (
                   <Col lg={"12"} md={"12"} sm={"12"} className="mb-4" key={`gallery-${i}`}>

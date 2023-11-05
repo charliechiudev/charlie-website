@@ -42,7 +42,7 @@ const Works = () => {
             name
             publicURL
             childImageSharp {
-              gatsbyImageData(width: 640)
+              gatsbyImageData(width: 640, quality: 95)
             }
           }
         }
@@ -119,7 +119,7 @@ const Works = () => {
           >
             {items.map((item, index) => (
               <Col lg="4" md="6" sm="6" key={`work-grid-${index}`} className="filtr-item">
-                <WorkCardGql image={images.allFile.edges.find(e => item.thumbnail.startsWith(e.node.name))} workItem={item} mb="30px" />
+                <WorkCardGql image={images.allFile.edges.find(e => item.thumbnail.startsWith(e.node.name))} workItem={item} className={activeLink === "*" && "grayscale"} mb="30px" />
               </Col>
             ))}
           </Masonry>

@@ -9,7 +9,7 @@ exports.onCreatePage = ({ actions }) => {
   for (const item of PortfolioItems) {
     createPage({
       path: item.slug,
-      component: path.resolve(`./src/templates/${item.template}.js`),
+      component: path.resolve(`./src/templates/portfolio-gallery.js`),
     })
   }
 

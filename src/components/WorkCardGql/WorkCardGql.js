@@ -5,12 +5,12 @@ import styled from "styled-components";
 import { Box, Title, Text } from "../Core";
 
 const WorkBox = styled(Box)`
-  & img {
+  &.grayscale img {
     transition: 0.3s;
     filter: grayscale(100%) brightness(90%) contrast(80%);
     
   }
-  &:hover img {
+  &.grayscale:hover img {
     filter: none;
   }
 `;

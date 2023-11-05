@@ -143,7 +143,7 @@ font-weight: 900;
 src: local('Inter Black Italic'), url('Inter-BlackItalic.woff') format('woff');
 }
 
-
+/* 
 @font-face {
     font-family: 'PP';
     src: url('ppmori-extralight-webfont.woff2') format('woff2'),
@@ -209,4 +209,4 @@ src: local('Inter Black Italic'), url('Inter-BlackItalic.woff') format('woff');
     font-weight: 700;
     font-style: italic;
 
-}
+} */

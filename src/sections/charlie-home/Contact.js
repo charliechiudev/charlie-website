@@ -14,7 +14,7 @@ const Hero = () => {
         <Container fluid>
           <Row className="align-items-lg-end">
             <Col xl="9" lg="9" sm="12" className="">
-              <Box className="d-flex flex-column">
+              <Box className="d-flex flex-column footer-hero">
                 <Title
                   css={`
                   font-size: 3rem;
@@ -30,7 +30,8 @@ const Hero = () => {
                 <ButtonIcon
                   onClick={(e) => {
                     e.preventDefault();
-                    gContext.toggleContact();
+                    window.location.href='mailto:'+['charliechiudesign','gmail.com'].join('@')
+                    //gContext.toggleContact();
                   }}
                 >
                   Say hi to me
