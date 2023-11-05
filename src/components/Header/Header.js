@@ -470,7 +470,7 @@ const Header = ({ isDark }) => {
                     </Link>
                   </li>
 
-                  <li className="nav-item">
+                  {/* <li className="nav-item">
                     <a
                       className="nav-link"
                       href="/#"
@@ -481,7 +481,7 @@ const Header = ({ isDark }) => {
                     >
                       {lightOn ? <><FaSun />&nbsp;day</> : <><FaMoon />&nbsp;night</>}
                     </a>
-                  </li>
+                  </li> */}
                 </Menu>
               </div>
             </div>

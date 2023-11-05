@@ -1,10 +1,8 @@
-import React, { useContext, useState, useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import { Link } from "gatsby";
 import styled from "styled-components";
 import { Container, Row, Col } from "react-bootstrap";
 import Typist from 'react-typist';
-
-import GlobalContext from "../../context/GlobalContext";
 import { Title, ButtonIcon, Section, Box } from "../../components/Core";
 
 const SectionStyled = styled(Section)`
@@ -19,7 +17,6 @@ const SectionStyled = styled(Section)`
 `;
 
 const Hero = () => {
-  const gContext = useContext(GlobalContext);
   const [typing, setTyping] = useState(true);
 
   const typeCursor = {

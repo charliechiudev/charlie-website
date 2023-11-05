@@ -102,7 +102,7 @@ const ThemeSwitch = (props) => {
         {...props}
       >
         <Panel bg="primary" className="position-relative">
-          <TextBox>Change Version</TextBox>
+          <TextBox>Turn Light</TextBox>
           <ButtonGroup>
             <Button
               className={!gContext.theme.bodyDark ? "active" : ""}
@@ -114,7 +114,7 @@ const ThemeSwitch = (props) => {
                 })
               }
             >
-              Light
+              ON
             </Button>
             <Button
               className={gContext.theme.bodyDark ? "active" : ""}
@@ -126,7 +126,7 @@ const ThemeSwitch = (props) => {
                 })
               }
             >
-              dark
+              OFF
             </Button>
           </ButtonGroup>
           <ButtonToggle
