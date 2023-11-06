@@ -32,17 +32,14 @@ const Hero = () => {
   return (
     <>
       {/* <!-- Hero Area --> */}
-      <SectionStyled hero className="position-relative">
-        <Container fluid>
+      <SectionStyled hero className="position-relative mb-0 pb-0">
+        <Container fluid className="">
           <Row className="align-items-lg-center">
-            <Col xl="9" lg="9" sm="12" className="">
+            <Col xl="9" lg="9" className="">
               <Box className="">
                 <Title 
-                variant="hero"
-                css={`
-                margin-top: 1rem;
-                text-indent: -3rem;
-              `}>
+                  variant="hero"
+                >
                 {typing ? <>
                   <Typist cursor={typeCursor} onTypingDone={() => setTyping(false)}>
                     <span>&nbsp;UX/UI</span>
@@ -62,14 +59,14 @@ const Hero = () => {
                 </> : <span>&nbsp;<br />&nbsp;</span>}
               </Title>
               </Box>
-              <Box className="">
+              <Box className="mt-xs-0 mt-sm-5">
                 <Title
                   css={`
                   font-size: 1.4rem;
                   line-height: 1.3;
                   font-weight: normal;
                   font-style: italic;
-                  padding: 6rem 15px .6rem;
+                  padding: 3rem 15px .6rem;
                 `}
                 >
                   [She/Her]
@@ -85,17 +82,15 @@ const Hero = () => {
                   Melbourne-based product designer with Marketing and IT background, skilled in UX/UI design and strategies with 9+ years of experience in the Business and Public sectors. Enjoys problem solving with creative and analytical thinking, believes functionality and aesthetics can always be friends.
                 </Title>
               </Box>
-              <Box pl="" className="" css={`
-                  margin: 0 0 -100px 10px;
-                `}>
+              <Box className="ml-3">
                 <Link to="/about">
-                  <ButtonIcon>
+                  <ButtonIcon className="change-with-theme">
                     About Charlie
                   </ButtonIcon>
                 </Link>
               </Box>
             </Col>
-            <Col xl="3" lg="3" sm="12">
+            <Col xl="3" lg="3" className="d-none d-lg-block">
               <Box className="">
                 <Title
                   css={`
@@ -110,10 +105,8 @@ const Hero = () => {
                 </Title>
               </Box>
               <Box className="">
-                <svg width="209" height="209" viewBox="0 0 209 209" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <g>
+                <svg className="change-with-theme" width="209" height="209" viewBox="0 0 209 209" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M169.812 82.7292H152.396V140.117L51.4662 39.1875L39.1875 51.4662L140.117 152.396H82.7292V169.812H169.812V82.7292Z" fill="black"/>
-                  </g>
                 </svg>
               </Box>
             </Col>

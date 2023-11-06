@@ -39,7 +39,7 @@ const Hero = () => {
   });
 
   return (
-    <SectionStyled hero className="position-relative mb-5">
+    <SectionStyled hero className="position-relative mb-0 pb-0">
       <Container fluid>
         <Row className="align-items-lg-center pmb-5">
           <Col xl="12" lg="12" sm="12" className="">
@@ -47,9 +47,9 @@ const Hero = () => {
               <Title 
               css={`
               font-size: 6rem;
-              letter-spacing: -3px;
+              letter-spacing: -2px;
               line-height: 1;
-              font-weight: 400;
+              font-weight: normal;
             `}>
               Charlie is a Melbourne-based<br />
               {typing ? <Typist className="d-inline" cursor={typeCursor} onTypingDone={() => setTyping(false)}>
@@ -103,9 +103,7 @@ const Hero = () => {
               </Title>
               <AboutDiagram><img src={Diagram} /></AboutDiagram>
             </Box>
-            <Box pl="" className="" css={`
-                margin: 0 0 -100px 10px;
-              `}>
+            <Box pl="" className="ml-3">
               <ButtonIcon
                 onClick={(e) => {
                   e.preventDefault();

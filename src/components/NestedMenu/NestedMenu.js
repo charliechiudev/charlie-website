@@ -8,7 +8,7 @@ import GlobalContext from "../../context/GlobalContext";
 const NestedMenuContainer = styled.div`
   a {
     color: ${({ theme }) => theme.colors.dark} !important;
-    transition: all 0.3s ease-out;
+    transition: all 0.2s ease-out;
     font-weight: 700;
     text-transform: lowercase;
 
@@ -189,51 +189,30 @@ const NestedMenu = ({ menuItems = defaultMenuItems }) => {
           />
         ))}
 
-        {/* Open about modal */}
-        <ListGroup.Item
-          css={`
-            padding-left: 0px !important;
-            padding-right: 0 !important;
-          `}
-        >
-          {
-            <a
-              href="/#"
-              onClick={(e) => {
-                e.preventDefault();
-                gContext.toggleAbout();
-                if (gContext.visibleOffCanvas) {
-                  gContext.toggleOffCanvas();
-                }
-              }}
-            >
-              about me.
-            </a>
-          }
+        <ListGroup.Item className="pl-0">
+          <Link className="nav-link pl-0" to={`/ux-ui`} onClick={gContext.toggleOffCanvas}>
+            UX/UI.
+          </Link>
         </ListGroup.Item>
 
-        {/* Open contact modal */}
-        <ListGroup.Item
-          css={`
-            padding-left: 0px !important;
-            padding-right: 0 !important;
-          `}
-        >
-          {
-            <a
-              href="/#"
-              onClick={(e) => {
-                e.preventDefault();
-                gContext.toggleContact();
-                if (gContext.visibleOffCanvas) {
-                  gContext.toggleOffCanvas();
-                }
-              }}
-            >
-              contact.
-            </a>
-          }
+        <ListGroup.Item className="pl-0">
+          <Link className="nav-link pl-0" to={`/graphics`} onClick={gContext.toggleOffCanvas}>
+            graphics.
+          </Link>
         </ListGroup.Item>
+
+        <ListGroup.Item className="pl-0">
+          <Link className="nav-link pl-0" to={`/marketing`} onClick={gContext.toggleOffCanvas}>
+            marketing.
+          </Link>
+        </ListGroup.Item>
+
+        <ListGroup.Item className="pl-0">
+          <Link className="nav-link pl-0" to={`/about`} onClick={gContext.toggleOffCanvas}>
+            about me.
+          </Link>
+        </ListGroup.Item>
+
       </ListGroup>
     </NestedMenuContainer>
   );

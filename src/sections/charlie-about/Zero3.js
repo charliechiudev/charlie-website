@@ -25,8 +25,8 @@ const Zero3 = () => {
               <Box className="align-items-lg-center">
                 <Title
                   css={`
-                  font-size: 2rem;
-                  font-weight: normal;
+                  font-size: 2.5rem;
+                  font-weight: 500;
                   padding: 4rem 0 0 0;
                 `}
                 >

@@ -148,11 +148,11 @@ const Layout = ({ children, pageContext }) => {
             <span className="one"></span>
           </div>
         </Loader>
-        <div className="site-wrapper overflow-hidden" ref={eleRef}>
-          <Header isDark={gContext.theme.headerDark} />
+        <div className={`site-wrapper overflow-hidden ${gContext.theme.bodyDark ? "theme-dark" : "theme-light"}`} ref={eleRef}>
+          <Header isDark={gContext.theme.bodyDark} />
           {children}
 
-          <Footer isDark={gContext.theme.footerDark} />
+          <Footer />
         </div>
         <AboutModal />
         <ContactModal />

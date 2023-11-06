@@ -17,7 +17,7 @@
       "verde-08-hifi-wireframe-2.png"
     ],
     "description": "",
-    "client": "",
+    "client": "eCommerce Website",
     "year": "",
     "thumbnail": "thumbnail-01-verde-mockup-bizcard.png",
     "template": "masonry"
@@ -53,7 +53,7 @@
       "parkie-05-prototype.png"
     ],
     "description": "Parkie is a driver’s best mate. Through the GPS localization technology, Parkie recommends all car parks nearby the destination of the user with pricing, opening hours information and most importantly, a vacancy map that will show the number of spots that are available for each level and where they are exactly in a visualised map view which the available spot will be shown in green and red will be shown for the occupied ones. Users would be able to know the real-time availability and which spot they would like to park visually, rather than driving around in every floor and having no luck finding an empty spot especially during peak hours.<br><br>What is more, have you ever experienced forgetting when your parking expires and got a parking fine? Parkie helps the driver to remember where he has parked and what time is his parking time expiring with a 15 or 30 minutes alert in advance if he decides to activate such a service.<br><br>The unique selling proposition of this project is the simplicity of the idea and its realization through an already existing technology." ,
-    "client": "Client",
+    "client": "Android App",
     "year": "2018",
     "thumbnail": "thumbnail-03-parkie-iphone.png",
     "template": "masonry"
@@ -74,7 +74,7 @@
       "parkie-05-prototype.png"
     ],
     "description": "To satisfy our goal of creating a brand that could adapt across many use cases, we took the base form of their new logo and used it as an artboard. As long as the structural outline of the mark stayed consistent <a href=\"https://www.google.com\"><strong>their</strong></a> brand was allowed to flex and adapt to specific uses. And by introducing these illustrative elements to the logomark, Strictly found it's voice.",
-    "client": "Client",
+    "client": "Android App",
     "year": "2022",
     "thumbnail": "thumbnail-04-parkie-screens.png",
     "template": "masonry"
@@ -89,7 +89,7 @@
     ],
     "gallery": [
       "veganom-01-cover-iphone.jpg",
-      "veganom-02-mockup-app-closeup.png",
+      ["veganom_asssignment2a_Page_01.png", "veganom_asssignment2a_Page_02.png", "veganom_asssignment2a_Page_03.png", "veganom_asssignment2a_Page_04.png", "veganom_asssignment2a_Page_05.png", "veganom_asssignment2a_Page_06.png", "veganom_asssignment2a_Page_07.png", "veganom_asssignment2a_Page_08.png", "veganom_asssignment2a_Page_09.png", "veganom_asssignment2a_Page_10.png", "veganom_asssignment2a_Page_11.png", "veganom_asssignment2a_Page_12.png", "veganom_asssignment2a_Page_13.png", "veganom_asssignment2a_Page_14.png", "veganom_asssignment2a_Page_15.png", "veganom_asssignment2a_Page_16.png", "veganom_asssignment2a_Page_17.png", "veganom_asssignment2a_Page_18.png", "veganom_asssignment2a_Page_19.png", "veganom_asssignment2a_Page_20.png", "veganom_asssignment2a_Page_21.png", "veganom_asssignment2a_Page_22.png", "veganom_asssignment2a_Page_23.png", "veganom_asssignment2a_Page_24.png", "veganom_asssignment2a_Page_25.png", "veganom_asssignment2a_Page_26.png", "veganom_asssignment2a_Page_27.png", "veganom_asssignment2a_Page_28.png", "veganom_asssignment2a_Page_29.png", "veganom_asssignment2a_Page_30.png", "veganom_asssignment2a_Page_31.png", "veganom_asssignment2a_Page_32.png", "veganom_asssignment2a_Page_33.png", "veganom_asssignment2a_Page_34.png", "veganom_asssignment2a_Page_35.png", "veganom_asssignment2a_Page_36.png", "veganom_asssignment2a_Page_37.png"],
       "veganom-03-mockup-app.png",
       "veganom-04-mockup-app.jpg",
       "veganom-05-paper-prototype.png",
@@ -101,8 +101,8 @@
       "veganom-11-prototype-screens-1.png",
       "veganom-12-userflow.png"
     ],
-    "description": "Going vegan has somehow become a trend in recent years due to numerous reasons including animal welfare, environment, health concerns or simply a lifestyle. However this plant-based diet is still a minority and people are lacking “vegan knowledge”. According to riseofthevegan.com [source 1.1], in 2017, the number of Google searches for “vegan” have never been higher, while Australia is ranked the first out of the top 10 countries. This inspires us to develop Veganom.<br><br>Veganom aims to promote this plant-based eating which is not only for vegans but anyone who would like to know more about vegan or just occasionally have a green diet. Veganom allows you to nail a vegan meal in just 5 minutes with your leftovers. Don’t feel like cooking tonight? Veganom also provides vegan-friendly restaurants suggestions around your area. With Veganom, we aim to promote green eating, reduce food waste as well as saving your time doing groceries shopping, simply makes your vegan life easier no matter you are vegan or not!",
-    "client": "Veganom",
+    "description": "Veganism has been on its rise in the past decade. Regardless of your choice of diet, this plant-based diet is still a minority group and people are keen to learn more about it. According to riseofthevegan.com, in 2017, the number of Google searches for “vegan” have never been higher, while Australia is ranked the first out of the top 10 countries. This inspires me to develop Veganom.<br><br>Veganom aims to promote this plant-based eating which is not only for vegans but anyone who would like to know more about veganism or just occasionally have a green diet. Veganom is educational - it provides simple recipes with your leftover ingredients, knowledge about vegan nutritions, seasonal fruits, instant stories sharing that allows you to gain inspiration and share your creativity in the community.<br><br>To get inside our potential users’ heads, the following UX researches and methodologies have been conducted during the design process:<br>- Empathy mapping<br>- User journey map<br>- Card sorting<br>- Task based usability test<br>- Heuristic test<br>- Paper prototype<br>- Pixel perfect prototype<br>- Full color prototype",
+    "client": "Mobile App",
     "year": "2018",
     "thumbnail": "thumbnail-05-veganom-screens.png",
     "template": "full"
@@ -129,7 +129,7 @@
       "veganom-12-userflow.png"
     ],
     "description": "Going vegan has somehow become a trend in recent years due to numerous reasons including animal welfare, environment, health concerns or simply a lifestyle. However this plant-based diet is still a minority and people are lacking “vegan knowledge”. According to riseofthevegan.com [source 1.1], in 2017, the number of Google searches for “vegan” have never been higher, while Australia is ranked the first out of the top 10 countries. This inspires us to develop Veganom.<br><br>Veganom aims to promote this plant-based eating which is not only for vegans but anyone who would like to know more about vegan or just occasionally have a green diet. Veganom allows you to nail a vegan meal in just 5 minutes with your leftovers. Don’t feel like cooking tonight? Veganom also provides vegan-friendly restaurants suggestions around your area. With Veganom, we aim to promote green eating, reduce food waste as well as saving your time doing groceries shopping, simply makes your vegan life easier no matter you are vegan or not!",
-    "client": "Veganom",
+    "client": "Mobile App",
     "year": "2018",
     "thumbnail": "thumbnail-06-veganom-mockup-closeup",
     "template": "full"
@@ -195,11 +195,10 @@
       "dev"
     ],
     "gallery": [
-      "sisterworks-01-home.png",
-      "sisterworks-02-sitemap.png"
+      "sisterworks-01-home.png"
     ],
-    "description": "SisterWorks is a social enterprise that provides support for women in starting their own micro-businesses, selling handcrafted goods out of recycled and ethically produced materials. The products are sold via their retail stores and e-commerce website where I was engaged in a 4-months website usability optimisation project as part of their online sales growth initiatives. I conducted a usability test to examine the website’s information architecture (IA) and navigation system, followed by a total of 14 web pages redesign based on the test result.<br><br>A card sorting test is conducted as the first step of the  usability testing. A card sorting is a design thinking method to help evaluate the information architecture by getting users to organize topics/pages into categories that make sense and relatable to them in order to help us to label these groups and decide where to put them in such a commonly-understandable way.<br><br>3 users are tested in this stage. In general, most major topics are self-explanatory enough and are under the right sections as the way we have now other than the following: Workshops (the one under Shop), Corporate, Volunteering, Press,  Blog and Recipes.<br><br>The result reflects that the users are not able to locate these certain sections under our current navigation system but they also provide insights to us that they think some of the topics should be put together.",
-    "client": "SisterWorks",
+    "description": "SisterWorks is a social enterprise that provides support for women in starting their own micro-businesses, selling handcrafted goods out of recycled and ethically produced materials. The products are sold via their retail stores and e-commerce website where I was engaged in a 4-months website usability optimisation project as part of their online sales growth initiatives. I conducted a usability test to examine the website’s information architecture (IA) and navigation system, followed by a total of 14 web pages redesign based on the test result.<br><br>A card sorting test is conducted as the first step of the  usability testing. A card sorting is a design thinking method to help evaluate the information architecture by getting users to organize topics/pages into categories that make sense and relatable to them in order to help us to label these groups and decide where to put them in such a commonly-understandable way.<br><br>Visit and support  <a href=\"https://sisterworks.org.au\">SisterWorks</a>",
+    "client": "eCommerce Website",
     "year": "2019",
     "thumbnail": "thumbnail-09-sisterworks-home.png",
     "template": "full"
@@ -264,8 +263,8 @@
         "wisp-01-mockup2.jpg"
       ],
     "description": "WISP stands for Working-holiday & International Student Internship Platform - an internship and job matching platform designed for temporary workers and Australian businesses. Its vision is to ensure equality between organisations and temporary workers in order to assist them in integrating into the Australian society. Partnered with 3 software engineers, we developed a serverless web application. My deliverables included the branding and UI style guide, user flow, wireframes, high fidelity prototype and part of the front-end development.",
-    "client": "NOMIT",
-    "year": "2019 haha",
+    "client": "Web App",
+    "year": "2019",
     "thumbnail": "thumbnail-11-wisp-mockup1.jpg",
     "template": "full"
   },
@@ -283,7 +282,7 @@
       "wisp-01-mockup2.jpg"
     ],
     "description": "WISP stands for Working-holiday & International Student Internship Platform - an internship and job matching platform designed for temporary workers and Australian businesses. Its vision is to ensure equality between organisations and temporary workers in order to assist them in integrating into the Australian society. Partnered with 3 software engineers, we developed a serverless web application. My deliverables included the branding and UI style guide, user flow, wireframes, high fidelity prototype and part of the front-end development.",
-    "client": "NOMIT",
+    "client": "Web App",
     "year": "2019",
     "thumbnail": "thumbnail-11-wisp-mockup2.jpg",
     "template": "full"
@@ -304,7 +303,7 @@
       "weatherdresser-04-demo.gif"
     ],
     "description": "Weather Dresser tells you what to wear everyday based on the real-time weather. Melbourne is famous for its unpredictable ‘4-seasons-in-a-day’ weather, every Melbournian can relate to how important it is to check real-time weather every morning before we go out so we can pick the right clothes. To save your time in every rush morning, you will be shown matched outfits images according to different weather conditions a real-time so to avoid wearing the wrong outfit for the day.<br><br>We all have that weather app that tells you the weather but we probably do not have one that tells you what to wear. So other than simply telling you the weather forecast, Weather Dresser also gives you inspiration about what you should wear for the day, aka “OOTD”. User will be displayed the local weather at the launch screen then to hit “the See My OOTD” to see the outfit inspiration that we mixed and matched for you based on the specific weather. Not a fan of the inspiration? User can also hit the “Show Me Another” button for more outfit ideas. Of course, user will also be able to select specific city manually and swipe to the right to see tomorrow’s weather.",
-    "client": "Client",
+    "client": "Mobile App",
     "year": "2019",
     "thumbnail": "thumbnail-13-weather-dress-cover.png",
     "template": "full"
@@ -323,7 +322,7 @@
       "whattodo-03-demo.gif"
     ],
     "description": "“What To Do” is a simple cross-platform mobile app that allows users to quickly jot down their to-do items and tasks on the application. Users are also able to mark tasks as completed quickly by simply tapping the check icon or remove task by tapping the bin icon. Task will have a line through to indicate completed in order to provide users a quick glance of what tasks are done and what tasks are not.",
-    "client": "What To Do",
+    "client": "Mobile App",
     "year": "2019",
     "thumbnail": "thumbnail-14-whattodo-screen1.pn",
     "template": "masonry"
@@ -345,7 +344,7 @@
       "moodboard-04-objectivec.png"
     ],
     "description": "An interior design iOS mobile app that allows users to easily create their own moodboard by simply uploading the images of their favourite style saved from Pinterest and Instagram (we hear you!). Most importantly, Moodboard utilises the color detection technology supported by Google Cloud Vision to generate color scheme from your selected image to complete your digital moodboard and provide inspirations for your next home decoration or renovation project.",
-    "client": "Moodboard",
+    "client": "iOS App",
     "year": "2019",
     "thumbnail": "thumbnail-15-moodboard-mockup-1.png",
     "template": "full"
@@ -366,7 +365,7 @@
       "moodboard-04-objectivec.png"
     ],
     "description": "An interior design iOS mobile app that allows users to easily create their own moodboard by simply uploading the images of their favourite style saved from Pinterest and Instagram (we hear you!). Most importantly, Moodboard utilises the color detection technology supported by Google Cloud Vision to generate color scheme from your selected image to complete your digital moodboard and provide inspirations for your next home decoration or renovation project.",
-    "client": "Moodboard",
+    "client": "iOS App",
     "year": "2019",
     "thumbnail": "thumbnail-16-moodboard-mockup-2.png",
     "template": "full"
@@ -406,26 +405,25 @@
     "categories": [
       "graphics"
     ],
-    "gallery": [],
-    "description": "To satisfy our goal of creating a brand that could adapt across many use cases, we took the base form of their new logo and used it as an artboard. As long as the structural outline of the mark stayed consistent <a href=\"https://www.google.com\"><strong>their</strong></a> brand was allowed to flex and adapt to specific uses. And by introducing these illustrative elements to the logomark, Strictly found it's voice.",
-    "client": "Client",
-    "year": "2022",
+    "gallery": ["MWC-01-mockup.png", "MWC-02-event.jpg", "MWC-03-event.jpg", "MWC-04-event.jpg", "MWC-05-event.jpg"],
+    "description": "",
+    "year": "",
     "thumbnail": "thumbnail-19-MWC-mockup-01.png",
-    "template": "full"
+    "template": "masonry"
   },
   {
-    "title": "WitCare Branding",
+    "title": "WitCare (currently WitCare Hub)",
     "slug": "/portfolio/WitCare",
     "subtitle": "",
     "categories": [
       "graphics"
     ],
-    "gallery": [],
-    "description": "To satisfy our goal of creating a brand that could adapt across many use cases, we took the base form of their new logo and used it as an artboard. As long as the structural outline of the mark stayed consistent <a href=\"https://www.google.com\"><strong>their</strong></a> brand was allowed to flex and adapt to specific uses. And by introducing these illustrative elements to the logomark, Strictly found it's voice.",
-    "client": "Client",
-    "year": "2022",
+    "gallery": ["witcare-01-mockup.png","WitCare_logo_draft1_Page_1.png", "WitCare_logo_draft1_Page_2.png", "WitCare_logo_draft1_Page_3.png", "WitCare_logo_draft1_Page_4.png", "WitCare_logo_draft1_Page_5.png", "WitCare_logo_draft1_Page_6.png"],
+    "description": "WITCARE HUB is a unique source for building a ew community of first-generation Italians in Australia, providing a holistic service covering arious aspects of daily life, recognising the wealth of knowledge and experience that can be shared.",
+    "client": "Brand Identity",
+    "year": "2019",
     "thumbnail": "thumbnail-20-WitCare.png",
-    "template": "full"
+    "template": "masonry"
   },
   {
     "title": "Nature Oats Packaging",
@@ -456,15 +454,15 @@
     "template": "masonry"
   },
   {
-    "title": "Board Game Design",
+    "title": "Jungle Zodiac",
     "slug": "/portfolio/junglezodiac",
     "subtitle": "",
     "categories": [
       "graphics"
     ],
     "gallery": ["jungle-01-3D-mockup.png", "jungle-01-board.png", "jungle-02-packaging-front.png", "jungle-03-packaging-back.png", "jungle-04-game-pieces.png", "jungle-05-cards.png", "jungle-06-manuals.png", "jungle-07-image1.png", "jungle-08-image2.png", "jungle-09-image3.png"],
-    "description": "A board game creation from concept, design, packaging to a physical prototype.",
-    "client": "Jungle Zodiac",
+    "description": "A board game creation from concept, design, packaging to physical prototyping - Jungle Zodiac is an jungle adventure board game based on Hong Kong’s traditional festivals and the 12 animal zodiacs - rat, ox, tiger, rabbit, dragon, snake, horse, sheep, monkey, rooster, dog and pig. It is the most interesting board game for you to learn about these 12 zodiacs and Hong Kong’s culture! Become one of the zodiac character and race in the jungle! Collect festival cards to learn about each festival, you may be lucky enough to move further or unfortunately move backwards! Go through the 12 festivals in Hong Kong and become the jungle king!",
+    "client": "Board Game",
     "year": "2016",
     "thumbnail": "thumbnail-23-jungle-mockup-3d.png",
     "template": "masonry"

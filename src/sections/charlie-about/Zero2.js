@@ -46,8 +46,9 @@ const Zero2 = () => {
                 </Title>
                 <Title
                   css={`
+                  font-size: 2.5rem;
                   position-size: 2rem;
-                  font-weight: normal;
+                  font-weight: 500;
                   position: absolute;
                   bottom: 0;
                   right: 0;

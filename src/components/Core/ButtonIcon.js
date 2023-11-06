@@ -3,7 +3,6 @@ import { Box, Button } from "../Core";
 
 const ButtonIcon = ({
   variant = "black",
-  //variant = "success",
   color = "#fff",
   children,
   ...rest
@@ -19,7 +18,9 @@ const ButtonIcon = ({
           display: flex;
         `}
       >
-        <i className="icon icon-tail-right" />
+        <svg className="change-with-theme" xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 23 23" fill="none">
+            <path d="M11.5 3.83337L10.1487 5.18462L15.4962 10.5417H3.83331V12.4584H15.4962L10.1487 17.8155L11.5 19.1667L19.1666 11.5L11.5 3.83337Z" fill="#000"/>    
+        </svg>
       </Box>
     </Button>
   );

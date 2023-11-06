@@ -1,6 +1,6 @@
 // Override default variables before the import
 
-$primary: #495fef;
+$primary: #161c2d;
 $secondary: #f5f5f7;
 $success: #56b381;
 $bg: #efefef;
@@ -57,4 +57,14 @@ $border-color: #666;
 
 .footer-hero a{
   text-decoration: underline;
+}
+
+.theme-dark {
+  svg.change-with-theme path {
+    fill: #fff !important;
+  }
+  button.change-with-theme {
+    color: #fff !important;
+    border-color: #fff !important;
+  }
 }

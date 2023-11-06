@@ -9,11 +9,6 @@ import Offcanvas from "../Offcanvas";
 import NestedMenu from "../NestedMenu";
 import { device } from "../../utils";
 import Logo from "../Logo";
-import { menuItems } from "./menuItems";
-import {
-  FaSun,
-  FaMoon,
-} from "react-icons/fa";
 
 const SiteHeader = styled.header`
   padding: 0;
@@ -39,7 +34,7 @@ const SiteHeader = styled.header`
 
 const ToggleButton = styled.button`
   color: ${({ dark, theme }) => theme.colors.front}!important;
-  border-color: ${({ dark, theme }) => theme.colors.front}!important;
+  border: none !important;
 `;
 
 const Menu = styled.ul`
@@ -164,7 +159,7 @@ const MenuDropdown = styled.ul`
     &:hover,
     &.active {
       > a {
-        color: ${({ theme }) => theme.colors.primary} !important;
+        color: ${({ dark, theme }) => dark ? theme.colors.secondary : theme.colors.primary} !important;
         text-decoration: none;
         &::after {
           transform: rotate(180deg);
@@ -213,16 +208,16 @@ const Header = ({ isDark }) => {
   const gContext = useContext(GlobalContext);
   const [showScrolling, setShowScrolling] = useState(false);
   const [showReveal, setShowReveal] = useState(false);
-  const [lightOn, setLightOn] = useState(true);
-
-  const toggleLight = (() => {
-    setLightOn(!lightOn);
-    gContext.changeTheme({
-      bodyDark: lightOn,
-      headerDark: lightOn,
-      footerDark: lightOn,
-    });
-  });
+  
+  //const [lightOn, setLightOn] = useState(true);
+  // const toggleLight = (() => {
+  //   setLightOn(!lightOn);
+  //   gContext.changeTheme({
+  //     bodyDark: lightOn,
+  //     headerDark: lightOn,
+  //     footerDark: lightOn,
+  //   });
+  // });
 
   useScrollPosition(({ prevPos, currPos }) => {
     if (currPos.y < 0) {
@@ -498,19 +493,19 @@ const Header = ({ isDark }) => {
               aria-label="Toggle navigation"
               onClick={gContext.toggleOffCanvas}
               dark={isDark ? 1 : 0}
+              
             >
-              {/* <i className="icon icon-simple-remove icon-close"></i> */}
-              <i className="icon icon-menu-34 icon-burger d-block"></i>
+              {gContext.visibleOffCanvas ? <i className="icon icon-simple-remove icon-close"></i> : <i className="icon icon-menu-34 icon-burger d-block"></i>}
             </ToggleButton>
           </nav>
         </Container>
       </SiteHeader>
-      {/* <Offcanvas
+      <Offcanvas
         show={gContext.visibleOffCanvas}
         onHideOffcanvas={gContext.toggleOffCanvas}
       >
-        <NestedMenu menuItems={menuItems} />
-      </Offcanvas> */}
+        <NestedMenu menuItems={[]} />
+      </Offcanvas>
     </>
   );
 };

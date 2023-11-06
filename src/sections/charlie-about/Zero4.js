@@ -25,8 +25,8 @@ const Zero4 = () => {
               <Box className="d-flex justify-content-between align-items-start">
                 <Title
                   css={`
-                    font-size: 2rem;
-                    font-weight: normal;
+                    font-size: 2.5rem;
+                    font-weight: 500;
                     padding: 0 0 0 0;
                   `}
                 >

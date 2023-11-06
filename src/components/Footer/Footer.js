@@ -1,38 +1,29 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import { Box, Title } from "../Core";
+import { Title } from "../Core";
 import {
   FaLinkedinIn,
   FaGithub,
 } from "react-icons/fa";
 
-const Footer = ({ isDark = true }) => {
+const Footer = () => {
   return (
-    <>
-      {/* <!-- Footer section --> */}
-      <Box
-        bg="bg"
-        pt={[0, null, null, "3.75rem"]}
-        pb="3.75rem"
-        css={`
-          z-index: -50;
-        `}
-        className="position-relative"
-      >
-        <Container fluid>
+      <Container fluid className="mt-5 pb-4">
         <Row className="align-items-sm-center border-top pt-4">
-          <Col xl="10" lg="10" sm="10" className="">
+          <Col xs="10" className="">
             <Title
               variant="card"
               css={`
                 font-size: 0.8125rem;
+                line-height: 1.2;
+                font-weight: normal;
               `}
               className=""
             >
               Charlie C. Design&nbsp;&nbsp;|&nbsp;&nbsp;© 2023 All Rights Reserved&nbsp;&nbsp;|&nbsp;&nbsp;Designed and prototyped in Figma, built in React.
             </Title>
           </Col>
-          <Col xl="2" lg="2" sm="2" className="">
+          <Col xs="2" className="">
             <Title
               variant="card"
               css={`
@@ -44,9 +35,7 @@ const Footer = ({ isDark = true }) => {
             </Title>
           </Col>
         </Row>
-        </Container>
-      </Box>
-    </>
+      </Container>
   );
 };
 

@@ -56,19 +56,36 @@ const HeroTitle = styled(SectionTitle)`
   font-weight: normal;
   line-height: .8;
 
+  &.charlie-home-hero {
+    margin-top: 1rem;
+    text-indent: -0.5rem;
+  }
+
   @media ${device.sm} {
     font-size: 8rem;
     letter-spacing: -4px;
+    &.charlie-home-hero {
+      margin-top: 1rem;
+      text-indent: -1rem;
+    }
   }
 
   @media ${device.lg} {
     font-size: 10rem;
     letter-spacing: -6px;
+    &.charlie-home-hero {
+      margin-top: 1rem;
+      text-indent: -3rem;
+    }
   }
 
   @media ${device.xl} {
     font-size: 14rem;
     letter-spacing: -8px;
+    &.charlie-home-hero {
+      margin-top: 1rem;
+      text-indent: -3rem;
+    }
   }
 `;
 

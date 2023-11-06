@@ -26,8 +26,8 @@ const Zero1 = () => {
               <Box className="align-items-lg-center">
                 <Title
                   css={`
-                  font-size: 2rem;
-                  font-weight: normal;
+                  font-size: 2.5rem;
+                  font-weight: 500;
                   padding: 4rem 0 0 0;
                 `}
                 >
@@ -38,9 +38,9 @@ const Zero1 = () => {
                   font-size: 4rem;
                   letter-spacing: -3px;
                   line-height: .9;
-                  font-weight: bold;
+                  font-weight: 500;
                   padding: 0 3rem 0 0;
-                  margin-top: -2rem;
+                  margin-top: -3rem;
                 `}
                 className="text-right"
                 >

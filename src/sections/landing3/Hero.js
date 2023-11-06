@@ -83,7 +83,7 @@ const Hero = () => {
                   padding: 1rem 15px 1.6rem;
                 `}
                 >
-                  Melbourne-based product designer with Marketing and IT background, skilled in UX/UI design and strategies with 9+ years of experience in the Business and Public sectors. Enjoys problem solving with creative and analytical thinking, believes functionality and aesthetics can always be friends.
+                  Melbourne-based product
                 </Title>
               </Box>
               <Box pl="" className="" css={`
@@ -110,7 +110,7 @@ const Hero = () => {
                   margin-left: -2rem;
                 `}
                 >
-                  <span style={{fontWeight:'bold'}}>noun:</span> &#91;ɪkˈspɪə.ri.əns dɪˈzaɪ.nər&#93;<br />1. A person that make a product or service usable, enjoyable, and accessible. While many companies design user experiences.<br /><span style={{fontStyle:'italic', fontWeight:'bold'}}>see also: wizard, magician, me.</span>
+                  <span style={{fontWeight:'bold'}}>noun:</span>
                 </Title>
               </Box>
               <Box className="">

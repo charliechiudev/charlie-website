@@ -1,7 +1,6 @@
 import React from "react";
 import { Container } from "react-bootstrap";
 import styled from "styled-components";
-import Logo from "../Logo";
 
 const Overlay = styled.div`
   position: fixed;
@@ -30,7 +29,7 @@ const Drawer = styled.div`
   bottom: 0;
   height: 100%;
   z-index: 999999;
-  background: #fff;
+  background: #efefef;
   overflow-y: auto;
   transform: translateX(0);
   transition: all 0.3s ease-out;
@@ -43,11 +42,6 @@ const Drawer = styled.div`
     transform: initial !important;
     float: none !important;
   }
-`;
-
-const LogoContainer = styled.div`
-  font-weight: 600;
-  font-size: 1.25rem;
 `;
 
 const CloseWrapper = styled.div`
@@ -99,15 +93,11 @@ const Offcanvas = ({ show, onHideOffcanvas, children, ...rest }) => {
       <Overlay className={show ? "" : "hidden"} onClick={onHideOffcanvas} />
       <Drawer className={show ? "" : "hidden"}>
         <Container>
-          <div className="p-3">
-            <div className="mb-3 d-flex align-items-center justify-content-between">
-              <LogoContainer>
-                <Logo onClick={onHideOffcanvas} />
-              </LogoContainer>
+          <div className="pt-3 px-1">
+            <div className="mb-3 d-flex align-items-end justify-content-end">
               <CloseButton onClick={onHideOffcanvas} />
             </div>
-
-            <div className="pt-4">{children}</div>
+            <div className="pt-1">{children}</div>
           </div>
         </Container>
       </Drawer>

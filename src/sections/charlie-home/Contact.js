@@ -1,13 +1,8 @@
-import React, { useContext } from "react";
-
+import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-
-import GlobalContext from "../../context/GlobalContext";
 import { Section, Box, Title, ButtonIcon } from "../../components/Core";
 
 const Hero = () => {
-  const gContext = useContext(GlobalContext);
-
   return (
     <>
       <Section className="pt-4">
@@ -19,7 +14,7 @@ const Hero = () => {
                   css={`
                   font-size: 3rem;
                   line-height: 1;
-                  font-weight: normal;
+                  font-weight: 500;
                 `}
                 >
                   This website is designed and prototyped with <a href="https://www.figma.com/" target="_blank" rel="noreferrer nofollow">Figma</a>, built in <a href="https://www.react.dev/" target="_blank" rel="noreferrer nofollow">React</a> (Figma DevMode to React components - how good is this AI application?), versioned in <a href="https://www.github.com/" target="_blank" rel="noreferrer nofollow">GitHub</a> and auto-deployed on <a href="https://www.netlify.com/" target="_blank" rel="noreferrer nofollow">Netlify</a>.
@@ -28,10 +23,10 @@ const Hero = () => {
             </Col>
             <Col lg="3" xl="3" className="text-right">
                 <ButtonIcon
+                  className="change-with-theme"
                   onClick={(e) => {
                     e.preventDefault();
                     window.location.href='mailto:'+['charliechiudesign','gmail.com'].join('@')
-                    //gContext.toggleContact();
                   }}
                 >
                   Say hi to me
