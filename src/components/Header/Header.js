@@ -59,7 +59,6 @@ const Menu = styled.ul`
         padding-bottom: 18px !important;
         padding-left: 18px !important;
         padding-right: 18px !important;
-
         text-transform: lowercase;
 
         &.dropdown-toggle:after {
@@ -440,6 +439,12 @@ const Header = ({ isDark }) => {
                       );
                     }
                   )} */}
+
+                  <li className="nav-item">
+                    <Link className="nav-link" to={`/case-studies`}>
+                      case studies.
+                    </Link>
+                  </li>
 
                   <li className="nav-item">
                     <Link className="nav-link" to={`/ux-ui`}>

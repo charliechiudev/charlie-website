@@ -49,12 +49,14 @@ const WorkCardGql = ({ image, workItem, ...rest }) => {
       {image && <GatsbyImage image={image.node.childImageSharp.gatsbyImageData} className="w-100" />}
     </Link>
 
-    <TextBox>
+    <TextBox mb={3} css={`
+      pointer-events: none;
+    `}>
       <Text variant="tag" mb={2}>
         {workItem.categories.filter(cat => cat !== "case study").join(", ")}
       </Text>
       <Title variant="card">
-        <Link to={workItem.slug}>{workItem.title} </Link>
+        {workItem.title}
       </Title>
     </TextBox>
   </WorkBox>

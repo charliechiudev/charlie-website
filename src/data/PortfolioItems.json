@@ -17,7 +17,7 @@
       "verde-08-hifi-wireframe-2.png"
     ],
     "description": "",
-    "client": "eCommerce Website",
+    "client": "",
     "year": "",
     "thumbnail": "thumbnail-01-verde-mockup-bizcard.png",
     "template": "masonry"
@@ -524,7 +524,7 @@
     "template": "masonry"
   },
   {
-    "title": "Marketing",
+    "title": "Arome Bakery",
     "slug": "/marketing",
     "subtitle": "",
     "categories": [
@@ -532,8 +532,8 @@
     ],
     "gallery": [
         "arome-01-strawberry-cover.jpg","arome-strawberry-campaign-TVC.mp4","arome-02-strawberry-metro.jpg","arome-03-strawberry-store.png","arome-04-strawberry-news.PNG.png","arome-05-strawberry-youtube.png","arome-06-strawberry-booth.jpg","arome-07-new-store1.jpg","arome-08-new-store2.jpg","arome-09-new-store3.jpg","arome-10-new-store3.jpg","arome-11-new-store4.jpg"],
-    "description": "Maxim's Group is Hong Kong's largest food and beverage corporate. Its diverse portfolio includes bakeries, restaurants, and Starbucks coffee shops, with a network of over 1,000 outlets across Asia.",
-    "client": "Arome Barkery",
+    "description": "Maxim's Group is Hong Kong's largest food and beverage corporate. Its diverse portfolio includes bakeries, restaurants, and Starbucks coffee shops, with a network of over 1,000 outlets across Asia.<br><br>In my previous life just before moving to Melbourne, as part of the marketing team under Maxim’s Japanese bakery brand Arome, I appreciated the opportunity to participate in its yearly brand campaign. The TVC was starred by <a href=\"https://www.instagram.com/nyanchan22/?hl=en\">Haruna Kojima</a> from girl group <a href=\"https://www.instagram.com/akb48\">AKB48</a>, shot in Ginza, Japan and aired in Hong Kong’s national TV channels along with Metro pillars, billboards, YouTube premium masthead ad and more!<br><br>My day-to-day work in marketing also included project management, following up on photoshooting, output control and color testing for marketing collateral for our new product launch campaigns and new store openings projects.",
+    "client": "Brand Camapign",
     "year": "2016",
     "thumbnail": "arome-01-strawberry-cover.jpg",
     "template": "masonry"

@@ -7,11 +7,7 @@ const globalStyle = createGlobalStyle`
   }
 
   p, .p{
-    color: ${({ theme }) => theme.colors.text};
-    font-size: 16px;
-    font-weight: normal;
     line-height: 1.1;
-    margin-bottom: 0;
   }
 
   ul,.ul{

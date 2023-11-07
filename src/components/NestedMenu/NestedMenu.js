@@ -190,6 +190,12 @@ const NestedMenu = ({ menuItems = defaultMenuItems }) => {
         ))}
 
         <ListGroup.Item className="pl-0">
+          <Link className="nav-link pl-0" to={`/case-studies`} onClick={gContext.toggleOffCanvas}>
+            case studies.
+          </Link>
+        </ListGroup.Item>
+
+        <ListGroup.Item className="pl-0">
           <Link className="nav-link pl-0" to={`/ux-ui`} onClick={gContext.toggleOffCanvas}>
             UX/UI.
           </Link>

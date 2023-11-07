@@ -53,7 +53,7 @@ const Zero2 = () => {
                   bottom: 0;
                   right: 0;
                 `}
-                className="pb-5 pr-5"
+                className="pb-5 pr-5 d-none d-sm-block"
                 >
                   02/
                 </Title>

@@ -36,7 +36,7 @@ const IndexPage = () => {
                     font-weight: 500;
                   `}
                   >
-                    Graphic design projects from a little while ago. For other commercial projects from my recent role, please refer to my resume and I am always open to have a chat with you over a (virtual) coffee! 
+                    Case studies projects from a little while ago. For other commercial projects from my recent role, please refer to my resume and I am always open to have a chat with you over a (virtual) coffee! 
                   </Title>
                 </Box>
 
@@ -57,7 +57,7 @@ const IndexPage = () => {
         </SectionStyled> 
 
         <Element name="works">
-          <Works category="graphics" />
+          <Works category="case study" />
         </Element>
 
         <Contact />

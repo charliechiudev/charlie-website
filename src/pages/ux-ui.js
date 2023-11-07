@@ -7,7 +7,7 @@ import { Title, Section, Box } from "../components/Core";
 import PageWrapper from "../components/PageWrapper";
 
 import Works from "../sections/charlie-work-category/Works";
-import Contact from "../sections/charlie-home/Contact";
+import Contact from "../sections/charlie-about/Contact";
 
 const SectionStyled = styled(Section)`
   &::before {
@@ -33,10 +33,10 @@ const IndexPage = () => {
                     css={`
                     font-size: 3rem;
                     line-height: 1;
-                    font-weight: normal;
+                    font-weight: 500;
                   `}
                   >
-                    UX/UI design and development projects. For other recent commercial projects, please reach out to me and I am more than happy to do something.
+                    UX/UI design and development projects from a little while ago. For other commercial projects from my recent role, please refer to my resume and I am always open to have a chat with you over a (virtual) coffee! 
                   </Title>
                 </Box>
 

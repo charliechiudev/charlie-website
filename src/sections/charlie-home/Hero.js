@@ -39,6 +39,7 @@ const Hero = () => {
               <Box className="">
                 <Title 
                   variant="hero"
+                  className="charlie-home-hero"
                 >
                 {typing ? <>
                   <Typist cursor={typeCursor} onTypingDone={() => setTyping(false)}>
@@ -101,12 +102,12 @@ const Hero = () => {
                   margin-left: -2rem;
                 `}
                 >
-                  <span style={{fontWeight:'bold'}}>noun:</span> &#91;ɪkˈspɪə.ri.əns dɪˈzaɪ.nər&#93;<br />1. A person that make a product or service usable, enjoyable, and accessible. While many companies design user experiences.<br /><span style={{fontStyle:'italic', fontWeight:'bold'}}>see also: wizard, magician, me.</span>
+                  <span style={{fontWeight:'bold'}}>noun:</span> &#91;ɪkˈspɪə.ri.əns dɪˈzaɪ.nər&#93;<br />1. A problem solver that humanises technology for humans, makes a product or service usable, enjoyable, and accessible (while looking good too).<br /><span style={{fontStyle:'italic', fontWeight:'bold'}}>see also: wizard, magician.</span>
                 </Title>
               </Box>
               <Box className="">
                 <svg className="change-with-theme" width="209" height="209" viewBox="0 0 209 209" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M169.812 82.7292H152.396V140.117L51.4662 39.1875L39.1875 51.4662L140.117 152.396H82.7292V169.812H169.812V82.7292Z" fill="black"/>
+                  <path d="M169.812 82.7292H152.396V140.117L51.4662 39.1875L39.1875 51.4662L140.117 152.396H82.7292V169.812H169.812V82.7292Z" fill="#000"/>
                 </svg>
               </Box>
             </Col>

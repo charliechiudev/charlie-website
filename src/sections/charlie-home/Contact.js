@@ -26,7 +26,7 @@ const Hero = () => {
                   className="change-with-theme"
                   onClick={(e) => {
                     e.preventDefault();
-                    window.location.href='mailto:'+['charliechiudesign','gmail.com'].join('@')
+                    window.location.href='mailto:'+['hello','charliechiudesign.com'].join('@')
                   }}
                 >
                   Say hi to me

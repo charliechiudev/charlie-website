@@ -24,13 +24,14 @@ const Zero4 = () => {
             <Col xl="5" lg="5" sm="5" className="pl-5">
               <Box className="d-flex justify-content-between align-items-start">
                 <Title
+                  className="d-none d-sm-block"
                   css={`
                     font-size: 2.5rem;
                     font-weight: 500;
                     padding: 0 0 0 0;
                   `}
                 >
-                  03/
+                  04/
                 </Title>
                 <Title
                   className="text-right"

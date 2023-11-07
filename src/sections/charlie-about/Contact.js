@@ -19,7 +19,7 @@ const Contact = () => {
                   justify-content: flex-end;
                 `}
                 >
-                  <a href="javascript:window.location.href='mailto:'+['charliechiudesign','gmail.com'].join('@')">Send me a message</a>
+                  <a css={`text-decoration:none;`} href="javascript:window.location.href='mailto:'+['hello','charliechiudesign.com'].join('@')">Send me a message</a>
                   <svg className="ml-4 change-with-theme path" css={`margin-top: -2px`} width="58" height="58" viewBox="0 0 209 209" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M169.812 82.7292H152.396V140.117L51.4662 39.1875L39.1875 51.4662L140.117 152.396H82.7292V169.812H169.812V82.7292Z" fill="#000"/>
                   </svg>
