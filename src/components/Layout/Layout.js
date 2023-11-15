@@ -20,7 +20,9 @@ import AboutModal from "../AboutModal";
 
 import GlobalContext from "../../context/GlobalContext";
 
-import imgFavicon from "../../assets/favicon.png";
+import GlobalStyle from "../../utils/globalStyle";
+
+import imgFavicon from "../../assets/image/favicon.png";
 
 import "../../assets/fonts/icon-font/fonts/avasta.ttf";
 import "../../assets/fonts/icon-font/fonts/Grayic.ttf";
@@ -109,6 +111,7 @@ const Layout = ({ children, pageContext }) => {
         }
       >
         <ThemeSwitch />
+        <GlobalStyle />
         <Helmet>
           <title>Charlie Chiu | Experience Designer</title>
           <link rel="icon" type="image/png" href={imgFavicon} />
@@ -135,6 +138,7 @@ const Layout = ({ children, pageContext }) => {
         }
       >
         <ThemeSwitch />
+        <GlobalStyle />
         <Helmet>
           <title>Charlie Chiu | Experience Designer</title>
           <link rel="icon" type="image/png" href={imgFavicon} />

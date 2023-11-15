@@ -3,7 +3,7 @@ import styled, { keyframes } from "styled-components";
 import GoogleMapReact from "google-map-react";
 
 import { device } from "../../utils";
-import iconPin from "../../assets/image/svg/map-marker.svg";
+import iconPin from "../../assets/image/map-marker.svg";
 
 const keyBounce = keyframes`
 

@@ -1,12 +1,12 @@
-import imgT1 from "../assets/image/jpg/agency/regular/portfolio-9.jpg";
-import imgT2 from "../assets/image/jpg/agency/regular/portfolio-8.jpg";
-import imgT3 from "../assets/image/jpg/agency/regular/portfolio-7.jpg";
-import imgT4 from "../assets/image/jpg/agency/regular/portfolio-6.jpg";
-import imgT5 from "../assets/image/jpg/agency/regular/portfolio-5.jpg";
-import imgT6 from "../assets/image/jpg/agency/regular/portfolio-4.jpg";
-import imgT7 from "../assets/image/jpg/agency/regular/portfolio-3.jpg";
-import imgT8 from "../assets/image/jpg/agency/regular/portfolio-2.jpg";
-import imgT9 from "../assets/image/jpg/agency/regular/portfolio-1.jpg";
+import imgT1 from "../assets/image/agency/regular/portfolio-9.jpg";
+import imgT2 from "../assets/image/agency/regular/portfolio-8.jpg";
+import imgT3 from "../assets/image/agency/regular/portfolio-7.jpg";
+import imgT4 from "../assets/image/agency/regular/portfolio-6.jpg";
+import imgT5 from "../assets/image/agency/regular/portfolio-5.jpg";
+import imgT6 from "../assets/image/agency/regular/portfolio-4.jpg";
+import imgT7 from "../assets/image/agency/regular/portfolio-3.jpg";
+import imgT8 from "../assets/image/agency/regular/portfolio-2.jpg";
+import imgT9 from "../assets/image/agency/regular/portfolio-1.jpg";
 
 export const agencyWorks1 = [
   {

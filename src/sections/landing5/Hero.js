@@ -5,7 +5,7 @@ import { Link } from "react-scroll";
 
 import { Title, Section, Box, Button } from "../../components/Core";
 
-import bgHeroPattern from "../../assets/image/webp/hero-pattern-2.webp";
+import bgHeroPattern from "../../assets/image/hero-pattern-2.webp";
 
 const SectionStyled = styled(Section)`
   &::before {

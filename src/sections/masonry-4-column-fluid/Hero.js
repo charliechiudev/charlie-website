@@ -6,7 +6,7 @@ import { Link } from "react-scroll";
 import { Title, Button, Section, Box, Text } from "../../components/Core";
 import Availability from "../../components/Availability";
 
-import bgHeroPattern from "../../assets/image/webp/hero-pattern.webp";
+import bgHeroPattern from "../../assets/image/hero-pattern.webp";
 
 const SectionStyled = styled(Section)`
   &::before {

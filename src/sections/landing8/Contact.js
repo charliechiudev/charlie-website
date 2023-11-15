@@ -3,7 +3,7 @@ import styled from "styled-components";
 import { Container, Row, Col } from "react-bootstrap";
 
 import { Title, Section, Box, LinkContact } from "../../components/Core";
-import bgFooter from "../../assets/image/png/subscribe-pattern.png";
+import bgFooter from "../../assets/image/subscribe-pattern.png";
 
 const SectionStyled = styled(Section)`
   &::before {

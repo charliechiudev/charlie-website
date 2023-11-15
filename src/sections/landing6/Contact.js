@@ -5,7 +5,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import GlobalContext from "../../context/GlobalContext";
 import { Section, Box, Title, Button } from "../../components/Core";
 import IconCircle from "../../components/IconCircle";
-import bgFooter from "../../assets/image/png/subscribe-pattern.png";
+import bgFooter from "../../assets/image/subscribe-pattern.png";
 
 const SectionStyled = styled(Section)`
   &::before {

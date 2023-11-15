@@ -13,16 +13,16 @@ exports.onCreatePage = ({ actions }) => {
     })
   }
 
-  if (process.env.NODE_ENV !== `production`) {
-    const files = fs.readdirSync(path.resolve(`./src/pages-dev`));
+  // if (process.env.NODE_ENV !== `production`) {
+  //   const files = fs.readdirSync(path.resolve(`./src/pages-dev`));
 
-    for (const file of files) {
-      if (file.endsWith(`.js`)) {
-        createPage({
-          path: `/${file.replace(`.js`, ``)}/`,
-          component: path.resolve(`./src/pages-dev/${file}`),
-        });
-      }
-    }
-  }
+  //   for (const file of files) {
+  //     if (file.endsWith(`.js`)) {
+  //       createPage({
+  //         path: `/${file.replace(`.js`, ``)}/`,
+  //         component: path.resolve(`./src/pages-dev/${file}`),
+  //       });
+  //     }
+  //   }
+  // }
 }

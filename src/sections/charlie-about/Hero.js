@@ -5,7 +5,7 @@ import Typist from 'react-typist';
 
 import { Title, ButtonIcon, Section, Box } from "../../components/Core";
 
-import Diagram from "../../assets/about-diagram.svg";
+import Diagram from "../../assets/image/about-diagram.svg";
 
 const SectionStyled = styled(Section)`
   &::before {

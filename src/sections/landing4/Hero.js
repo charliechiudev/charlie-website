@@ -6,7 +6,7 @@ import { Link } from "react-scroll";
 import { Title, Section, Box, Text, Button } from "../../components/Core";
 import IconCircle from "../../components/IconCircle";
 
-import bgHero from "../../assets/image/png/dev-bg.png";
+import bgHero from "../../assets/image/dev-bg.png";
 
 const SectionStyled = styled(Section)`
   &::before {

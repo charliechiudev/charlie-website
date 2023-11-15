@@ -4,7 +4,7 @@ import { Container } from "react-bootstrap";
 
 import GlobalContext from "../../context/GlobalContext";
 import { Title, Section, Box, Text, ButtonIcon } from "../../components/Core";
-import bgHeroPattern from "../../assets/image/webp/hero-pattern.webp";
+import bgHeroPattern from "../../assets/image/hero-pattern.webp";
 
 const SectionStyled = styled(Section)`
   &::before {

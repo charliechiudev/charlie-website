@@ -4,8 +4,8 @@ import { Container } from "react-bootstrap";
 
 import { Title, Section, Box } from "../../components/Core";
 
-import bgHeroPattern from "../../assets/image/webp/hero-pattern.webp";
-import imgL from "../../assets/image/jpg/portfolio-about-2.jpg";
+import bgHeroPattern from "../../assets/image/hero-pattern.webp";
+import imgL from "../../assets/image/portfolio-about-2.jpg";
 
 const SectionStyled = styled(Section)`
   &::before {

@@ -1,19 +1,19 @@
-import imgT1 from "../assets/image/jpg/photo/regular/portfolio-1.jpg";
-import imgT2 from "../assets/image/jpg/photo/regular/portfolio-2.jpg";
-import imgT3 from "../assets/image/jpg/photo/regular/portfolio-3.jpg";
-import imgT4 from "../assets/image/jpg/photo/regular/portfolio-4.jpg";
-import imgT5 from "../assets/image/jpg/photo/regular/portfolio-5.jpg";
-import imgT6 from "../assets/image/jpg/photo/regular/portfolio-6.jpg";
-import imgT7 from "../assets/image/jpg/photo/regular/portfolio-7.jpg";
-import imgT8 from "../assets/image/jpg/photo/regular/portfolio-8.jpg";
-import imgT9 from "../assets/image/jpg/photo/regular/portfolio-9.jpg";
-import imgT10 from "../assets/image/jpg/photo/regular/portfolio-10.jpg";
-import imgT11 from "../assets/image/jpg/photo/regular/portfolio-11.jpg";
-import imgT12 from "../assets/image/jpg/photo/regular/portfolio-12.jpg";
-import imgT13 from "../assets/image/jpg/photo/regular/portfolio-13.jpg";
-import imgT14 from "../assets/image/jpg/photo/regular/portfolio-14.jpg";
-import imgT15 from "../assets/image/jpg/photo/regular/portfolio-15.jpg";
-import imgT16 from "../assets/image/jpg/photo/regular/portfolio-16.jpg";
+import imgT1 from "../assets/image/photo/regular/portfolio-1.jpg";
+import imgT2 from "../assets/image/photo/regular/portfolio-2.jpg";
+import imgT3 from "../assets/image/photo/regular/portfolio-3.jpg";
+import imgT4 from "../assets/image/photo/regular/portfolio-4.jpg";
+import imgT5 from "../assets/image/photo/regular/portfolio-5.jpg";
+import imgT6 from "../assets/image/photo/regular/portfolio-6.jpg";
+import imgT7 from "../assets/image/photo/regular/portfolio-7.jpg";
+import imgT8 from "../assets/image/photo/regular/portfolio-8.jpg";
+import imgT9 from "../assets/image/photo/regular/portfolio-9.jpg";
+import imgT10 from "../assets/image/photo/regular/portfolio-10.jpg";
+import imgT11 from "../assets/image/photo/regular/portfolio-11.jpg";
+import imgT12 from "../assets/image/photo/regular/portfolio-12.jpg";
+import imgT13 from "../assets/image/photo/regular/portfolio-13.jpg";
+import imgT14 from "../assets/image/photo/regular/portfolio-14.jpg";
+import imgT15 from "../assets/image/photo/regular/portfolio-15.jpg";
+import imgT16 from "../assets/image/photo/regular/portfolio-16.jpg";
 
 export const works1 = [
   {

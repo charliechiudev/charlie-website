@@ -1,12 +1,12 @@
-import imgT1 from "../assets/image/jpg/portfolio-image-12.jpg";
-import imgT2 from "../assets/image/jpg/portfolio-image-2.jpg";
-import imgT3 from "../assets/image/jpg/portfolio-image-3.jpg";
-import imgT4 from "../assets/image/jpg/portfolio-image-6.jpg";
-import imgT5 from "../assets/image/jpg/portfolio-image-7.jpg";
-import imgT6 from "../assets/image/jpg/portfolio-image-8.jpg";
-import imgT7 from "../assets/image/jpg/portfolio-image-9.jpg";
-import imgT8 from "../assets/image/jpg/portfolio-image-10.jpg";
-import imgT9 from "../assets/image/jpg/portfolio-image.jpg";
+import imgT1 from "../assets/image/portfolio-image-12.jpg";
+import imgT2 from "../assets/image/portfolio-image-2.jpg";
+import imgT3 from "../assets/image/portfolio-image-3.jpg";
+import imgT4 from "../assets/image/portfolio-image-6.jpg";
+import imgT5 from "../assets/image/portfolio-image-7.jpg";
+import imgT6 from "../assets/image/portfolio-image-8.jpg";
+import imgT7 from "../assets/image/portfolio-image-9.jpg";
+import imgT8 from "../assets/image/portfolio-image-10.jpg";
+import imgT9 from "../assets/image/portfolio-image.jpg";
 
 export const gridWorks2 = [
   {

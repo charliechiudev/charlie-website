@@ -6,8 +6,8 @@ import { Link } from "react-scroll";
 import { Title, Button, Section, Box } from "../../components/Core";
 import Availability from "../../components/Availability";
 
-import bgHeroPattern from "../../assets/image/webp/hero-pattern.webp";
-import imgL from "../../assets/image/jpg/portfolio-about-2.jpg";
+import bgHeroPattern from "../../assets/image/hero-pattern.webp";
+import imgL from "../../assets/image/portfolio-about-2.jpg";
 
 const ImgRight = styled.img`
   max-width: 100%;

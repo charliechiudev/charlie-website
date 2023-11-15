@@ -5,13 +5,13 @@ import { Container, Row, Col } from "react-bootstrap";
 import { Section, Button, Title, Text, Box } from "../components/Core";
 import PageWrapper from "../components/PageWrapper";
 import CTA from "../sections/common/CTA";
-import imgWorkCover from "../assets/image/jpg/details/details-2.jpg";
-import imgS1 from "../assets/image/jpg/details/details-12.jpg";
-import imgS2 from "../assets/image/jpg/details/details-11.jpg";
-import imgS3 from "../assets/image/jpg/details/details-10.jpg";
-import imgS4 from "../assets/image/jpg/details/details-9.jpg";
-import imgS5 from "../assets/image/jpg/details/details-14.jpg";
-import imgS6 from "../assets/image/jpg/details/details-13.jpg";
+import imgWorkCover from "../assets/image/details/details-2.jpg";
+import imgS1 from "../assets/image/details/details-12.jpg";
+import imgS2 from "../assets/image/details/details-11.jpg";
+import imgS3 from "../assets/image/details/details-10.jpg";
+import imgS4 from "../assets/image/details/details-9.jpg";
+import imgS5 from "../assets/image/details/details-14.jpg";
+import imgS6 from "../assets/image/details/details-13.jpg";
 import { device } from "../utils";
 
 const WorkSingle = () => {
