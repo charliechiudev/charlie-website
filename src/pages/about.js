@@ -1,6 +1,6 @@
 import React from "react";
-import { Element } from "react-scroll";
 
+import Head from "../components/Core/Head";
 import PageWrapper from "../components/PageWrapper";
 import Hero from "../sections/charlie-about/Hero";
 import Zero1 from "../sections/charlie-about/Zero1";
@@ -13,6 +13,7 @@ import Slideshow from "../sections/charlie-about/Slideshow";
 const IndexPage = () => {
   return (
     <>
+      <Head title={"About"} />
       <PageWrapper>
         <Hero />
         <Zero1 />

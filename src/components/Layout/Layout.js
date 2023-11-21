@@ -7,7 +7,6 @@ import React, {
 } from "react";
 
 import styled, { ThemeProvider } from "styled-components";
-import { Helmet } from "react-helmet";
 import AOS from "aos";
 
 import Header from "../Header";
@@ -21,8 +20,6 @@ import AboutModal from "../AboutModal";
 import GlobalContext from "../../context/GlobalContext";
 
 import GlobalStyle from "../../utils/globalStyle";
-
-import imgFavicon from "../../assets/image/favicon.png";
 
 import "../../assets/fonts/icon-font/fonts/avasta.ttf";
 import "../../assets/fonts/icon-font/fonts/Grayic.ttf";
@@ -112,10 +109,6 @@ const Layout = ({ children, pageContext }) => {
       >
         <ThemeSwitch />
         <GlobalStyle />
-        <Helmet>
-          <title>Charlie Chiu | Experience Designer</title>
-          <link rel="icon" type="image/png" href={imgFavicon} />
-        </Helmet>
         <Loader id="loading" className={visibleLoader ? "" : "inActive"}>
           <div className="load-circle">
             <span className="one"></span>
@@ -139,10 +132,6 @@ const Layout = ({ children, pageContext }) => {
       >
         <ThemeSwitch />
         <GlobalStyle />
-        <Helmet>
-          <title>Charlie Chiu | Experience Designer</title>
-          <link rel="icon" type="image/png" href={imgFavicon} />
-        </Helmet>
         <Loader id="loading" className={visibleLoader ? "" : "inActive"}>
           <div className="load-circle">
             <span className="one"></span>

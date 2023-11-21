@@ -17,6 +17,7 @@ import Span from "./Span";
 import List from "./List";
 import ListNav from "./ListNav";
 import LinkContact from "./LinkContact";
+import Head from "./Head";
 
 export {
   Box,
@@ -38,4 +39,5 @@ export {
   List,
   ListNav,
   LinkContact,
+  Head,
 };

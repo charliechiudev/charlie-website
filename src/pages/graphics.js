@@ -2,7 +2,7 @@ import React from "react";
 import { Element } from "react-scroll";
 import styled from "styled-components";
 import { Container, Row, Col } from "react-bootstrap";
-import { Title, Section, Box } from "../components/Core";
+import { Title, Section, Box, Head } from "../components/Core";
 
 import PageWrapper from "../components/PageWrapper";
 
@@ -23,6 +23,7 @@ const SectionStyled = styled(Section)`
 const IndexPage = () => {
   return (
     <>
+      <Head title={"Graphics"} />
       <PageWrapper>
         <SectionStyled hero className="position-relative pb-0">
           <Container fluid>
