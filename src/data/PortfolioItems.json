@@ -321,7 +321,7 @@
       "whattodo-02-screen1.png",
       "whattodo-03-demo.gif"
     ],
-    "description": "“What To Do” is a simple cross-platform mobile app that allows users to quickly jot down their to-do items and tasks on the application. Users are also able to mark tasks as completed quickly by simply tapping the check icon or remove task by tapping the bin icon. Task will have a line through to indicate completed in order to provide users a quick glance of what tasks are done and what tasks are not.",
+    "description": "“What To Do” is a simple but functional cross-platform mobile app built with Javascript (Cordova). It allows users to quickly jot down their to-do items and tasks on the application. Users are also able to mark tasks as completed quickly by simply tapping the check icon or remove task by tapping the bin icon. Task will have a line through to indicate completed in order to provide users a quick glance of what tasks are done and what tasks are not.",
     "client": "Mobile App",
     "year": "2019",
     "thumbnail": "thumbnail-14-whattodo-screen1.pn",
