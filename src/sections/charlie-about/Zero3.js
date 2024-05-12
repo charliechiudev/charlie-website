@@ -58,13 +58,25 @@ const Zero3 = () => {
           <Row>
             <Box className="timeline">
               <Container className="timeline-container">
+
+              <Row>
+                  <Col xl="6" className="timeline-col">
+                  </Col>
+                  <Col xl="6" className="timeline-col">
+                    <div class="timeline-text">
+                      <p>2024 - Present</p>
+                      <h6>Digital Media Designer</h6>
+                      <p className="font-italic">RMIT University | Melbourne (Full-time)</p>
+                    </div>
+                  </Col>
+                </Row>
                 
                 <Row className="dot-grey">
                   <Col xl="6" className="timeline-col">
                     <div class="timeline-text text-grey">
                       <p>2023</p>
                       <h6>Product Design in AI | Artificial Intelligence and Users</h6>
-                      <p className="font-italic">Udemy | Melbourne</p>
+                      <p className="font-italic">Udemy Online | Melbourne</p>
                     </div>
                   </Col>
                   <Col xl="6" className="timeline-col">
