@@ -42,7 +42,10 @@ const Zero2 = () => {
                     Wireframes & prototypes<br />
                     Dev-friendly UI design<br />
                     Front-end development<br />
-                    Branding & identity
+                    Branding & identity<br />
+                    Graphic & web design<br />
+                    Digital media
+                    
                 </Title>
                 <Title
                   css={`
