@@ -82,7 +82,7 @@ const Hero = () => {
                   padding: 1rem 15px 1.6rem;
                 `}
                 >
-                  Melbourne based UXUI/digital designer by day,rookie rockstar drummer by night. With a background in Marketing and Technology, Charlie enjoys problem-solving with creative and analytical thinking by experimenting with emerging techs.
+                  Melbourne based UXUI/digital designer by day, rookie rockstar drummer by night. With a background in Marketing and Technology, Charlie enjoys problem-solving with creative and analytical thinking by experimenting with emerging techs.
                 </Title>
               </Box>
               <Box className="ml-3">
