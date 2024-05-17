@@ -40,9 +40,9 @@ const Zero2 = () => {
                     Information architecture<br />
                     User flow & journey maps<br />
                     Wireframes & prototypes<br />
-                    Dev-friendly UI design<br />
+                    Web technologies <br />
                     Front-end development<br />
-                    Branding & identity<br />
+                    Dev-friendly UI design<br />
                     Graphic & web design<br />
                     Digital media
                     

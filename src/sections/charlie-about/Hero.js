@@ -84,8 +84,8 @@ const Hero = () => {
                 font-weight: normal;
                 padding: 0rem 15px 3rem;
               `}
-              >
-                Sometimes people ask what I do, here is what I tell them:
+              > 
+              Sometimes people ask what I do, here is what I tell them:
               </Title>
               <AboutDiagram><img src={Diagram} /></AboutDiagram>
             </Box>
