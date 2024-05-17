@@ -54,26 +54,12 @@ const Hero = () => {
               Charlie is a Melbourne-based<br />
               {typing ? <Typist className="d-inline" cursor={typeCursor} onTypingDone={() => setTyping(false)}>
                 <span>UX/UI Designer</span>
-                <Typist.Backspace count={12} delay={4000} />
-                <span> Strategist</span>
-                <Typist.Backspace count={11} delay={4000} />
-                <span>/UI Designer</span>
-                <Typist.Backspace count={12} delay={4000} />
-                <span> Strategist</span>
-                <Typist.Backspace count={11} delay={4000} />
-                <span>/UI Designer</span>
-                <Typist.Backspace count={12} delay={4000} />
-                <span> Strategist</span>
-                <Typist.Backspace count={11} delay={4000} />
-                <span>/UI Designer</span>
-                <Typist.Backspace count={12} delay={4000} />
-                <span> Strategist</span>
-                <Typist.Backspace count={11} delay={4000} />
-                <span>/UI Designer</span>
-                <Typist.Backspace count={12} delay={4000} />
-                <span> Strategist</span>
-                <Typist.Backspace count={11} delay={4000} />
-              </Typist> : <>&nbsp;</>}
+                <Typist.Backspace count={14} delay={4000} />
+                <span>Digital Designer</span>
+                <Typist.Backspace count={16} delay={4000} />
+                <span>Product Designer</span>
+                <Typist.Backspace count={16} delay={4000} />
+              </Typist> : <span>&nbsp;</span>}
               <br />Product Designer
             </Title>
             </Box>

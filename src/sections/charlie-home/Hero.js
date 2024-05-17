@@ -45,18 +45,20 @@ const Hero = () => {
                   <Typist cursor={typeCursor} onTypingDone={() => setTyping(false)}>
                     <span>&nbsp;UX/UI</span>
                     <Typist.Backspace count={3} delay={3500} />
+                    <span>&nbsp;Digital</span>
                     <Typist.Backspace count={2} delay={4000} />
                     <span>Product</span>
                     <Typist.Backspace count={7} delay={3500} />
                   </Typist>
-                  <Typist cursor={typeCursor} onTypingDone={() => setTyping(false)}>
+                  <span>Designer</span>
+                  {/* <Typist cursor={typeCursor} onTypingDone={() => setTyping(false)}>
                     <span>&nbsp;Designer</span>
                     <Typist.Backspace count={8} delay={3000} />
                     <span>Strategist</span>
                     <Typist.Backspace count={10} delay={3000} />
                     <span>Designer</span>
                     <Typist.Backspace count={8} delay={3000} />
-                  </Typist>
+                  </Typist> */}
                 </> : <span>&nbsp;<br />&nbsp;</span>}
               </Title>
               </Box>
@@ -80,7 +82,7 @@ const Hero = () => {
                   padding: 1rem 15px 1.6rem;
                 `}
                 >
-                  Melbourne-based product designer with Marketing and IT background, skilled in UX/UI design and strategies with 9+ years of experience in the Business and Public sectors. Enjoys problem solving with creative and analytical thinking, believes functionality and aesthetics can always be friends.
+                  Melbourne based UXUI/digital designer by day,rookie rockstar drummer by night. With a background in Marketing and Technology, Charlie enjoys problem-solving with creative and analytical thinking by experimenting with emerging techs.
                 </Title>
               </Box>
               <Box className="ml-3">
