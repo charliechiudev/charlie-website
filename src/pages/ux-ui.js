@@ -37,7 +37,7 @@ const IndexPage = () => {
                     font-weight: 500;
                   `}
                   >
-                    These <u>UX/UI</u> projects are from my fine wine collection (they've aged a bit!). 
+                    These <u>UX/UI & dev</u> projects are from my fine wine collection (they've aged a bit!). 
                     For my recent work, please refer to my resume or drop me a message! 
                   </Title>
                 </Box>
