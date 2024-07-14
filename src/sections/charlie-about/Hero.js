@@ -20,7 +20,7 @@ const SectionStyled = styled(Section)`
 
 const AboutDiagram = styled(Box)`
   position: absolute;
-  top: 5rem;
+  top: 1rem;
   right: 0;
   z-index: -1;
 `;
@@ -53,14 +53,12 @@ const Hero = () => {
             `}>
               Charlie is a Melbourne-based<br />
               {typing ? <Typist className="d-inline" cursor={typeCursor} onTypingDone={() => setTyping(false)}>
-                <span>UX/UI Designer</span>
-                <Typist.Backspace count={14} delay={4000} />
-                <span>Digital Designer</span>
-                <Typist.Backspace count={16} delay={4000} />
-                <span>Product Designer</span>
-                <Typist.Backspace count={16} delay={4000} />
+                <span>UX/UI</span>
+                <Typist.Backspace count={5} delay={4000} />
+                <span>Digital</span>
+                <Typist.Backspace count={7} delay={4000} />
               </Typist> : <span>&nbsp;</span>}
-              <br />Product Designer
+              &nbsp;Product Designer
             </Title>
             </Box>
             <Box className="">

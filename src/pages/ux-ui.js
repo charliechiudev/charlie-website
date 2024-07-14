@@ -37,7 +37,8 @@ const IndexPage = () => {
                     font-weight: 500;
                   `}
                   >
-                    UX/UI design and development projects from a little while ago. For other commercial projects from my recent role, please refer to my resume and I am always open to have a chat with you over a (virtual) coffee! 
+                    These <u>UX/UI</u> projects are from my fine wine collection (they've aged a bit!). 
+                    For my recent work, please refer to my resume or drop me a message! 
                   </Title>
                 </Box>
 

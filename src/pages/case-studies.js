@@ -37,7 +37,7 @@ const IndexPage = () => {
                     font-weight: 500;
                   `}
                   >
-                    Case studies from a little while ago. For other commercial projects from my recent role, please refer to my resume and I am always open to have a chat with you over a (virtual) coffee! 
+                    These <u>case studies</u> are from my fine wine collection (they've aged a bit!). For my recent work, please refer to my resume or drop me a message!
                   </Title>
                 </Box>
 
@@ -49,7 +49,7 @@ const IndexPage = () => {
                     font-weight: normal;
                     `}
                   >
-                    UX/UI Page. Melbourne-based full-stack designer with Marketing and IT background, skilled in UX/UI design with 9+ years of experience in the Business and Public sectors. Enjoys problem solving with creative and analytical thinking, believes functionality and aesthetics can always be friends.
+                    UXUI/digital designer by day, and a rookie rockstar drummer by night. With a background in Marketing and Technology, Charlie enjoys problem-solving with creative and analytical thinking by experimenting with emerging techs.
                   </Title>
                 </Box> */}
               </Col>

@@ -44,10 +44,20 @@ const Hero = () => {
                 {typing ? <>
                   <Typist cursor={typeCursor} onTypingDone={() => setTyping(false)}>
                     <span>&nbsp;UX/UI</span>
-                    <Typist.Backspace count={3} delay={3500} />
-                    <span>&nbsp;Digital</span>
-                    <Typist.Backspace count={2} delay={4000} />
-                    <span>Product</span>
+                    <Typist.Backspace count={5} delay={3500} />
+                    <span>Digital</span>
+                    <Typist.Backspace count={7} delay={3500} />
+                    <span>UX/UI</span>
+                    <Typist.Backspace count={5} delay={3500} />
+                    <span>Digital</span>
+                    <Typist.Backspace count={7} delay={3500} />
+                    <span>UX/UI</span>
+                    <Typist.Backspace count={5} delay={3500} />
+                    <span>Digital</span>
+                    <Typist.Backspace count={7} delay={3500} />
+                    <span>UX/UI</span>
+                    <Typist.Backspace count={5} delay={3500} />
+                    <span>Digital</span>
                     <Typist.Backspace count={7} delay={3500} />
                   </Typist>
                   <span>Designer</span>
