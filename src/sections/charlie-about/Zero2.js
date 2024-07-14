@@ -44,7 +44,7 @@ const Zero2 = () => {
                     Front-end development<br />
                     Dev-friendly UI design<br />
                     Graphic & web design<br />
-                    Digital media
+                    Digital & multimedia
                     
                 </Title>
                 <Title
