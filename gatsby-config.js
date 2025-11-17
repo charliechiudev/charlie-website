@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Charlie Chiu | Experience Designer`,
+    title: `Charlie Chiu | Creative Designer`,
   },
   plugins: [
     {

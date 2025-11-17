@@ -33,18 +33,18 @@ const Zero2 = () => {
                   padding: 0 0 0 0;
                 `}
                 >
-                    Analytical & Design thinking<br />
-                    Problem-solving & strategic mindset<br />
-                    Research & data analytics<br />
+                    Analytical & design thinking<br />
+                    AI-driven R&D & prototyping<br />
+                    Emerging web technologies <br />
+                    Web-based apps & mini games <br />
+                    Creative front-end dev<br />
+                    Dev-friendly UI design<br />
                     Usability testing<br />
                     Information architecture<br />
                     User flow & journey maps<br />
-                    Wireframes & prototypes<br />
-                    Web technologies <br />
-                    Front-end development<br />
-                    Dev-friendly UI design<br />
-                    Graphic & web design<br />
-                    Digital & multimedia
+                    Data analytics<br />
+                    Graphic & branding design<br />
+                    Video editing & production
                     
                 </Title>
                 <Title

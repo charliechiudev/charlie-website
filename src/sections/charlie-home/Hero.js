@@ -43,32 +43,33 @@ const Hero = () => {
                 >
                 {typing ? <>
                   <Typist cursor={typeCursor} onTypingDone={() => setTyping(false)}>
-                    <span>&nbsp;UX/UI</span>
-                    <Typist.Backspace count={5} delay={3500} />
-                    <span>Digital</span>
-                    <Typist.Backspace count={7} delay={3500} />
+                    <span>&nbsp;Web</span>
+                    <Typist.Backspace count={3} delay={3500} />
+                    <span>Multimedia</span>
+                    <Typist.Backspace count={10} delay={3500} />
                     <span>UX/UI</span>
                     <Typist.Backspace count={5} delay={3500} />
-                    <span>Digital</span>
-                    <Typist.Backspace count={7} delay={3500} />
+                    <span>Web</span>
+                    <Typist.Backspace count={3} delay={3500} />
+                    <span>Multimedia</span>
+                    <Typist.Backspace count={10} delay={3500} />
                     <span>UX/UI</span>
                     <Typist.Backspace count={5} delay={3500} />
-                    <span>Digital</span>
-                    <Typist.Backspace count={7} delay={3500} />
+                    <span>Web</span>
+                    <Typist.Backspace count={3} delay={3500} />
+                    <span>Multimedia</span>
+                    <Typist.Backspace count={10} delay={3500} />
                     <span>UX/UI</span>
                     <Typist.Backspace count={5} delay={3500} />
-                    <span>Digital</span>
-                    <Typist.Backspace count={7} delay={3500} />
                   </Typist>
-                  <span>Designer</span>
-                  {/* <Typist cursor={typeCursor} onTypingDone={() => setTyping(false)}>
-                    <span>&nbsp;Designer</span>
-                    <Typist.Backspace count={8} delay={3000} />
-                    <span>Strategist</span>
-                    <Typist.Backspace count={10} delay={3000} />
-                    <span>Designer</span>
-                    <Typist.Backspace count={8} delay={3000} />
-                  </Typist> */}
+
+                  <Typist cursor={typeCursor} onTypingDone={() => setTyping(false)}>
+                  <span>&nbsp;Designer</span>
+                    <Typist.Backspace count={8} delay={11500} />
+                    <span>Developer</span>
+                    <Typist.Backspace count={9} delay={3500} />
+                  </Typist>
+
                 </> : <span>&nbsp;<br />&nbsp;</span>}
               </Title>
               </Box>
@@ -92,7 +93,7 @@ const Hero = () => {
                   padding: 1rem 15px 1.6rem;
                 `}
                 >
-                  Melbourne based UXUI/digital designer by day, rookie rockstar drummer by night. With a background in Marketing and Technology, Charlie enjoys problem-solving with creative and analytical thinking by experimenting with emerging techs.
+                  Melbourne based creative media designer by day, rookie rockstar drummer by night. With a background in Marketing and Technology, Charlie enjoys problem-solving with creative and analytical thinking by experimenting with emerging techs.
                 </Title>
               </Box>
               <Box className="ml-3">
@@ -107,14 +108,14 @@ const Hero = () => {
               <Box className="">
                 <Title
                   css={`
-                  font-size: 1.1rem;
+                  font-size: 0.9rem;
                   line-height: 1.2;
                   font-weight: normal;
                   padding: 1.5rem 0;
                   margin-left: -2rem;
                 `}
                 >
-                  <span style={{fontWeight:'bold'}}>noun:</span> &#91;ɪkˈspɪə.ri.əns dɪˈzaɪ.nər&#93;<br />1. A problem solver that humanises technology for humans, makes a product or service usable, enjoyable, and accessible (while looking good too).<br /><span style={{fontStyle:'italic', fontWeight:'bold'}}>see also: wizard, magician.</span>
+                  <span style={{fontWeight:'bold'}}>noun:</span> &#91;ɪkˈspɪə.ri.əns dɪˈzaɪ.nər&#93;<br />1. A forever-evolving creative human who’s constantly keeping up with technology while solving problems creatively (and making sure they look good).<br /><span style={{fontStyle:'italic', fontWeight:'bold'}}></span>
                 </Title>
               </Box>
               <Box className="">

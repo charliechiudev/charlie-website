@@ -44,22 +44,33 @@ const Hero = () => {
         <Row className="align-items-lg-center pmb-5">
           <Col xl="12" lg="12" sm="12" className="">
             <Box className="mt-1 ml-2">
-              <Title 
-              css={`
-              font-size: 6rem;
-              letter-spacing: -2px;
-              line-height: 1;
-              font-weight: normal;
-            `}>
-              Charlie is a Melbourne-based<br />
-              {typing ? <Typist className="d-inline" cursor={typeCursor} onTypingDone={() => setTyping(false)}>
-                <span>UX/UI</span>
-                <Typist.Backspace count={5} delay={4000} />
-                <span>Digital</span>
-                <Typist.Backspace count={7} delay={4000} />
-              </Typist> : <span>&nbsp;</span>}
-              &nbsp;Product Designer
-            </Title>
+            <Title 
+  css={`
+    font-size: 6rem;
+    letter-spacing: -2px;
+    line-height: 1;
+    font-weight: normal;
+  `}
+>
+  Charlie is a Melbourne-based<br />
+  Creative{" "}
+  {typing ? (
+    <Typist
+      className="d-inline"
+      cursor={typeCursor}
+      onTypingDone={() => setTyping(false)}
+    >
+      <span>Designer</span>
+      <Typist.Backspace count={8} delay={4000} />
+      <span>Developer</span>
+      <Typist.Backspace count={9} delay={4000} />
+    </Typist>
+  ) : (
+    <span>&nbsp;</span>
+  )}
+</Title>
+
+
             </Box>
             <Box className="">
               <Title
